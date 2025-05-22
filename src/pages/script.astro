@@ -6,7 +6,7 @@ import Image from '../components/Image.svelte';
 ---
 
 <Layout>
-  <main class="max-w-4xl mx-auto">
+  <main class="max-w-4xl lg:max-w-2/3 mx-auto">
     <h1 class="text-3xl font-bold mb-6 text-center">Ghor Script Attestations</h1>
     <div>
       <div class="grid grid-cols-5 sm:grid-cols-5 gap-2 max-w-md mx-auto my-8">
@@ -24,7 +24,7 @@ import Image from '../components/Image.svelte';
             <header class="mb-4">
               <div class="flex justify-between text-sm text-gray-500">
                 <span>{item.code ? item.code : '??'}</span>
-                <span>Timestamp: {item.timestamp ? item.timestamp : '??'}</span>
+                <span>{item.timestamp ? item.timestamp : '??'}</span>
               </div>
               <p class="ghor text-6xl font-medium text-blue-800 mt-2 whitespace-pre-line">{item.text}</p>
               <p class="text-base text-gray-700 italic whitespace-pre-line">{item.text}</p>

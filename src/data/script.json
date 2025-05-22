@@ -220,5 +220,41 @@
     "timestamp": "??",
     "text": "f",
     "item": "item_21.png"
+  },
+  {
+    "code": "Wine Sign",
+    "timestamp": "E8 10:24",
+    "text": "yima",
+    "item": "WineSign.png"
+  },
+  {
+    "code": "Front HQ a",
+    "timestamp": "??",
+    "text": "GR",
+    "item": "frontHQ_a.png"
+  },
+  {
+    "code": "Front HQ b",
+    "timestamp": "??",
+    "text": "IT",
+    "item": "frontHQ_b.png"
+  },
+  {
+    "code": "Front HQ c",
+    "timestamp": "??",
+    "text": "HS",
+    "item": "frontHQ_c.png"
+  },
+  {
+    "code": "Front HQ d",
+    "timestamp": "??",
+    "text": "DJ",
+    "item": "frontHQ_d.png"
+  },
+  {
+    "code": "Front HQ e",
+    "timestamp": "??",
+    "text": "CW",
+    "item": "frontHQ_e.png"
   }
 ]
