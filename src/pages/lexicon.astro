@@ -1,0 +1,85 @@
+---
+import wordsData from '../data/lexicon.json';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<main class="max-w-2/3 mx-auto">
+		<h1 class="text-3xl font-bold mt-6 mb-6 text-center">Ghor Lexicon Search</h1>
+
+		<div class="mb-8">
+			<input
+				id="searchInput"
+				type="text"
+				placeholder="Search in Ghor or English..."
+				class="w-full p-4 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+			/>
+		</div>
+
+		<section id="results" class="bg-white p-6 rounded-lg shadow space-y-6">
+		{wordsData.map((item, index) => (
+			<div
+			class="word-entry border-b pb-4"
+			data-word={item.word.toLowerCase()}
+			data-translation={item.translation?.toLowerCase() || ''}
+			>
+				<p class="text-xl font-semibold text-blue-700">{item.word}</p>
+				<p class="text-gray-600">{item.transcription ? `[${item.transcription}]` : ''}</p>
+				<p class="text-gray-700">
+					<span class="text-sm text-gray-500">{item.pos ? `${item.pos} · ` : ''}</span>
+					{item.type && (
+						<span class={`inline-block text-xs font-semibold px-2 py-1/2 rounded-full
+							${item.type === 'CC' ? 'bg-green-100 text-green-800' :
+								item.type === 'A' ? 'bg-yellow-100 text-yellow-800' :
+								item.type === 'V' ? 'bg-orange-100 text-orange-800' :
+								'bg-gray-100 text-gray-700'}`}>
+							{item.type}
+						</span>
+					)}
+					{item.confidence && (
+						<span class={`inline-block text-xs font-semibold px-2 py-1/2 rounded-full
+							${item.confidence === 'Σ5' ? 'bg-blue-100 text-blue-800' :
+								item.confidence === 'Σ4' ? 'bg-green-100 text-green-800' :
+								item.confidence === 'Σ3' ? 'bg-yellow-100 text-yellow-800' :
+								item.confidence === 'Σ2' ? 'bg-orange-100 text-orange-800' :
+								item.confidence === 'Σ1' ? 'bg-red-100 text-red-800' :
+								'bg-gray-100 text-gray-700'}`}>
+							{item.confidence}
+						</span>
+					)}
+					<span>{item.translation ? `${item.translation}` : ''}</span></p>
+				<p class="text-sm text-gray-400">
+					{item.references && item.references.map(ref =>(
+						<a href={`./corpus#${ref}`} class={`inline-block text-xs font-semibold px-2 py-1/2 rounded-full bg-gray-100 text-gray-700`}>
+							{ref}
+						</a>
+					))}
+				</p>
+			</div>
+		))}
+		</section>
+	</main>
+</Layout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const input = document.getElementById('searchInput') as HTMLInputElement | null;
+    const entries = document.querySelectorAll('.word-entry');
+
+    if (!input) return;
+
+    input.addEventListener('input', (e) => {
+      const target = e.target as HTMLInputElement;
+      const query = target.value.trim().toLowerCase();
+
+      entries.forEach(entryEl => {
+				const entry = entryEl as HTMLElement;
+				const word = entry.dataset.word || '';
+				const translation = entry.dataset.translation || '';
+        const matches = word.includes(query) || translation.includes(query);
+        entry.style.display = matches ? '' : 'none';
+      });
+    });
+  });
+</script>
+

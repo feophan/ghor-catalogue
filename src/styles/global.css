@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Ghorelle";
+  src:
+    url("/fonts/GhorelleAFPrototype-Regular.woff2") format("woff2")
+}
+
+.ghor {
+    font-family: 'Ghorelle';
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "word": "afi",
+    "transcription": "a.fi",
+    "pos": "conj.",
+    "translation": "before, preceding",
+    "references": ["4.13"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "agna",
+    "transcription": "a.ɲa",
+    "pos": "phrase",
+    "translation": "hello",
+    "references": ["6.12"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "alten heu",
+    "transcription": "al.tɛn xø",
+    "pos": "phrase",
+    "translation": "settle down!",
+    "references": ["4.51"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+    {
+    "word": "ami",
+    "transcription": "a.mi",
+    "pos": "prep.",
+    "translation": "between, in amidst",
+    "references": ["4.19"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "ange",
+    "transcription": "ang",
+    "pos": "verb",
+    "translation": "to raise, lift up",
+    "references": ["8.36"],
+    "type": "A",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "bador",
+    "transcription": "ba.dɔʁ",
+    "pos": "verb",
+    "translation": "to meet, gather together",
+    "references": ["4.77","8.21"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "balor",
+    "transcription": "ba.lɔʁ",
+    "pos": "verb",
+    "translation": "to go home, get away from here",
+    "references": ["6.13", "6.18", "6.22", "6.25", "8.62", "8.63", "8.66", "8.67"],
+    "type": "CC",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "béke",
+    "transcription": "bɛk",
+    "pos": null,
+    "translation": null,
+    "references": ["8.43"],
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "bi",
+    "transcription": "bi",
+    "pos": "verb",
+    "translation": "to be",
+    "references": ["4.03", "4.05", "4.06", "4.62", "7.04", "8.8", "8.13", "8.14", "8.18", "8.28", "8.30", "8.60"],
+    "type": "CC",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "biler",
+    "transcription": "bi.lɛ",
+    "pos": "verb",
+    "translation": "to make, create, establish",
+    "references": ["4.52"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "blique veuchen",
+    "transcription": "blik vø.ʃɛn",
+    "pos": "noun",
+    "translation": "shipping codes",
+    "references": ["4.21"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "bord",
+    "transcription": "bɔʁd",
+    "pos": "verb",
+    "translation": "to hear, listen",
+    "references": ["4.02", "8.14"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "boudou",
+    "transcription": "bu.du",
+    "pos": "ord. num.",
+    "translation": "first",
+    "references": ["4.25"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "braïde",
+    "transcription": "bʁajd",
+    "pos": "noun",
+    "translation": "horn, trumpet",
+    "references": ["4.47"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "brede",
+    "transcription": "bʁɛd",
+    "pos": "verb",
+    "translation": "to be replaced, removed",
+    "references": ["4.13"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "brinon",
+    "transcription": "bʁi.nõ",
+    "pos": "noun",
+    "translation": "signal, connection",
+    "references": ["5.01"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "brôles",
+    "transcription": "bʁol",
+    "pos": null,
+    "translation": null,
+    "references": ["8.43"],
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "bron gastam",
+    "transcription": "bʁbʁɔ̃ gas.tamol",
+    "pos": "verb",
+    "translation": "to kill, destroy, cause to suffer",
+    "references": ["4.28", "4.29"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "ca",
+    "transcription": "ka",
+    "pos": "prep.",
+    "translation": "into, inside",
+    "references": ["4.35"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "cazor",
+    "transcription": "ka.zɔʁ",
+    "pos": "verb",
+    "translation": "to agree, be agreed to",
+    "references": ["4.61"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "chac",
+    "transcription": "ʃak",
+    "pos": "phrase",
+    "translation": "shit, crap",
+    "references": ["5.03"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "choubit",
+    "transcription": "ʃu.bit",
+    "pos": "verb",
+    "translation": "to fire, be fired",
+    "references": ["5.15", "5.17", "5.18"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "churuc",
+    "transcription": "ʃy.ʁyk",
+    "pos": "verb",
+    "translation": "to get away, flee",
+    "references": ["8.65"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "clarion",
+    "transcription": "kla.ʁi.on",
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "clegeton",
+    "transcription": "klɛʒ.ton",
+    "pos": "noun",
+    "translation": "shadow",
+    "references": ["4.58"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "cocamme",
+    "transcription": "ko.kam",
+    "pos": "noun",
+    "translation": "trap",
+    "references": ["8.08","8.28"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "cont",
+    "transcription": "kõn(t)",
+    "pos": "verb",
+    "translation": "to look (at)",
+    "references": ["5.21", "7.18", "7.19"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "couffe",
+    "transcription": "kuf",
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "coum",
+    "transcription": "kum",
+    "pos": "part.",
+    "translation": "not",
+    "references": ["4.08", "4.09", "7.05", "8.13", "8.16"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "coumbonce",
+    "transcription": "kum.bons",
+    "pos": "noun",
+    "translation": "basement, cellar",
+    "references": ["7.24"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "coumouä",
+    "transcription": "kum.wa",
+    "pos": "part.",
+    "translation": "nothing",
+    "references": ["4.71", "7.13"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "couvaren",
+    "transcription": "ku.va.ʁɛn",
+    "pos": "verb",
+    "translation": "to allow, permit",
+    "references": ["4.30"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "creuf",
+    "transcription": "kʁøf",
+    "pos": "verb",
+    "translation": "to want, have a desire",
+    "references": ["4.02", "6.02", "8.10"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "dabor",
+    "transcription": "da.bɔʁ",
+    "pos": "verb",
+    "translation": "to fight, resist",
+    "references": ["7.23", "8.15"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "dagorie",
+    "transcription": "da.gɔ.ʁi",
+    "pos": "noun",
+    "translation": "warning, notice",
+    "references": ["4.23"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "dan",
+    "transcription": "dan",
+    "pos": "prep.",
+    "translation": "of, from, by",
+    "references": ["4.24", "4.36", "5.17"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "dalam",
+    "transcription": "da.lam",
+    "pos": "pron.",
+    "translation": "that, this, it",
+    "references": ["4.09", "4.67", "6.11"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "dial",
+    "transcription": "di.al",
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "dibbe",
+    "transcription": "dib",
+    "pos": "phrase",
+    "translation": "please",
+    "references": ["5.34", "6.03", "8.11", "8.27"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "dimaclege",
+    "transcription": "di.ma.klɛʒ",
+    "pos": "noun",
+    "translation": "broker",
+    "references": ["4.15"],
+    "type": "V",
+    "confidence": "Σ1"
+  },
+  {
+    "word": "dja",
+    "transcription": "dʒa",
+    "pos": "interj.",
+    "translation": "yes",
+    "references": ["4.60"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "do",
+    "transcription": "do",
+    "pos": "prep.",
+    "translation": "until, by",
+    "references": ["4.08"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "do i nexe",
+    "transcription": "do i neks",
+    "pos": "phrase",
+    "translation": "until next time, see you later",
+    "references": ["4.78"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "do nache bador i nexe",
+    "transcription": "do naʃ ba.dɔʁ i neks",
+    "pos": "phrase",
+    "translation": "until we meet again",
+    "references": ["4.77"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "donsimou",
+    "transcription": "don.si.mu",
+    "pos": "verb",
+    "translation": "to be promised",
+    "references": ["4.57","4.59"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "dopezen",
+    "transcription": "do.pɛ.zɛn",
+    "pos": "noun",
+    "translation": "estate",
+    "references": ["4.16"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "dum",
+    "transcription": "dym",
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "eh",
+    "transcription": "ɛ",
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "el",
+    "transcription": "ɛl",
+    "pos": "det.",
+    "translation": "last, the previous",
+    "references": ["4.22"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "et",
+    "transcription": "ɛ",
+    "pos": "conj.",
+    "translation": "and",
+    "references": ["4.30"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "emblo",
+    "transcription": "em.blo",
+    "pos": "adverb",
+    "translation": "really",
+    "references": ["4.56"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "èn",
+    "transcription": "ɛn",
+    "pos": "prep.",
+    "translation": "to, towards",
+    "references": ["8.52","8.68"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "enforde-carole",
+    "transcription": null,
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "en debbe",
+    "transcription": "ɛn dɛb",
+    "pos": "phrase",
+    "translation": "thank you",
+    "references": ["4.56"],
+    "type": "A",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "etageur",
+    "transcription": "ɛ.ta.ʒø",
+    "pos": "noun",
+    "translation": "private security, corporate cop",
+    "references": ["5.12"],
+    "type": "A",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "èze",
+    "transcription": null,
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "fé",
+    "transcription": "fɛ",
+    "pos": "adverb",
+    "translation": "here, in this place",
+    "references": ["5.24", "7.21"],
+    "type": "CC",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "felf",
+    "transcription": "fɛlf",
+    "pos": "noun",
+    "translation": "box",
+    "references": ["4.35"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "figue",
+    "transcription": "fig",
+    "pos": "part.",
+    "translation": "was, were, have + been/done",
+    "references": ["4.01", "4.61", "5.12", "5.15", "5.17", "6.06", "7.08", "7.14", "8.32"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "fischi",
+    "transcription": "fi.ʃi",
+    "pos": "verb",
+    "translation": "to blow, honk, sound",
+    "references": ["4.47"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "flonde",
+    "transcription": null,
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "fogero",
+    "transcription": "fo.ʒə.ʁo",
+    "pos": "noun",
+    "translation": "prison",
+    "references": ["4.52"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "fond",
+    "transcription": null,
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "fontalesque",
+    "transcription": "fon.ta.lɛsk",
+    "pos": "verb",
+    "translation": "to pretend",
+    "references": ["7.04","7.05"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "fort",
+    "transcription": "fɔʁt",
+    "pos": "verb",
+    "translation": "to come, be ahead",
+    "references": ["7.10"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "fregeque",
+    "transcription": "fʁɛ.ʒɛk",
+    "pos": "verb",
+    "translation": "to stop, prevent",
+    "references": ["6.16", "8.12"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "fulâdiz",
+    "transcription": "fu.la.dis",
+    "pos": "noun",
+    "translation": "empire",
+    "references": ["4.21", "4.28", "4.29"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "fuzi",
+    "transcription": "fu.zi",
+    "pos": "noun",
+    "translation": "tea",
+    "references": ["5.34"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "gam",
+    "transcription": "gam",
+    "pos": "noun",
+    "translation": "year",
+    "references": ["5.12", "7.08"],
+    "type": "V",
+    "confidence": "Σ3"
+  },
+  {
+    "word": "gambol",
+    "transcription": null,
+    "pos": null,
+    "translation": null,
+    "references": null,
+    "type": "A",
+    "confidence": "U"
+  },
+  {
+    "word": "gamlar",
+    "transcription": "gam.laʁ",
+    "pos": "noun",
+    "translation": "bastard",
+    "references": ["8.64"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "gastamme",
+    "transcription": "gas.tam",
+    "pos": "adj.",
+    "translation": "dead",
+    "references": ["4.28", "4.29", "8.18"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "gatte",
+    "transcription": "gat",
+    "pos": "noun",
+    "translation": "city",
+    "references": ["4.41"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "Ghor",
+    "transcription": "gɔʁ",
+    "pos": "adverb",
+    "translation": "here, in this place",
+    "references": null,
+    "type": "CC",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "guissen",
+    "transcription": "gi.sɛn",
+    "pos": "noun",
+    "translation": "time, instance",
+    "references": ["4.25"],
+    "type": "V",
+    "confidence": "Σ2"
+  },
+  {
+    "word": "gizmo",
+    "transcription": "giz.mo",
+    "pos": "noun",
+    "translation": "toy, device",
+    "references": ["6.19"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "glode beige",
+    "transcription": "glod bɛʒ",
+    "pos": "noun",
+    "translation": "freight penalties",
+    "references": ["4.20"],
+    "type": "V",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "godalo",
+    "transcription": "go.da.lo",
+    "pos": "verb",
+    "translation": "to provoke, upset",
+    "references": ["7.14"],
+    "type": "V",
+    "confidence": "Σ4"
+  },
+  {
+    "word": "groque",
+    "transcription": "gʁok",
+    "pos": "verb",
+    "translation": "to know, be aware of something",
+    "references": ["4.67", "4.70", "7.10", "8.38"],
+    "type": "CC",
+    "confidence": "Σ5"
+  },
+  {
+    "word": "guerdite",
+    "transcription": "gɛʁ.dit",
+    "pos": "verb",
+    "translation": "to represent, speak for",
+    "references": ["4.16"],
+    "type": "V",
+    "confidence": "Σ2"
+  }
+]

@@ -1,0 +1,70 @@
+---
+import data from '../data/script.json';
+import Layout from '../layouts/Layout.astro';
+import { Picture } from 'astro:assets';
+import Image from '../components/Image.svelte';
+---
+
+<Layout>
+  <main class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-center">Ghor Script Attestations</h1>
+    <div>
+      <table class="table-auto border-collapse mx-auto my-8 text-center">
+  <tbody>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">A: <span class="ghor">A</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">F: <span class="ghor">F</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">K: <span class="ghor">K</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">P: <span class="ghor">P</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">U: <span class="ghor">U</span></td>
+    </tr>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">B: <span class="ghor">B</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">G: <span class="ghor">G</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">L: <span class="ghor">L</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">Q: <span class="ghor">Q</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">V: <span class="ghor">V</span></td>
+    </tr>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">C: <span class="ghor">C</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">H: <span class="ghor">H</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">M: <span class="ghor">M</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">R: <span class="ghor">R</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">W: <span class="ghor">W</span></td>
+    </tr>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">D: <span class="ghor">D</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">I: <span class="ghor">I</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">N: <span class="ghor">N</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">S: <span class="ghor">S</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">X, Z: <span class="ghor">X</span></td>
+    </tr>
+    <tr>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">E: <span class="ghor">E</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">J: <span class="ghor">J</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">O: <span class="ghor">O</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">T: <span class="ghor">T</span></td>
+      <td class="border border-gray-300 px-4 py-2 text-xl font-semibold">Y: <span class="ghor">Y</span></td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <div class="space-y-10">
+      {
+        data.map((item) => (
+          <article class="bg-white rounded-xl shadow p-6">
+            <header class="mb-4">
+              <div class="flex justify-between text-sm text-gray-500">
+                <span>{item.code ? item.code : '??'}</span>
+                <span>Timestamp: {item.timestamp ? item.timestamp : '??'}</span>
+              </div>
+              <p class="ghor text-6xl font-medium text-blue-800 mt-2 whitespace-pre-line">{item.text}</p>
+              <p class="text-base text-gray-700 italic whitespace-pre-line">{item.text}</p>
+            </header>
+            {item.item ? <Image src={`/images/${item.item}`} alt="A bird." client:only="svelte"/>: ''}
+          </article>
+        ))
+      }
+    </div>
+  </main>
+</Layout>

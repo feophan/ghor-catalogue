@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "ghor-catalogue",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.14"
+    "@astrojs/svelte": "^7.0.13",
+    "@astrojs/vercel": "^8.1.4",
+    "@tailwindcss/vite": "^4.1.7",
+    "astro": "^5.7.14",
+    "medium-zoom": "^1.1.0",
+    "svelte": "^5.32.1",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.8.3"
   }
 }
