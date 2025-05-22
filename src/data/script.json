@@ -144,6 +144,18 @@
     "item": "numerals_b.png"
   },
   {
+    "code": "Numerals C",
+    "timestamp": "??",
+    "text": "",
+    "item": "numerals_c.png"
+  },
+  {
+    "code": "Numerals D",
+    "timestamp": "??",
+    "text": "",
+    "item": "numerals_d.png"
+  },
+  {
     "code": "Ghorlectopod Mural",
     "timestamp": "S2E1: ??",
     "text": "too soon we\nmiss you",
@@ -202,5 +214,11 @@
     "timestamp": "??",
     "text": "commsoffi",
     "item": "item_20.png"
+  },
+  {
+    "code": "Item 21",
+    "timestamp": "??",
+    "text": "f",
+    "item": "item_21.png"
   }
 ]
