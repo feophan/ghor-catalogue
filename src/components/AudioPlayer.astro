@@ -1,0 +1,205 @@
+---
+import PlayIcon from "./icons/playIcon.astro";
+import PauseIcon from "./icons/pauseIcon.astro";
+import AudioIcon from "./icons/audioIcon.astro";
+import AudioMutedIcon from "./icons/audioMutedIcon.astro";
+---
+
+<div
+  id="audio-player-container"
+  class="bg-white fixed bottom-0 justify-center z-20 hidden h-16 w-full items-center px-5 opacity-0 transition-opacity duration-500"
+>
+  <audio id="audio-element" src="" preload="metadata"></audio>
+  <span
+    id="audio-loading"
+    class="loading loading-spinner loading-md hidden min-w-[1.5rem]"></span>
+  <label id="audio-control" class="hidden cursor-pointer">
+    <input type="checkbox" id="play-icon" class="peer hidden"/>
+    <div class="peer-checked:hidden"><PlayIcon /></div>
+    <div class="hidden peer-checked:block"><PauseIcon /></div>
+  </label>
+  <span id="current-time" class="mr-2 ml-5">0:00</span> /
+  <span id="duration" class="ml-2">0:00</span>
+  <input
+    id="seek-slider"
+    type="range"
+    min="0"
+    max="0"
+    value="0"
+    class="hidden sm:block range range-xs mx-5"
+  />
+  <label class="ml-5 cursor-pointer">
+    <input id="mute-icon" type="checkbox" class="peer hidden" />
+    <div class="peer-checked:hidden"><AudioIcon /></div>
+    <div class="hidden peer-checked:block"><AudioMutedIcon /></div>
+  </label>
+  <button
+    id="close-player"
+    class="ml-4 text-gray-600 hover:text-black cursor-pointer"
+    aria-label="Close player"
+    title="Close"
+  >
+    ✕
+  </button>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const audio = document.getElementById(
+      "audio-element",
+    ) as HTMLAudioElement | null;
+    if (!audio) return;
+    const playToggle = document.getElementById(
+      "play-icon",
+    ) as HTMLInputElement | null;
+    const muteToggle = document.getElementById(
+      "mute-icon",
+    ) as HTMLInputElement | null;
+    const seekSlider = document.getElementById(
+      "seek-slider",
+    ) as HTMLInputElement | null;
+    const currentTimeDisplay = document.getElementById("current-time");
+    const durationDisplay = document.getElementById("duration");
+    const audioLoading = document.getElementById("audio-loading");
+    const audioControl = document.getElementById("audio-control");
+    const musicPlayer = document.getElementById("audio-player-container");
+    const audioDownloadLink = document.getElementById(
+      "audio-download-link",
+    ) as HTMLAnchorElement | null;
+    const footer = document.querySelector(".footer > div");
+    const playButtons = document.querySelectorAll(".card-play-buttons");
+
+    const formatTime = (secs: number) => {
+      const minutes = Math.floor(secs / 60)
+        .toString()
+        .padStart(2, "0");
+      const seconds = Math.floor(secs % 60)
+        .toString()
+        .padStart(2, "0");
+      return `${minutes}:${seconds}`;
+    };
+
+    audio.addEventListener("loadedmetadata", () => {
+      if (durationDisplay && seekSlider) {
+        durationDisplay.textContent = formatTime(audio.duration);
+        seekSlider.max = Math.floor(audio.duration).toString();
+      }
+      audioLoading?.classList.add("hidden");
+      audioControl?.classList.remove("hidden");
+    });
+
+    playToggle?.addEventListener("change", () => {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+
+    audio.addEventListener("play", () => {
+      if (playToggle) playToggle.checked = true;
+      if (currentCardButton) currentCardButton.checked = true;
+    });
+
+    audio.addEventListener("pause", () => {
+      if (playToggle) playToggle.checked = false;
+    });
+
+    muteToggle?.addEventListener("change", () => {
+      audio.muted = muteToggle.checked;
+    });
+
+    seekSlider?.addEventListener("input", () => {
+      if (currentTimeDisplay) {
+        currentTimeDisplay.textContent = formatTime(parseInt(seekSlider.value));
+      }
+    });
+
+    seekSlider?.addEventListener("change", () => {
+      audio.currentTime = parseInt(seekSlider.value);
+    });
+
+    audio.addEventListener("timeupdate", () => {
+      if (seekSlider && currentTimeDisplay) {
+        seekSlider.value = Math.floor(audio.currentTime).toString();
+        currentTimeDisplay.textContent = formatTime(audio.currentTime);
+      }
+    });
+
+    const closeButton = document.getElementById("close-player");
+
+    closeButton?.addEventListener("click", () => {
+      audio.pause();
+      musicPlayer?.classList.add("opacity-0");
+      setTimeout(() => {
+        musicPlayer?.classList.add("hidden");
+        musicPlayer?.classList.remove("flex");
+      }, 300); // matches your transition duration
+
+      footer?.classList.remove("pb-24");
+
+      // Reset play buttons on cards
+      playButtons.forEach((btn) => {
+        if (btn instanceof HTMLInputElement) {
+          btn.checked = false;
+        }
+      });
+    });
+
+    let currentCardButton: HTMLInputElement | null = null;
+
+    playButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        if (!(btn instanceof HTMLInputElement)) return;
+        const audioUrl = btn.dataset.audioUrl;
+        if (!audioUrl || audio.src === audioUrl) {
+          playToggle?.click();
+          return;
+        }
+
+        currentCardButton = btn;
+        // Show player UI
+        musicPlayer?.classList.remove("hidden", "opacity-0");
+        musicPlayer?.classList.add("flex");
+        footer?.classList.add("pb-24");
+
+        setTimeout(() => musicPlayer?.classList.remove("opacity-0"), 100);
+        audioLoading?.classList.remove("hidden");
+        audioControl?.classList.add("hidden");
+
+        // Reset UI
+        if (currentTimeDisplay && durationDisplay) {
+          currentTimeDisplay.textContent = "0:00";
+          durationDisplay.textContent = "0:00";
+        }
+
+        audio.src = audioUrl;
+        if (audioDownloadLink) audioDownloadLink.href = audioUrl;
+
+        disableOtherButtons(btn.id);
+        if (playToggle) playToggle.checked = true;
+        audio.play();
+      });
+    });
+
+    function disableOtherButtons(id: string) {
+      playButtons.forEach((btn) => {
+        if (btn instanceof HTMLInputElement && btn.id !== id) {
+          btn.checked = false;
+        }
+      });
+    }
+
+    // Update card button state when audio is paused
+    audio.addEventListener("pause", () => {
+    if (playToggle) playToggle.checked = false;
+    if (currentCardButton) currentCardButton.checked = false;
+    });
+
+    // Update card button state when audio ends
+    audio.addEventListener("ended", () => {
+    if (playToggle) playToggle.checked = false;
+    if (currentCardButton) currentCardButton.checked = false;
+    });
+  });
+</script>

@@ -1,12 +1,20 @@
 ---
-import SearchAttestations from '../components/Search.svelte';
 import data from '../data/corpus.json';
 import Layout from '../layouts/Layout.astro';
+import CorpusCard from '../components/CorpusCard.astro';
+import AudioPlayer from '../components/AudioPlayer.astro';
+import Search from '../components/Search.svelte';
 ---
 
 <Layout>
-  <main class="max-w-4xl mx-auto">
+  <main class="max-w-4xl mx-auto pt-6">
     <h1 class="text-3xl font-bold mb-6 text-center">Ghor Attestations</h1>
-    <SearchAttestations client:load data={data} />
+
+    <Search data={data} client:only />
+
+    <div id="card-container" class="space-y-10 mt-6">
+      {data.map(att => <CorpusCard att={att} />)}
+    </div>
   </main>
+  <AudioPlayer />
 </Layout>

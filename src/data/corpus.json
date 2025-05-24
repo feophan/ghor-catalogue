@@ -2,9 +2,10 @@
   {
     "code": "4.01",
     "timestamp": "12:18",
+    "audio": "4-01.mp3",
     "english": "I told you he was different.",
     "italian": "Vi ho detto che era diverso.",
-    "ghor": "mo te ʁo fig po.pɛl",
+    "ghor": "mo te ʁo fig go.pɛn",
     "features": [
       {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
       {"lemma": "to tell", "feature": ["verb", "1p", "sg", "past"]},
@@ -18,12 +19,13 @@
       {"English": "told", "Ghor": "ʁo"},
       {"English": "you", "Ghor": "te"},
       {"English": "he was", "Ghor": "fig"},
-      {"English": "different", "Ghor": "po.pɛl"}
+      {"English": "different", "Ghor": "go.pɛn"}
     ]
   },
   {
     "code": "4.02",
     "timestamp": "12:20",
+    "audio": "4-02.mp3",
     "english": "I want to hear it again.",
     "italian": "Voglio risentirlo.",
     "ghor": "kʁøf vi.li boʁd i.nɛks",
@@ -44,6 +46,7 @@
   {
     "code": "4.03",
     "timestamp": "12:22",
+    "audio": "4-03.mp3",
     "english": "He’s clearly conflicted.",
     "italian": "È combattuto.",
     "ghor": "lo bi vɛkz pʁi.ʃø",
@@ -64,6 +67,7 @@
   {
     "code": "4.04",
     "timestamp": "12:23",
+    "audio": "4-04.mp3", 
     "english": "The mother is terrifying.",
     "italian": "La madre è terribile.",
     "ghor": "tu mej pʁa.ka.tɑ̃",
@@ -82,10 +86,10 @@
   {
     "code": "4.05",
     "timestamp": "12:25",
+    "audio": "4-05.mp3",
     "english": "It’s the same thing every week.",
     "italian": "È così ogni settimana.",
     "ghor": "bi tʁɛm møʒ laɪ pʁit",
-    "orthography": "Bi trêm meuje laille prîte.",
     "comment": "Instead of 'the same thing', [tʁɛm møʒ] can be 'like this = così'?",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg"]},
@@ -106,14 +110,14 @@
   {
     "code": "4.06",
     "timestamp": "12:27",
+    "audio": "4-06.mp3",
     "english": "Rylanz, he’s perfect.",
     "italian": "Rylanz, è perfetto.",
     "ghor": "ʁaɪ.lanz, lo bi kwɑd",
-    "orthography": "Rylanz, lo bi quad.",
     "features": [
       {"lemma": "Rylanz", "feature": ["name"]},
       {"lemma": "he", "feature": ["pronoun","3p","sg"]},
-      {"lemma": "is", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
       {"lemma": "perfect", "feature": ["adjective","sg"]}
     ],
     "concord": [
@@ -126,6 +130,7 @@
   {
     "code": "4.07",
     "timestamp": "12:30",
+    "audio": "4-07.mp3",
     "english": "But what can he do for us?",
     "italian": "Ma cosa può fare per noi?",
     "ghor": "tjo mat vul naʃ sɛ.mad",
@@ -134,8 +139,8 @@
       {"lemma": "what", "feature": ["pronoun","interrogative"]},
       {"lemma": "can", "feature": ["verb","3p","sg","present"]},
       {"lemma": "he", "feature": ["pronoun","3p","sg"]},
-      {"lemma": "do", "feature": ["verb","infinitive"]},
-      {"lemma": "for", "feature": ["prep."]},
+      {"lemma": "to do", "feature": ["verb","infinitive"]},
+      {"lemma": "for", "feature": ["preposition"]},
       {"lemma": "us", "feature": ["pronoun","1p","pl"]}
     ],
     "concord": [
@@ -149,101 +154,124 @@
   {
     "code": "4.08",
     "timestamp": "12:31",
+    "audio": "4-08.mp3",
     "english": "We won’t know until we ask.",
     "ghor": "naʃ kum so.mɛl do pɛ.ly",
     "features": [
-      {"English": "we", "Grammar": ["pron.","1p","pl"], "Ghor": "naʃ"},
-      {"English": "will", "Grammar": ["verb","1p","pl","future"], "Ghor": ""},
-      {"English": "not", "Grammar": ["part.","negation"], "Ghor": "kum"},
-      {"English": "know", "Grammar": ["verb","inf."], "Ghor": "[so.mɛl]"},
-      {"English": "until", "Grammar": ["prep."], "Ghor": "do"},
-      {"English": "we", "Grammar": ["pron.","1p","pl"], "Ghor": ""},
-      {"English": "ask", "Grammar": ["verb.","1p","pl"], "Ghor": "[pɛ.ly]"}
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to know", "feature": ["verb","future","1p","pl"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "until", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to ask", "feature": ["verb","1p","pl"]}
     ],
     "concord": [
-      {"English": "we", "Grammar": ["pron.","1p","pl"], "Ghor": "naʃ"},
-      {"English": "will", "Grammar": ["verb","1p","pl","future"], "Ghor": ""},
-      {"English": "not", "Grammar": ["part.","negation"], "Ghor": "kum"},
-      {"English": "know", "Grammar": ["verb","inf."], "Ghor": "[so.mɛl]"},
-      {"English": "until", "Grammar": ["prep."], "Ghor": "do"},
-      {"English": "we", "Grammar": ["pron.","1p","pl"], "Ghor": ""},
-      {"English": "ask", "Grammar": ["verb.","1p","pl"], "Ghor": "[pɛ.ly]"}
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "will know", "Ghor": "[so.mɛl]"},
+      {"English": "not", "Ghor": "kum"},
+      {"English": "until", "Ghor": "do"},
+      {"English": "we ask", "Ghor": "[pɛ.ly]"}
     ]
   },
   {
     "code": "4.09",
     "timestamp": "12:32",
+    "audio": "4-09.mp3",
     "english": "That’s not a plan.",
     "ghor": "da.lam kum skɛ",
-    "orthography": "Dalamme coum ___",
-    "analysis": [
-      {"English": "that", "Grammar": ["pron.","dem."], "Ghor": "[da.lam]"},
-      {"English": "is", "Grammar": ["verb","3p","sg","present"], "Ghor": ""},
-      {"English": "not", "Grammar": ["part.","negation"], "Ghor": "kum"},
-      {"English": "a", "Grammar": ["det.","indef."], "Ghor": ""},
-      {"English": "plan", "Grammar": ["noun"], "Ghor": "[skɛ]"}
+    "features": [
+      {"lemma": "that", "feature": ["pronoun","demonstrative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "a", "feature": ["determiner","indefinite"]},
+      {"lemma": "plan", "feature": ["noun"]}
+    ],
+    "concord": [
+      {"English": "that is", "Ghor": "[da.lam]"},
+      {"English": "not", "Ghor": "kum"},
+      {"English": "a plan", "Ghor": "[skɛ]"}
     ]    
   },
   {
     "code": "4.10",
     "timestamp": "12:33",
+    "audio": "4-10.mp3",
     "english": "If he just answers questions, he’s worth it.",
     "ghor": "tem sil.mu ba.biʃ çi.blus mu.la.gi",
-    "orthography": "",
     "comment": "Why tem ‘you’?",
-    "analysis": [
-      {"English": "if", "Grammar": ["conj."], "Ghor": "[…]"},
-      {"English": "he", "Grammar": ["pron.","3p","sg"], "Ghor": "?[tem]"},
-      {"English": "just", "Grammar": ["adv."], "Ghor": "sil.mu"},
-      {"English": "answers", "Grammar": ["verb","3p","sg","present"], "Ghor": "[…]"},
-      {"English": "questions", "Grammar": ["noun","pl"], "Ghor": "[…]"},
-      {"English": "he", "Grammar": ["pron.","3p","sg"], "Ghor": ""},
-      {"English": "is", "Grammar": ["verb","3p","sg","present"], "Ghor": "[…]"},
-      {"English": "worth", "Grammar": ["adj.","sg"], "Ghor": "[…]"},
-      {"English": "it", "Grammar": ["pron.","3p","sg"], "Ghor": "[…]"}
+    "features": [
+      {"lemma": "if", "feature": ["conjunction"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "just", "feature": ["adverb"]},
+      {"lemma": "to answer", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "question", "feature": ["noun","pl"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "worth", "feature": ["adjective","sg"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]}
+    ],
+    "concord": [
+      {"English": "if", "Ghor": "[…]"},
+      {"English": "he", "Ghor": "?[tem]"},
+      {"English": "just", "Ghor": "sil.mu"},
+      {"English": "answers questions", "Ghor": "[…]"},
+      {"English": "he is worth it", "Ghor": "[…]"}
     ]
   },
   {
     "code": "4.11",
     "timestamp": "12:36",
+    "audio": "4-11.mp3",
     "english": "We have to run this down.",
     "ghor": "naʃ mik xa.pys ma.tyʃ da.lam",
-    "orthography": "Nache mique hapusse matuche dalamme.",
-    "analysis": [
-      {"English": "we", "Grammar": ["pron.","1p","pl"], "Ghor": "naʃ"},
-      {"English": "have to", "Grammar": ["verb","1p","pl","present"], "Ghor": "mik"},
-      {"English": "run down", "Grammar": ["verb","inf."], "Ghor": "[xa.pys ma.tyʃ]"},
-      {"English": "this", "Grammar": ["verb","3p","sg","present"], "Ghor": "da.lam"}
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to have to", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "to run down", "feature": ["verb","infinitive"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "have to", "Ghor": "mik"},
+      {"English": "run down", "Ghor": "[xa.pys ma.tyʃ]"},
+      {"English": "this", "Ghor": "da.lam"}
     ]
   },
   {
     "code": "4.12",
     "timestamp": "12:40",
+    "audio": "4-12.mp3",
     "english": "Do it.",
-    "gloss": "we do",
     "ghor": "naʃ mad",
-    "orthography": "Nache mâde.",
-    "analysis": [
-      {"English": "[let’s]", "Grammar": ["hort."], "Ghor": "naʃ"},
-      {"English": "do", "Grammar": ["verb","hort."], "Ghor": "mad"},
-      {"English": "it", "Grammar": ["pron.","3p","sg"], "Ghor": ""}
+    "features": [
+      {"English": "to do", "feature": ["verb","imperative"]},
+      {"English": "it", "feature": ["pronoun","3p","sg"]}
+    ],
+    "concord": [
+      {"English": "do it", "Ghor": "naʃ mad"}
     ]
   },
   {
     "code": "4.13",
     "timestamp": "12:42",
+    "audio": "4-13.mp3",
     "english": "Let’s do it quickly before he’s replaced.",
     "ghor": "naʃ mad zip a.fi lo bʁɛd",
-    "orthography": "Nache mâde zippe afille lo brede.",
-    "analysis": [
-      {"English": "let’s", "Grammar": ["hort."], "Ghor": "naʃ"},
-      {"English": "do", "Grammar": ["verb","hort."], "Ghor": "mad"},
-      {"English": "it", "Grammar": ["pron.","3p","sg"], "Ghor": ""},
-      {"English": "quickly", "Grammar": ["adv."], "Ghor": "zip"},
-      {"English": "before", "Grammar": ["prep."], "Ghor": "a.fi"},
-      {"English": "he", "Grammar": ["pron.","3p","sg"], "Ghor": "lo"},
-      {"English": "is", "Grammar": ["verb","3p","sg","present"], "Ghor": "bʁɛd"},
-      {"English": "replaced", "Grammar": ["verb","passive"], "Ghor": ""}
+    "features": [
+      {"lemma": "to do", "feature": ["verb","imperative"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "quickly", "feature": ["adverb"]},
+      {"lemma": "before", "feature": ["preposition"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to replace", "feature": ["verb","passive"]}
+    ],
+    "concord": [
+      {"English": "do it", "Ghor": "naʃ mad"},
+      {"English": "quickly", "Ghor": "zip"},
+      {"English": "before", "Ghor": "a.fi"},
+      {"English": "he", "Ghor": "lo"},
+      {"English": "is replaced", "Ghor": "bʁɛd"}
     ]
   },
   {
@@ -251,14 +279,19 @@
     "timestamp": "33:10",
     "english": "My name is Sunif Brecanti.",
     "ghor": "plo du mɛk su.nif bʁe.kon.ti",
-    "orthography": "Plo du mec Sunif Brecanti.",
-    "analysis": [
-      {"English": "my", "Grammar": ["pron.","poss.","1p","sg"], "Ghor": "[mɛk]"},
-      {"English": "[of]", "Grammar": ["prep.","poss."], "Ghor": "[du]"},
-      {"English": "name", "Grammar": ["noun","sg"], "Ghor": "[plo]"},
-      {"English": "is", "Grammar": ["verb","3p","sg","present"], "Ghor": ""},
-      {"English": "Sunif", "Grammar": ["prop."], "Ghor": "su.nif"},
-      {"English": "Brecanti", "Grammar": ["prop."], "Ghor": "bʁe.kon.ti"}
+    "features": [
+      {"lemma": "my", "feature": ["pronoun","possessive","1p","sg"]},
+      {"lemma": "name", "feature": ["noun","sg"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "Sunif", "feature": ["name"]},
+      {"lemma": "Brecanti", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "my", "Ghor": "[du mɛk]"},
+      {"English": "name", "Ghor": "[plo]"},
+      {"English": "is", "Ghor": ""},
+      {"English": "Sunif", "Ghor": "su.nif"},
+      {"English": "Brecanti", "Ghor": "bʁe.kon.ti"}
     ]
   },
   {
@@ -266,20 +299,28 @@
     "timestamp": "33:12",
     "english": "I’m the broker for a webberie co-op in the Beldoni Valley.",
     "ghor": "mo di.mak.lɛʒ va.ku.dons sin ben.do.li va.lɛn",
-    "orthography": "Mo dimaclege vacudance sin Bendoli Va-leine.",
-    "analysis": [
-      {"English": "I", "Grammar": ["pron.","1p","sg"], "Ghor": "mo"},
-      {"English": "am", "Grammar": ["verb","1p","sg","present"], "Ghor": ""},
-      {"English": "the", "Grammar": ["det.","def."], "Ghor": ""},
-      {"English": "broker", "Grammar": ["noun","sg"], "Ghor": "[di.mak.lɛʒ]"},
-      {"English": "for", "Grammar": ["prep."], "Ghor": "[…]"},
-      {"English": "a", "Grammar": ["det.","indef."], "Ghor": ""},
-      {"English": "webberie", "Grammar": ["noun"], "Ghor": "[va.ku.dons]+"},
-      {"English": "co-op", "Grammar": ["noun"], "Ghor": "]"},
-      {"English": "in", "Grammar": ["prep."], "Ghor": "sin"},
-      {"English": "the", "Grammar": ["det.","def."], "Ghor": ""},
-      {"English": "Beldoni", "Grammar": ["prop."], "Ghor": "ben.do.li"},
-      {"English": "valley", "Grammar": ["noun","sg"], "Ghor": "va.lɛn"}
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg"]},
+      {"lemma": "to be", "feature": ["verb","1p","sg","present"]},
+      {"lemma": "the", "feature": ["determiner","definite"]},
+      {"lemma": "broker", "feature": ["noun","sg"]},
+      {"lemma": "for", "feature": ["preposition"]},
+      {"lemma": "a", "feature": ["determiner","indefinite"]},
+      {"lemma": "webberie", "feature": ["noun", "sg"]},
+      {"lemma": "co-op", "feature": ["noun", "sg"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["determiner","definite"]},
+      {"lemma": "Beldoni", "feature": ["name"]},
+      {"lemma": "valley", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "I am", "Ghor": "mo"},
+      {"English": "the broker", "Ghor": "[di.mak.lɛʒ]"},
+      {"English": "for", "Ghor": "[…]"},
+      {"English": "a webberie co-op", "Ghor": "[va.ku.dons]"},
+      {"English": "in", "Ghor": "sin"},
+      {"English": "Beldoni", "Ghor": "ben.do.li"},
+      {"English": "the valley", "Ghor": "va.lɛn"}
     ]
   },
   {
@@ -288,1186 +329,1044 @@
     "english": "The estates I represent…",
     "gloss": "estate I represent",
     "ghor": "do.pɛ.zɛn mo gɛʁ.dit",
-    "orthography": "Dopezenne mo guerdite…",
-    "commentary": "Serafina: Not much to say here. /mo/ is the only word I’m confident about, and the other two lemmas are reasonable deductions consequently."
+    "features": [
+      {"lemma": "the", "feature": ["determiner","definite"]},
+      {"lemma": "estate", "feature": ["noun", "pl"]},
+      {"lemma": "I", "feature": ["pronoun", "1p","sg"]},
+      {"lemma": "to represent", "feature": ["verb", "1p", "sg", "present"]}
+    ],
+    "concord": [
+      {"English": "the estates", "Ghor": "[do.pɛ.zɛn]"},
+      {"English": "I", "Ghor": "mo"},
+      {"English": "represent", "Ghor": "[gɛʁ.dit]"}
+    ]
   },
   {
     "code": "4.17",
     "timestamp": "33:20",
     "english": "…some have been in business almost a millenium.",
-    "gloss": "",
     "ghor": "lof sik mak.ʃul a.lo:n.dum bʁa.leʒ",
-    "orthography": "",
-    "commentary": "Serafina: Wow. No clue here. Some ideas: • lof sik = some? a.lon.dum = (be in) business? bʁa.lɛʒ = millenium • it’s quite possible that the words for ‘in business’ and ‘millenium’ are reversed, however (we know that Ghor has flexible word order). This is inconclusive as of yet. I’ve noticed the use of /a/ in front of certain adverbial phrases (‘at some point’ – maybe it’s part of ‘in business’ here?).\nPoint to come back to: I want to see if the /lo/ sound in 4.73 is the same here, meaning ‘some’. That might help a bit."
+    "features": [
+      {"lemma": "some", "feature": ["pronoun","indefinite"]},
+      {"lemma": "to be", "feature": ["verb", "3p","pl","perfect"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "business", "feature": ["noun", "sg"]},
+      {"lemma": "almost", "feature": ["adverb"]},
+      {"lemma": "a", "feature": ["determiner", "indefinite"]},
+      {"lemma": "millenium", "feature": ["noun", "sg"]}
+    ],
+    "concord": [
+      {"English": "some", "Ghor": "[…]"},
+      {"English": "have been in business", "Ghor": "[…]"},
+      {"English": "almost", "Ghor": "[…]"},
+      {"English": "a millenium", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.18",
     "timestamp": "33:24",
-    "english": "Right now,",
-    "gloss": "",
+    "english": "Right now",
     "ghor": "ma.dal",
-    "orthography": "Madalle…",
-    "commentary": "Serafina: this seems quite conclusive, but as it’s the only sample, it’s not enough to be confident whether we have two words or a single concept. We’ve found more cases of /ma.dal/"
+    "features": [
+      {"lemma": "right", "feature": ["adverb"]},
+      {"lemma": "now", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "right now", "Ghor": "[ma.dal]"}
+    ]
   },
   {
     "code": "4.19",
     "timestamp": "33:26",
-    "english": "between the ground inspections,",
-    "gloss": "",
+    "english": "between the ground inspections",
     "ghor": "a.mi soʃ.tã",
-    "orthography": "Ami souchetan,",
-    "commentary": "Serafina: I’m going to guess the creator used ‘amid’ as a reference word here. I’d also guess that the remainer, ‘soʃ.tɑ̃’, refers more generally to inspections, than specifically referring to ground inspections"
+    "features": [
+      {"lemma": "between", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["determiner", "definite"]},
+      {"lemma": "ground", "feature": ["noun", "sg"]},
+      {"lemma": "inspection", "feature": ["noun", "pl"]}
+    ],
+    "concord": [
+      {"English": "between", "Ghor": "[a.mi]"},
+      {"English": "the ground inspections", "Ghor": "[soʃ.tã]"}
+    ]
   },
   {
     "code": "4.20",
     "timestamp": "33:27",
-    "english": "the freight penalties,",
-    "gloss": "",
+    "english": "the freight penalties",
     "ghor": "glod beʒ",
-    "orthography": "glode beige",
-    "commentary": "Serafina: impossible to know here whether this is an ‘adjective+noun’ pair, or the more French ‘noun+adjective’ – so for now we’ll just record it as a single stock phrase. Would be nice to hear from a French native whether French would actually render this as a noun+adjective pair, or whether it’s a double noun collocation as in English."
+    "features": [
+      {"lemma": "the", "feature": ["determiner", "definite"]},
+      {"lemma": "freight", "feature": ["noun", "sg"]},
+      {"lemma": "penalties", "feature": ["noun", "pl"]}
+    ],
+    "concord": [
+      {"English": "the freight penalties", "Ghor": "[glod beʒ]"}
+    ]
   },
   {
     "code": "4.21",
     "timestamp": "33:29",
     "english": "the new Imperial shipping codes",
-    "gloss": "new (shipping codes) empire",
     "ghor": "maz blik vø.ʃen fu.la.dis",
-    "orthography": "maz blique veuchen furâdiz",
-    "commentary": "Serafina: interestingly, it sounds here like he taps the R for ‘furadis’, but in all other environments they use /l/. We can headcannon this as a distinct accent. Unless ‘furadis’ is the adjective form of noun ‘fuladis’, which I highly doubt. Some articulations of /l/ can also sound really close to /ɾ/, so that might be catching me out. I’m not an IPA expert."
+    "features": [
+      {"lemma": "the", "feature": ["determiner", "definite"]},
+      {"lemma": "new", "feature": ["adjective"]},
+      {"lemma": "imperial", "feature": ["adjective"]},
+      {"lemma": "shipping", "feature": ["noun", "sg","gerund"]},
+      {"lemma": "code", "feature": ["noun", "pl"]}
+    ],
+    "concord": [
+      {"English": "new", "Ghor": "maz"},
+      {"English": "Imperial", "Ghor": "fu.la.dis"},
+      {"English": "the shipping codes", "Ghor": "[blik vø.ʃen]"}
+    ]
   },
   {
     "code": "4.22",
     "timestamp": "33:32",
     "english": "which they changed again last night",
-    "gloss": "",
     "ghor": "sim tʁɑ̃.pøʒ ɛl mun",
-    "orthography": "Sim trapeuge el moun.",
-    "commentary": "Serafina: interesting that we don’t here /neks/ despite the translation providing ‘again’, when we see /neks/ used quite a few times in this sense. My guess is that the Ghor verb for ‘change’ already captures this meaning of ‘change again’. If we assume that /ɛl/ is ‘last’ due to its proximity with /mun/ ‘night’, and that Ghor doesn’t use the relative pronoun ‘which’, then probably /tʁɑ̃.pøʒ/ is the verb. This is a low confidence deduction though. The lack of relative pronoun is a grammar issue that I would propose fixing when we expand Ghor beyond canon."
+    "features": [
+      {"lemma": "which", "feature": ["pronoun", "relative"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl"]},
+      {"lemma": "to change", "feature": ["verb","3p","pl","past"]},
+      {"lemma": "again", "feature": ["adverb"]},
+      {"lemma": "last", "feature": ["adjective"]},
+      {"lemma": "night", "feature": ["noun", "sg"]}
+    ],
+    "concord": [
+      {"English": "which", "Ghor": ""},
+      {"English": "they", "Ghor": "sim"},
+      {"English": "changed again", "Ghor": "[tʁɑ̃.pøʒ]"},
+      {"English": "last", "Ghor": "ɛl"},
+      {"English": "night", "Ghor": "mun"}
+    ]
   },
   {
     "code": "4.23",
     "timestamp": "33:33",
     "english": "without warning",
-    "gloss": "",
     "ghor": "min da.go.ɾi",
-    "orthography": "minne dagourie",
-    "commentary": "Serafina: it seems much more likely that prepositions come before nouns in Ghor, as in most IE languages. The enunciation makes me think that the word barrier here is between /min/ and /da.gɔ.ʁi/)"
+    "features": [
+      {"lemma": "without", "feature": ["preposition"]},
+      {"lemma": "warning", "feature": ["noun","sg","gerund"]}
+    ],
+    "concord": [
+      {"English": "without", "Ghor": "min"},
+      {"English": "warning", "Ghor": "da.go.ɾi"}
+    ]
   },
   {
     "code": "4.24",
     "timestamp": "33:39",
     "english": "all nine of my clients",
-    "gloss": "",
     "ghor": "laj ʒi.ʒi dani plyʃ tø(ʁ)",
-    "orthography": "Laï jiji dani pluche teur",
-    "commentary": "Serafina: so, here and in 4.53, 4.55, we have a word sounding like /tɔʁ/ or /tøʁ/, and in both sentences have ‘my’. The weird thing here being that /tøʁ/ comes at the end, although this could be more like literally ‘clients of mine’. I’m noticing that ‘have’ seems to be constructed by /i/ + noun. Not sure if that’s the case here – it might be a particular construction when saying ‘number + of + something’, like ‘number + dan i + something’. We also know /laj/ is ‘all’, so /ʒi.ʒi/ is probably the number nine.\nUDS: I believe that the phonetics “dan” and “i\" are conjoined into one sound to mean a plural form of an indefinite article (as mentioned in comments). And I’ve explained why “ply” might be phonetically similar to “peluche” which then translate to something serviced like “client”. “Jiji” is an especially weird case because if it’s not a whole word meaning nine it would either be a repetition to emphasize the number “ji”, or it’s a combination of two other number roots to make nine, but that would mean Ghor has a word for 4.5 which seems implausible. I’ve marked a possible latinization of the missing sentence in blue."
+    "features": [
+      {"lemma": "all", "feature": ["determiner"]},
+      {"lemma": "nine", "feature": ["numeral"]},
+      {"lemma": "of", "feature": ["preposition"]},
+      {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "clients", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "all", "Ghor": "laj"},
+      {"English": "nine", "Ghor": "ʒi.ʒi"},
+      {"English": "of", "Ghor": "[dani]"},
+      {"English": "my clients", "Ghor": "[plyʃ tø(ʁ)]"}
+    ]
   },
   {
     "code": "4.25",
     "timestamp": "33:41",
     "english": "for the first time in their history",
-    "gloss": "",
     "ghor": "van bu.du gi.sɛn pas polt",
-    "orthography": "",
-    "commentary": "Serafina: since ’they’ is /sim/, it would make sense if possessive forms are similar, such as /sɛn/. It’s also likely that /van/ is ‘for’, but again, these are all isolates so far (unless I’m mishearing /dan/), so we can’t say with any certainty where the word barriers are, and which concepts they refer to. I think this is something we are going to have to make rough guesses about and consider them ‘contested’. I think the most reasonable guess is that it says literally ‘for first time in history’."
+    "features": [
+      {"lemma": "for", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article", "definite"]},
+      {"lemma": "first", "feature": ["numeral", "ordinal", "adjective"]},
+      {"lemma": "time", "feature": ["noun", "sg"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "their", "feature": ["pronoun", "3p", "pl", "possessive"]},
+      {"lemma": "history", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "for", "Ghor": "[…]"},
+      {"English": "the first time", "Ghor": "[…]"},
+      {"English": "in their history", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.26",
+    "audio": "4-26.mp3",
     "timestamp": "33:43",
     "english": "are wondering if it’s even worth it to open the hives next spring",
-    "gloss": "",
     "ghor": "bu.den tje.des smy.na a.gen vø.no ka.ʁa pø.tiʃ py.tjel",
-    "orthography": "",
-    "commentary": "Serafina: given how he pauses after /bu.dɛn/, it’s safe to guess that this is where the clause breaks. Not enough to go on here, all isolates)"
+    "features": [
+      {"lemma": "to wonder", "feature": ["verb", "3p", "pl", "present"]},
+      {"lemma": "if", "feature": ["conjunction"]},
+      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]},
+      {"lemma": "to be", "feature": ["verb", "3p", "sg", "copula"]},
+      {"lemma": "even", "feature": ["adverb"]},
+      {"lemma": "worth", "feature": ["adjective"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "to open", "feature": ["verb","infinitive"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "hive", "feature": ["noun","pl"]},
+      {"lemma": "next", "feature": ["adjective"]},
+      {"lemma": "spring", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "are wondering", "Ghor": "[…]"},
+      {"English": "if it's even worth it", "Ghor": "[…]"},
+      {"English": "to open the hives", "Ghor": "[…]"},
+      {"English": "next spring", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.27",
     "timestamp": "33:47",
     "english": "Tell it!",
-    "gloss": "",
     "ghor": "ful.ja",
-    "orthography": "foulla?",
-    "commentary": "Serafina: This sounds like it’s probably a single verb."
+    "features": [
+      {"lemma": "tell", "feature": ["verb", "imperative"]},
+      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]}
+    ],
+    "concord": [
+      {"English": "tell it", "Ghor": "ful.ja"}
+    ]
   },
   {
     "code": "4.28",
     "timestamp": "33:47",
     "english": "The Empire is killing them.",
-    "gloss": "",
     "ghor": "fu.la.dis sim bʁon gas.tam",
-    "orthography": "",
-    "commentary": "Serafina: even after repeat listens, it really sounds like he says /ɛm/ and not /sim/ - there’s even a pause after /fu.la:.dis/. Again, headcannon this as an accent. The verb is clearly /bʁon gas.tan/, but probably not a single word – it might be the equivalent of English ‘take lives’ rather than ‘kill’. Coming back to this later – yes, we have a case of /gas.tam/ meaning ‘death’ in Episode 8, so /bʁon/ here might actually be something like ‘bring’?"
+    "features": [
+      {"lemma": "the", "feature": ["article", "definite"]},
+      {"lemma": "empire", "feature": ["noun", "sg"]},
+      {"lemma": "to kill", "feature": ["verb", "3p", "sg", "present"]},
+      {"lemma": "them", "feature": ["pronoun", "3p", "pl"]}
+    ],
+    "concord": [
+      {"English": "the Empire", "Ghor": "fu.la.dis"},
+      {"English": "is killing", "Ghor": "bʁon gas.tam"},
+      {"English": "them", "Ghor": "sim"}
+    ]
   },
   {
     "code": "4.29",
     "timestamp": "33:50",
     "english": "The Empire is killing us.",
-    "gloss": "",
     "ghor": "naʃ fu.la.dis bʁon gas.tam",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "the", "feature": ["article", "definite"]},
+      {"lemma": "empire", "feature": ["noun", "sg"]},
+      {"lemma": "to kill", "feature": ["verb", "3p", "sg", "present"]},
+      {"lemma": "us", "feature": ["pronoun", "1p", "pl"]}
+    ],
+    "concord": [
+      {"English": "the Empire", "Ghor": "fu.la.dis"},
+      {"English": "is killing", "Ghor": "bʁon gas.tam"},
+      {"English": "us", "Ghor": "naʃ"}
+    ]
   },
   {
     "code": "4.30",
     "timestamp": "33:53",
     "english": "and you’re letting it happen",
-    "gloss": "and you it allow",
     "ghor": "ɛ vaʃ da.lam ku.va.ʁɛn",
-    "orthography": "et voche delamme couvaren",
-    "commentary": "Serafina: this is the only instance so far where we seem to have a formal ‘you’ in /vaʃ/. All the other cases of ‘you’ seem to use /ti/. It would make sense that Ghor has a T/V distinction like French, but it doesn’t seem as consistent. It seems reasonable to assume that /ku.va.ʁɛn/ is a verb like ‘permit’ or ‘allow’. Later note: we’ve seen /vaʃ/ a few times now, but it seems very inconsistent in when it is used. Enza uses it to her own father Rylanz, but others use /tɛm/ to Rylanz. So who knows what the deal is here."
+    "features": [
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "you", "feature": ["pronoun", "2p", "pl"]},
+      {"lemma": "to let", "feature": ["verb", "2p", "pl", "present"]},
+      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]},
+      {"lemma": "to happen", "feature": ["verb", "infinitive"]}
+    ],
+    "concord": [
+      {"English": "and", "Ghor": "ɛ"},
+      {"English": "you", "Ghor": "vaʃ"},
+      {"English": "are letting it happen", "Ghor": "[da.lam ku.va.ʁɛn]"}
+    ]
   },
   {
     "code": "4.31",
     "timestamp": "34:02",
     "english": "Calmly!",
-    "gloss": "",
     "ghor": "las.tym",
-    "orthography": "lasse tume",
-    "commentary": "Serafina: One word or two? Also, does anyone else hear a slight /lə/ sound at the end of this word? It’s hard to hear because someone else comes shouting in at that moment but I swear it sounds like there’s a little /lə/ there, but I’m not confident enough about it to add it."
+    "features": [
+      {"lemma": "calmly", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "calmly", "Ghor": "[las.tym]"}
+    ]
   },
   {
     "code": "4.32",
     "timestamp": "34:04",
     "english": "Let’s have order.",
-    "gloss": "to us order",
     "ghor": "i naʃ pʁo.bi.kɔʁ",
-    "orthography": "i nache probicor",
-    "commentary": "Serafina: It seems like ‘let’s do’ constructions in Ghor are built either by simply using /naʃ/, or a more ‘full’ form of /i naʃ/."
+    "features": [
+      {"lemma": "to have", "feature": ["verb", "hortative"]},
+      {"lemma": "order", "feature": ["noun", "sg"]}
+    ],
+    "concord": [
+      {"English": "let's have", "Ghor": "[i naʃ]"},
+      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}      
+    ]
   },
   {
     "code": "4.33",
     "timestamp": "34:11",
     "english": "Let’s have order.",
-    "gloss": "",
     "ghor": "i naʃ pʁo.bi.kɔʁ",
-    "orthography": "i nache probicor",
-    "commentary": ""
+    "features": [
+      {"lemma": "to have", "feature": ["verb", "hortative"]},
+      {"lemma": "order", "feature": ["noun", "sg"]}
+    ],
+    "concord": [
+      {"English": "let's have", "Ghor": "[i naʃ]"},
+      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}      
+    ]
   },
   {
     "code": "4.34",
     "timestamp": "34:15",
-    "english": "…steal a neighbourhood",
-    "gloss": "",
+    "english": "… steal a neighbourhood",
     "ghor": "laɪ ɛs tom rɛʒ",
-    "orthography": "",
-    "commentary": "Serafina: Not really sure here. We have /laj/ meaning ‘all’ or ‘every’, but that doesn’t seem apparent in translation. It might be that the word is /laj.ɛs/ (steal), leaving /tom.ʁɛʒ/ as ‘neighbourhood’, which would be my pick for contested options."
+    "features": [
+      {"lemma": "to steal", "feature": ["verb"]},
+      {"lemma": "a", "feature": ["article", "indefinite"]},
+      {"lemma": "neighbourhood", "feature": ["noun", "sg"]}
+    ],
+    "concord": [
+      {"English": "steal", "Ghor": "[…]"},
+      {"English": "a neighbourhood", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.35",
     "timestamp": "34:17",
     "english": "Move the people into boxes.",
-    "gloss": "",
-    "ghor": "dʒa.kɛm su.ə prõ.ka fɛlf",
-    "orthography": "jaqueme souer pron ca felf",
-    "commentary": "Serafina: I thought Jaqueme provided in subtitles at the end was a person’s name – no, it must be ‘move’. By his intonation, I assume /sjuʁ.pʁɔ̃/ is a single word meaning ‘people’, leaving /ka/ as the preposition for ‘into’. Turns out I was wrong. In 8.18, Enza clearly says /su.ə/ meaning ‘people’. Now the question is whether ‘into’ is simply /ka/ and /pʁõ/ is a mystery, or the preposition is /pʁõ.ka/, which would be strange as a single word. Also prepositions rarely have two parts, though not impossible ‘out of’."
+    "ghor": "ʒa.kɛm su.ə prõ.ka fɛlf",
+    "features": [
+      {"lemma": "to move", "feature": ["verb"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "people", "feature": ["noun"]},
+      {"lemma": "into", "feature": ["preposition"]},
+      {"lemma": "box", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "move", "Ghor": "[ʒa.kɛm]"},
+      {"English": "the people", "Ghor": "[su.ə]"},
+      {"English": "into boxes", "Ghor": "[prõ.ka fɛlf]"}
+    ]
   },
   {
     "code": "4.36",
     "timestamp": "34:19",
     "english": "Put the boxes downwind from dust.",
-    "gloss": "",
     "ghor": "sa.ko fɛlf vo.fø dan vɛlt",
-    "orthography": "sacour felf vaufeux dan velte",
-    "commentary": "Serafina: process of elimination makes this a fairly confident guess, since we already know /fɛlf/ and /dan/"
+    "features": [
+      {"lemma": "to put", "feature": ["verb"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "box", "feature": ["noun","sg"]},
+      {"lemma": "downwind", "feature": ["adverb"]},
+      {"lemma": "from", "feature": ["preposition"]},
+      {"lemma": "dust", "feature": ["noun"]}
+    ],
+    "concord": [
+      {"English": "put the boxes", "Ghor": "[sa.ko fɛlf]"},
+      {"English": "downwind", "Ghor": "[vo.fø]"},
+      {"English": "from", "Ghor": "dan"},
+      {"English": "dust", "Ghor": "vɛlt"}
+    ]
   },
   {
     "code": "4.37",
     "timestamp": "34:21",
     "english": "You’ll be spitting all day long.",
-    "gloss": "",
     "ghor": "ʃnar.gɛz taj tan",
-    "orthography": "____ taï tâne",
-    "commentary": "Serafina: as we get in 4.45, /taj/ seems to mean ‘all’ here, so /ta:n/ or /tan/ must be ‘day’. I’m probably ready to accept /ʃnaʁ.gɛz/ as ‘spitting’ by elimination."
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "to spit", "feature": ["verb","2p","future","progressive"]},
+      {"lemma": "all day long", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "you’ll be spitting", "Ghor": "[ʃnar.gɛz]"},
+      {"English": "all day long", "Ghor": "[taj tan]"}
+    ]
   },
   {
     "code": "4.38",
     "timestamp": "34.23",
     "english": "Citizen Lezine!",
-    "gloss": "",
     "ghor": "lɛ.tʁa lɛ.zin",
-    "orthography": "létrat Lezine",
-    "commentary": ""
+    "features": [
+      {"lemma": "citizen", "feature": ["noun","sg"]},
+      {"lemma": "Lezine", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "citizen", "Ghor": "lɛ.tʁa"},
+      {"English": "Lezine", "Ghor": "lɛ.zin"}
+    ]
   },
   {
     "code": "4.39",
     "timestamp": "34:24",
     "english": "And then, at night",
-    "gloss": "",
     "ghor": "ɛ si sɛ mun",
-    "orthography": "et si, ce moun",
-    "commentary": "Serafina: fairly reasonable to deduce, knowing that /e/ is ‘and’ and /mun/ is ‘night’, that the other words line up with the English translation"
+    "features": [
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "then", "feature": ["adverb"]},
+      {"lemma": "at", "feature": ["preposition"]},
+      {"lemma": "night", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "and", "Ghor": "ɛ"},
+      {"English": "then", "Ghor": "[si]"},
+      {"English": "at", "Ghor": "[sɛ]"},
+      {"English": "night", "Ghor": "mun"}      
+    ]
   },
   {
     "code": "4.40",
     "timestamp": "34:25",
     "english": "when we’re trying to sleep… when we try to forget",
-    "gloss": "",
     "ghor": "vla pɛ.naʒ tyn.kɔʁ, vla pɛ.naʒ tɔʁ.de",
-    "orthography": "vla penage tuncor, vla penage torder",
-    "commentary": "Serafina: this one is quite easy to analyse given the repeating structure."
+    "features": [
+      {"lemma": "when", "feature": ["conjunction"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to try", "feature": ["verb","1p","pl","present","progressive"]},
+      {"lemma": "to sleep", "feature": ["verb","infinitive"]},
+      {"lemma": "when", "feature": ["conjunction"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to try", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "to forget", "feature": ["verb","infinitive"]}
+    ],
+    "concord": [
+      {"English": "when", "Ghor": "vla"},
+      {"English": "we’re trying", "Ghor": "pɛ.naʒ"},
+      {"English": "to sleep", "Ghor": "tyn.kɔʁ"},
+      {"English": "when", "Ghor": "vla"},
+      {"English": "we try", "Ghor": "pɛ.naʒ"},
+      {"English": "to forget", "Ghor": "tɔʁ.de"}
+    ]
   },
   {
     "code": "4.41",
     "timestamp": "34:28",
     "english": "Our city…",
-    "gloss": "",
     "ghor": "na gat",
-    "orthography": "na gatte",
-    "commentary": "Serafina: presuming /na/ is possessive of /naʃ/"
+    "features": [
+      {"lemma": "our", "feature": ["pronoun","1p","pl","possessive"]},
+      {"lemma": "city", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "our city", "Ghor": "[na gat]"}
+    ]
   },
   {
     "code": "4.42",
     "timestamp": "34:29",
     "english": "is being destroyed!",
-    "gloss": "",
-    "ghor": "su biz dagøl??",
-    "orthography": "sou bi(z) dageul?",
-    "commentary": "Serafina: it would make sense if /biz/ is a form of /bi/ - perhaps a continuous sense, but there’s no indication that verbs have forms in Ghor. Alternatively, the /z/ belongs to the next part, but that creates a very odd consonant cluster for a language based on French phonology. Probably can presume /da.gøl/ is something about destruction or destroying."
+    "ghor": "su biz dagøl",
+    "features": [
+      {"lemma": "to destroy", "feature": ["verb","3p","sg","present","progressive","passive"]}
+    ],
+    "concord": [
+      {"English": "is being destroyed", "Ghor": "[su biz dagøl]"}
+    ]
   },
   {
     "code": "4.43",
     "timestamp": "34:31",
     "english": "let’s have order",
-    "gloss": "",
     "ghor": "i naʃ pʁo.bi.kɔʁ",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "to have", "feature": ["verb","hortative"]},
+      {"lemma": "order", "feature": ["noun"]}
+    ],
+    "concord": [
+      {"English": "let’s have", "Ghor": "[i naʃ]"},
+      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}
+    ]
   },
   {
     "code": "4.44",
     "timestamp": "34:34",
     "english": "we’ve got transports",
-    "gloss": "",
     "ghor": "i naʃ pø.ta.mɛ",
-    "orthography": "i nache peutamé",
-    "commentary": "Serafina: We’ve seen how /i naʃ/ creates ‘have’, so /pø.ta.mɛ/ must be transports."
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to have", "feature": ["verb","present","1p","pl"]},
+      {"lemma": "transport", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "we’ve got", "Ghor": "[i naʃ]"},
+      {"English": "transports", "Ghor": "[pø.ta.mɛ]"}
+    ]
   },
   {
     "code": "4.45",
     "timestamp": "34:35",
     "english": "Convoys – rumbling all night long…",
-    "gloss": "",
-    "ghor": "i (ʃɛ.sɛd??) al taj mun",
-    "orthography": "i chessette al taï moun",
-    "commentary": "Serafina: /ʃɛ.sɛd/ must convey the meaning of convoys or rumbling, but impossible to know which"
+    "ghor": "i ʃɛ.sɛd al taj mun",
+    "features": [
+      {"lemma": "convoy", "feature": ["noun","pl"]},
+      {"lemma": "to rumble", "feature": ["verb","participle","active"]},
+      {"lemma": "all night long", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "convoys – rumbling", "Ghor": "[i ʃɛ.sɛd al]"},
+      {"English": "all night long", "Ghor": "[taj mun]"}
+    ]
   },
   {
     "code": "4.46",
     "timestamp": "34:36",
     "english": "…racing through our streets",
-    "gloss": "",
     "ghor": "te.ha spu na daʃ",
-    "orthography": "Teha spou na dâche.",
-    "commentary": "Serafina: fair to assume /te.ha/ is racing or moving fast, and /spu/ is ‘through’, since we know /na/ is ‘our’. /daʃ/ is a tricky one. We hear it later with the verb /ba.lɔʁ/  /daʃ ba.lɔʁ/, and the translation is given as ‘go home’. So it’s possible that /daʃ/ here means ‘houses’ or ‘homes’, and Lezine is saying that the convoys are racing through our homes – as in, between them."
+    "features": [
+      {"lemma": "to race", "feature": ["verb","participle","active"]},
+      {"lemma": "through", "feature": ["preposition"]},
+      {"lemma": "our", "feature": ["pronoun","1p","pl","possessive"]},
+      {"lemma": "street", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "racing", "Ghor": "[te.ha]"},
+      {"English": "through", "Ghor": "[spu]"},
+      {"English": "our", "Ghor": "[na]"},
+      {"English": "streets", "Ghor": "[daʃ]"}
+    ]
   },
   {
     "code": "4.47",
     "timestamp": "34:38",
     "english": "Horns blowing!",
-    "gloss": "",
     "ghor": "bʁajd fi.ʃi",
-    "orthography": "braïde fischi",
-    "commentary": "Serafina: assuming for these next two entries that the word order is noun > verb, otherwise Ghor would be a very confusing"
+    "features": [
+      {"lemma": "horn", "feature": ["noun","pl"]},
+      {"lemma": "to blow", "feature": ["verb","participle","active"]}
+    ],
+    "concord": [
+      {"English": "horns", "Ghor": "[bʁajd]"},
+      {"English": "blowing", "Ghor": "[fi.ʃi]"}
+    ]
   },
   {
     "code": "4.48",
     "timestamp": "34:39",
     "english": "Engines whining!",
-    "gloss": "",
     "ghor": "po.dam li.zɛ",
-    "orthography": "poudamme liser",
-    "commentary": "Serafina: Again, just making assumptions off the most likely case."
+    "features": [
+      {"lemma": "eingine", "feature": ["noun","pl"]},
+      {"lemma": "to whine", "feature": ["verb","participle","active"]}
+    ],
+    "concord": [
+      {"English": "engines", "Ghor": "[po.dam]"},
+      {"English": "whining", "Ghor": "[li.zɛ]"}
+    ]
   },
   {
     "code": "4.49",
     "timestamp": "34:41",
     "english": "What?!",
-    "gloss": "",
     "ghor": "vu.da",
-    "orthography": "vouda",
-    "commentary": ""
+    "features": [
+      {"lemma": "what", "feature": ["pronoun","interrogative"]}
+    ],
+    "concord": [
+      {"English": "what", "Ghor": "vu.da"}
+    ]
   },
   {
     "code": "4.50",
     "timestamp": "34:42",
     "english": "Give someone else a chance.",
-    "gloss": "",
     "ghor": "po ʃvɛl mis.ɛl maz",
-    "orthography": "pau chvel miselle maze",
-    "commentary": "Serafina: this is interesting because /maz/ means ‘new’, which means the literal translation might be more like ‘let speak someone new’. If we can’t find any evidence for alternatives, that would be my proposal for ‘best guess’."
+    "features": [
+      {"lemma": "to give", "feature": ["verb","imperative"]},
+      {"lemma": "someone", "feature": ["pronoun","indefinite"]},
+      {"lemma": "else", "feature": ["adverb"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "chance", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "give", "Ghor": "[…]"},
+      {"English": "someone else", "Ghor": "[…]"},
+      {"English": "a chance", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.51",
     "timestamp": "34:45",
     "english": "Settle down!",
-    "gloss": "",
     "ghor": "al.tɛn xø",
-    "orthography": "altenne heu",
-    "commentary": "Serafina: probably two words here, for phonological reasons."
+    "features": [
+      {"lemma": "to settle", "feature": ["verb","imperative"]},
+      {"lemma": "down", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "settle down", "Ghor": "[al.tɛn xø]"}
+    ]
   },
   {
     "code": "4.52",
     "timestamp": "34:46",
     "english": "They’ll make a prison of Palmo before they’re done.",
-    "gloss": "",
     "ghor": "sim fo.ʒə.ʁo bi.lɛ dan pal.mo, a.fi sim mɛ̃.ty",
-    "orthography": "Sim fôgereau bilet dan Palmo, afille sim mettu.",
-    "commentary": "Serafina: we know /sim/, /dan/, and /a.fi/. I’m not sure whether /foʒəʁo/ is ‘prison’ or ‘make’ – it’s possible here that we’re using a SOV word order (which happens elsewhere). Looking at the French-style orthography, it feels like fôgereau would be more likely a noun than a verb, but not sure. We’ll probably never know without the source, so I’ll go on that assumption. \nThis could also be related to ‘semade’ or something - which means done. Or it could be more like ‘finish’, which is what the English ‘done’ is doing here anyway."
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
+      {"lemma": "to make", "feature": ["verb","3p","pl","future"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "prison", "feature": ["noun","sg"]},
+      {"lemma": "of", "feature": ["preposition"]},
+      {"lemma": "Palmo", "feature": ["name"]},
+      {"lemma": "before", "feature": ["preposition"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","pl","present"]},
+      {"lemma": "to do", "feature": ["verb","participle","passive"]}
+    ],
+    "concord": [
+      {"English": "they", "Ghor": "sim"},
+      {"English": "will make", "Ghor": "[fo.ʒə.ʁo]"},
+      {"English": "a prison", "Ghor": "[bi.lɛ]"},
+      {"English": "of", "Ghor": "dan"},
+      {"English": "Palmo", "Ghor": "pal.mo"},
+      {"English": "before", "Ghor": "a.fi"},
+      {"English": "they", "Ghor": "sim"},
+      {"English": "are done", "Ghor": "mɛ̃.ty"}
+    ]
   },
   {
     "code": "4.53",
     "timestamp": "34:51",
     "english": "Mark my words.",
-    "gloss": "",
     "ghor": "ɛ tɔʁ dig nju.aʁd",
-    "orthography": "et tor digge niuard",
-    "commentary": "Serafina: it would be strange if the possessive form of /mo/ is /tɔʁ/."
+    "features": [
+      {"lemma": "to mark", "feature": ["verb","imperative"]},
+      {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "word", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "mark", "Ghor": "[…]"},
+      {"English": "my", "Ghor": "[…]"},
+      {"English": "words", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.54",
     "timestamp": "34:52",
     "english": "please",
-    "gloss": "",
     "ghor": "dib",
-    "orthography": "dibbe",
-    "commentary": ""
+    "features": [
+      {"lemma": "please", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "please", "Ghor": "[dib]"}
+    ]
   },
   {
     "code": "4.55",
     "timestamp": "34:53",
     "english": "Mark my words!",
-    "gloss": "",
     "ghor": "ɛ tɔʁ dig nju.aʁd",
-    "orthography": "et tor digge niuard",
-    "commentary": ""
+    "features": [
+      {"lemma": "to mark", "feature": ["verb","imperative"]},
+      {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "word", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "mark", "Ghor": "[…]"},
+      {"English": "my", "Ghor": "[…]"},
+      {"English": "words", "Ghor": "[…]"}
+    ]
   },
   {
     "code": "4.56",
     "timestamp": "34:55",
     "english": "thank you, thank you",
-    "gloss": "",
     "ghor": "ɛn.dɛb, ɛn.dɛb",
-    "orthography": "enne debbe",
-    "commentary": ""
+    "features": [
+      {"lemma": "thank you", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "thank you", "Ghor": "[ɛn.dɛb]"}
+    ]
   },
   {
     "code": "4.57",
     "timestamp": "35:29",
     "english": "We were promised, …",
-    "gloss": "",
     "ghor": "naʃ don.si.mu",
-    "orthography": "nache daunsimou",
-    "commentary": ""
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to promise", "feature": ["verb","1p","pl","past","passive"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "were promised", "Ghor": "[don.si.mu]"}
+    ]
   },
   {
     "code": "4.58",
     "timestamp": "35:30",
     "english": "…there would be no shadow cast from the new building onto the memorial",
-    "gloss": "",
     "ghor": "mu kum klɛʒ.ton dan maz ig.lõ tɛlʃ xɛm",
-    "orthography": "mou coum clêgetonne dan mâze iglon telch hemme",
-    "commentary": "Serafina: We have the word memorial again in Episode 8."
+    "features": [
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","past","conditional"]},
+      {"lemma": "no", "feature": ["determiner","negative"]},
+      {"lemma": "shadow", "feature": ["noun","sg"]},
+      {"lemma": "to cast", "feature": ["verb","participle","passive"]},
+      {"lemma": "from", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "new", "feature": ["adjective"]},
+      {"lemma": "building", "feature": ["noun","sg"]},
+      {"lemma": "onto", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "memorial", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "there would be", "Ghor": "[mu]"},
+      {"English": "no", "Ghor": "kum"},
+      {"English": "shadow cast", "Ghor": "[klɛʒ.ton]"},
+      {"English": "from", "Ghor": "dan"},
+      {"English": "new", "Ghor": "maz"},
+      {"English": "the building", "Ghor": "[ig.lõ]"},
+      {"English": "onto the memorial", "Ghor": "[tɛlʃ xɛm]"}
+    ]
   },
   {
     "code": "4.59",
     "timestamp": "35:40",
     "english": "We were promised!",
-    "gloss": "",
     "ghor": "naʃ don.si.mu",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to promise", "feature": ["verb","1p","pl","past","passive"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "were promised", "Ghor": "[don.si.mu]"}
+    ]
   },
   {
     "code": "4.60",
     "timestamp": "35:41",
     "english": "yes, yes",
-    "gloss": "",
     "ghor": "dʒa, dʒa",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "yes", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "yes", "Ghor": "[dʒa]"}
+    ]
   },
   {
     "code": "4.61",
     "timestamp": "35:42",
     "english": "it was agreed to",
-    "gloss": "",
     "ghor": "fig ka.zɔʁ",
-    "orthography": "figue cazor",
-    "commentary": ""
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to agree", "feature": ["verb","3p","sg","past","passive"]},
+      {"lemma": "to", "feature": ["preposition"]}
+    ],
+    "concord": [
+      {"English": "it was", "Ghor": "fig"},
+      {"English": "agreed to", "Ghor": "[ka.zɔʁ]"}
+    ]
   },
   {
     "code": "4.62",
     "timestamp": "35:52",
     "english": "It’s a fortress.",
-    "gloss": "",
     "ghor": "i ɾan bi kɛl.ka.zad",
-    "orthography": "",
-    "commentary": "Serafina: the ‘i’ part here makes me think it might be a possessive form, but I’m not sure about /ɾan/ - it really sounds like a tapped ‘r’ but it would be weird. Maybe it’s /l/?"
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "fortress", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "it’s", "Ghor": "[bi]"},
+      {"English": "a fortress", "Ghor": "[kɛl.ka.zad]"}
+    ]
   },
   {
     "code": "4.63",
     "timestamp": "35:53",
     "english": "You had your time! Lezine!",
-    "gloss": "",
     "ghor": "vɛn.gil ti kɔʁ",
-    "orthography": "",
-    "commentary": "Serafina: he definitely says /ti/ here and not /tɛm/, which makes me think it might be the possessive form ‘your’. That also conforms to the fact that they do sometimes just omit subject pronouns from sentences.)"
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p","sg","nominative"]},
+      {"lemma": "to have", "feature": ["verb","2p","sg","past"]},
+      {"lemma": "your", "feature": ["pronoun","2p","sg","possessive"]},
+      {"lemma": "time", "feature": ["noun","sg"]},
+      {"lemma": "Lezine", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "you had", "Ghor": "[…]"},
+      {"English": "your time", "Ghor": "[…]"},
+      {"English": "Lezine", "Ghor": ""}
+    ]
   },
   {
     "code": "4.64",
     "timestamp": "35:55",
     "english": "They are building a fortress.",
-    "gloss": "",
     "ghor": "vu.ʒɛ sim kɛl.ka.zad",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
+      {"lemma": "to build", "feature": ["verb","3p","pl","present","progressive"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "fortress", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "they", "Ghor": "sim"},
+      {"English": "are building", "Ghor": "[vu.ʒɛ]"},
+      {"English": "a fortress", "Ghor": "[kɛl.ka.zad]"}
+    ]
   },
   {
     "code": "4.65",
     "timestamp": "35:57",
     "english": "Enough!",
-    "gloss": "",
     "ghor": "lid",
-    "orthography": "lied",
-    "commentary": "Serafina: Pronunciation of this word seems to be a bit inconsistent. Sometimes they say /lid/, sometimes /lidz/, sometimes /li.də/."
+    "features": [
+      {"lemma": "enough", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "enough", "Ghor": "[lid]"}
+    ]
   },
   {
     "code": "4.66",
     "timestamp": "35:59",
     "english": "We will have order!",
-    "gloss": "",
     "ghor": "i naʃ pʁo.bi.kɔʁ",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to have", "feature": ["verb","1p","pl","future"]},
+      {"lemma": "order", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "we will have", "Ghor": "[i naʃ]"},
+      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}
+    ]
   },
   {
     "code": "4.67",
     "timestamp": "36:00",
     "english": "They’re building an armoury in the centre of Palmo, and you know it.",
-    "gloss": "",
     "ghor": "i sim das.von sin pal.mo, ɛ da.lam vaʃ kʁo.g",
-    "orthography": "i sim dasvance sin Palmo, et dalamme vache crogue",
-    "commentary": "Serafina: I think this makes most sense if the construction is more like /i sim/ (they have), then /das.võ/ (armoury), /sin pal.mo/ (in Palmo), /e dilam vaʃ kʁo.g/ (and it you know). I used to have this as /kʁo.gɛ/, but with other cases of the verb now, I guess that sound at the end is just the result of releasing the /g/ sound and meaningless."
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
+      {"lemma": "to build", "feature": ["verb","3p","pl","present","progressive"]},
+      {"lemma": "an", "feature": ["article","indefinite"]},
+      {"lemma": "armory", "feature": ["noun","sg"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "centre", "feature": ["noun","sg"]},
+      {"lemma": "of", "feature": ["preposition"]},
+      {"lemma": "Palmo", "feature": ["name"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "you", "feature": ["pronoun","2p","nominative"]},
+      {"lemma": "to know", "feature": ["verb","2p","present"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","accusative"]}
+    ],
+    "concord": [
+      {"English": "they’re building an armoury", "Ghor": "[i sim das.von]"},
+      {"English": "in the centre of", "Ghor": "[sin]"},
+      {"English": "Palmo", "Ghor": "[pal.mo]"},
+      {"English": "and", "Ghor": "ɛ"},
+      {"English": "you", "Ghor": "[vaʃ]"},
+      {"English": "know", "Ghor": "[kʁog]"},
+      {"English": "it", "Ghor": "[da.lam]"}
+    ]
   },
   {
     "code": "4.68",
     "timestamp": "36:03",
     "english": "really?",
-    "gloss": "",
     "ghor": "ɛm.blo",
-    "orthography": "emblau",
-    "commentary": ""
+    "features": [
+      {"lemma": "really", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "really", "Ghor": "[ɛm.blo]"}
+    ]
   },
   {
     "code": "4.69",
     "timestamp": "36:04",
-    "english": "really, lezine?",
-    "gloss": "",
+    "english": "really, Lezine?",
     "ghor": "em.blo, le.zin",
-    "orthography": "emblau, Lezine",
-    "commentary": ""
+    "features": [
+      {"lemma": "really", "feature": ["interjection"]},
+      {"lemma": "Lezine", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "really", "Ghor": "[em.blo]"},
+      {"English": "Lezine", "Ghor": "le.zin"}
+    ]
   },
   {
     "code": "4.70",
     "timestamp": "36:08",
     "english": "That’s actually something we don’t know.",
-    "gloss": "",
     "ghor": "da.lam bi a un naʃ kʁog (kum?)",
-    "orthography": "",
-    "commentary": "Serafina: I’m really confused. We have seemingly three different words for ‘know’ - /so.mɛl/ in 4.8, /kʁo.gɛ/ in 4.67, and /kʁo.kul/ here in 4.70. The weirdest thing is that here it should be ‘don’t know’, so I expect /kum/, but there appears to be no negation. — Ah, now that we have 7.10, it makes a strong case for /kʁog/, although it doesn’t explain the strange sounds in 4.70 and 4.67. This one could be explained if it’s /kʁog kum/ (know nothing), since the sentence needs a negative here."
+    "features": [
+      {"lemma": "that", "feature": ["pronoun","demonstrative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "actually", "feature": ["adverb"]},
+      {"lemma": "something", "feature": ["pronoun","indefinite"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to know", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "not", "feature": ["particle","negative"]}
+    ],
+    "concord": [
+      {"English": "that", "Ghor": "da.lam"},
+      {"English": "is", "Ghor": "bi"},
+      {"English": "actually something", "Ghor": "[a un]"},
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "don’t", "Ghor": "kum"},
+      {"English": "know", "Ghor": "kʁog"}
+    ]
   },
   {
     "code": "4.71",
     "timestamp": "36:11",
     "english": "At this point we have nothing but rumours.",
-    "gloss": "",
     "ghor": "a.dɛlv i naʃ kum.wa tɔʁ.kliʃ",
-    "orthography": "adelve i nache coumois tor cliche",
-    "commentary": "Serafina: now we also have /kum.wa/ in 7.13, so probably that’s nothing – makes sense that the general negation word and nothing would be different but related."
+    "features": [
+      {"lemma": "at", "feature": ["preposition"]},
+      {"lemma": "this", "feature": ["determiner"]},
+      {"lemma": "point", "feature": ["noun","sg"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to have", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "nothing", "feature": ["pronoun","indefinite","negative"]},
+      {"lemma": "but", "feature": ["conjunction"]},
+      {"lemma": "rumour", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "at this point", "Ghor": "[a.dɛlv]"},
+      {"English": "we have", "Ghor": "i naʃ"},
+      {"English": "nothing", "Ghor": "kum.wa"},
+      {"English": "but rumours", "Ghor": "[tɔʁ.kliʃ]"}
+    ]
   },
   {
     "code": "4.72",
     "timestamp": "36:23",
     "english": "there you are",
-    "gloss": "",
-    "ghor": "aʃ bi pel",
-    "orthography": "",
-    "commentary": "Serafina: we hear the same thing in 8.7, but in that one it doesn’t sound like there’s an /l/ on the end, but here it definitely does. I used to think they might be saying /vaʃ/ as well, but in both I don’t hear any /v/, only /aʃ/. ItReachesOut said that they saw Enza’s mouth make a V shape here, so let’s go with /vaʃ/."
+    "ghor": "vaʃ bi pel",
+    "features": [
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "to be", "feature": ["verb","2p","present"]}
+    ],
+    "concord": [
+      {"English": "there", "Ghor": "[pel]"},
+      {"English": "you", "Ghor": "[vaʃ]"},
+      {"English": "are", "Ghor": "bi"}
+    ]
   },
   {
     "code": "4.73",
     "timestamp": "26:25",
     "english": "Your father is having fun.",
-    "gloss": "",
     "ghor": "i saj lon ma.gõ",
-    "orthography": "",
-    "commentary": "Serafina: I’m guessing, based on the /i saj/, that they are literally saying ‘the father has/possesses fun’. I wondered if /lo(n)/ here could actually be connected to what I heard as /lof sik/ back in 4.17"
+    "features": [
+      {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "father", "feature": ["noun","sg"]},
+      {"lemma": "to have", "feature": ["verb","3p","sg","present","progressive"]},
+      {"lemma": "fun", "feature": ["noun"]}
+    ],
+    "concord": [
+      {"English": "your", "Ghor": "[lon]"},
+      {"English": "father is having", "Ghor": "[i saj]"},
+      {"English": "fun", "Ghor": "[ma.gõ]"}
+    ]
   },
   {
     "code": "4.74",
     "timestamp": "36:26",
     "english": "it’s a nightmare",
-    "gloss": "",
     "ghor": "e u ʒi.ʒu",
-    "orthography": "",
-    "commentary": "Serafina: I can only guess that ‘nightmare’ is /ʒi.ʒu/ - not sure what the /e u/ is doing before it."
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "nightmare", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "it’s a nightmare", "Ghor": "[e u ʒi.ʒu]"}
+    ]
   },
   {
     "code": "4.75",
     "timestamp": "37:42",
     "english": "Father…",
-    "gloss": "",
     "ghor": "saj.jo",
-    "orthography": "saillau",
-    "commentary": "Serafina: The only time we hear /saj.jo/ is between Enza and her father Rylanz, so we can presume that this is some sort of child-parent form of address."
+    "features": [
+      {"lemma": "father", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "father", "Ghor": "[saj.jo]"}
+    ]
   },
   {
     "code": "4.76",
     "timestamp": "37:44",
     "english": "We should probably get going.",
-    "gloss": "",
     "ghor": "naʃ xod pʁi.kom pʁɛs.to",
-    "orthography": "nache hodde priquom prestau",
-    "commentary": "Serafina: 8.4 also has this as ‘get ready’, meaning /pʁi.kom/ is likely ‘probably’, and /xod/ is ‘should’"
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "should", "feature": ["verb","modal"]},
+      {"lemma": "probably", "feature": ["adverb"]},
+      {"lemma": "to get", "feature": ["verb","infinitive"]},
+      {"lemma": "to go", "feature": ["verb","participle","active"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "should", "Ghor": "[xod]"},
+      {"English": "probably", "Ghor": "[pʁi.kom]"},
+      {"English": "get going", "Ghor": "[pʁɛs.to]"}
+    ]
   },
   {
     "code": "4.77",
     "timestamp": "39:20",
     "english": "Till we meet again.",
-    "gloss": "",
     "ghor": "do naʃ ba.dɔ.ʁ i.nɛks",
-    "orthography": "dau nache bador i nexe",
-    "commentary": "Serafina: I’m curious what the /i/ is doing here. It pops up in some other unexpected places as well, even besides the possession ‘have’ construct."
+    "features": [
+      {"lemma": "till", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to meet", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "again", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "till", "Ghor": "do"},
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "meet", "Ghor": "ba.dɔ.ʁ"},
+      {"English": "again", "Ghor": "i.nɛks"}
+    ]
   },
   {
     "code": "4.78",
     "timestamp": "39:24",
     "english": "Till then",
-    "gloss": "till it again",
     "ghor": "do i.nɛks",
-    "orthography": "dau i nexe",
-    "commentary": ""
-  },
-  {
-    "code": "5.01",
-    "timestamp": "6:05",
-    "english": "Cut the signal!",
-    "gloss": "",
-    "ghor": "ska.ʁa bʁi.nõ",
-    "orthography": "scara brinon",
-    "commentary": "Serafina: I think, based on this and the following entry, that we can add these words. The only thing I’m not sure about is whether the /b/ is attached to the end of “scara” or the start of “rinon”."
-  },
-  {
-    "code": "5.02",
-    "timestamp": "6:06",
-    "english": "Shut it down! Cut it!",
-    "gloss": "",
-    "ghor": "ʃak\nchac\n\nWe can simply add this as a generally mild curse word I think.",
-    "orthography": "pɔ.ʒi kʁi.li.stan kaʁn   naʃ lo ke.be",
-    "commentary": "dan veg bi de.lam\n\n(note: also /veg/ in 7.11)"
-  },
-  {
-    "code": "5.06",
-    "timestamp": "10:16",
-    "english": "Morlana One.",
-    "gloss": "",
-    "ghor": "pa ba gɔd dan ma.de.vɔʁ  pʁe.ɔks mɔʁ.la.na",
-    "orthography": "kum fig stʁɛ fønd",
-    "commentary": "bønd fig gɛʁ.mɛd"
-  },
-  {
-    "code": "5.10",
-    "timestamp": "10:24",
-    "english": "Interesting.",
-    "gloss": "",
-    "ghor": "ɛ vul ʃi mi tam ka:ʁn pɛʁ mɔʁ.la.na wan \n\n(note: I wonder if /ʃi.mi.tam/ here is ‘friend’ by itself, or something like ‘comrade’. I also suspect that /pɛʁ/ is another preposition. unfortunately, the only other time I can find /pɛʁ/ is in 5.14 where it might form a phrase that means ‘apparently’, such as ‘according to people’)",
-    "orthography": "",
-    "commentary": "lo fym bi sɛlv gam bøln — fig tʁov ɛ.ta.ʒø"
-  },
-  {
-    "code": "5.12",
-    "timestamp": "10:31",
-    "english": "He was there for five years. He was a corporate cop.",
-    "gloss": "He/his ___ be five years ___ - was job corporate-cop",
-    "ghor": "Serafina: we have a second /gam/ and ‘year’ in Episode 7.8, so this makes me fairly sure this means ‘year’. I’m confused about the /bøln/ though – in 7.8 there is /bu.liz/, but there it’s ‘years ago’. Also, the lack of /fig/ in the first part means the English is not translating directly anyway, so we may be looking at Ghor-specific language features here. I think /sɛlv/ must be the number “five”. Also, given that “work” in French is “travail”, I think we can draw allusion to the word “tʁov” here. It could be either a verb or noun. That would leave /ɛ.ta.ʒø/ as a corporate cop, or something along those lines?",
-    "orthography": "su ɛl",
-    "commentary": ""
-  },
-  {
-    "code": "5.14",
-    "timestamp": "10:37",
-    "english": "Apparently his departure there was quite a scandal.",
-    "gloss": "",
-    "ghor": "persenne, tu seligane do figue smaque squelenu",
-    "orthography": "Serafina: “squelenu” sounds a bit like “scandal”. “Smaque” is probably “quite” in that case. “Persenne” also sounds a lot like “per se”, which isn’t the same meaning but it feels close to the meaning of “Apparently”.",
-    "commentary": "lo fig ʃu.bit"
-  },
-  {
-    "code": "5.16",
-    "timestamp": "10:43",
-    "english": "It’s better than that.",
-    "gloss": "",
-    "ghor": "fig ʃu.bit dan e sa ba",
-    "orthography": "ʃu.bit dan ɛ sa ba   ɛ gi.gon bɛl ka.ko.nɛz",
-    "commentary": "tʁeb  tʁeb"
-  },
-  {
-    "code": "5.20",
-    "timestamp": "10:55",
-    "english": "That would explain a great deal, wouldn’t it?",
-    "gloss": "",
-    "ghor": "da.lam kont bɔʁ",
-    "orthography": "",
-    "commentary": ""
-  },
-  {
-    "code": "5.21",
-    "timestamp": "19:43",
-    "english": "Look at this…",
-    "gloss": "",
-    "ghor": "lai pø.ta.mɛ",
-    "orthography": "lai sɛ.ʒy",
-    "commentary": "lai bi fɛ\n\n(note: 7.21 also has /fɛ/ as ‘here’)"
-  },
-  {
-    "code": "5.25",
-    "timestamp": "19:50",
-    "english": "Precise, aren’t they?",
-    "gloss": "",
-    "ghor": "stom boʁ bʁu.be(g?)",
-    "orthography": "vu.la bi da.lam — vu.la bi ma.sa.aʁ\nVoula bi dalamme? Vula bi MSR?\n\n(note: pretty strong evidence that /vu.la/ is ‘what’ in the sense of asking for or explaining the identity of something. Here in 5.27 used as a question adverb, and in 7.10 used as a conjunction.)",
-    "commentary": "ka ʁan bi big naz gʁon don.da"
-  },
-  {
-    "code": "5.29",
-    "timestamp": "19:58",
-    "english": "We need Leeza.",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "kø ʒo vødz mik ʁɛn bɛk iz waf",
-    "commentary": "Ceu-je veudz mik ren bek ize ouäve"
-  },
-  {
-    "code": "5.30",
-    "timestamp": "20:03",
-    "english": "It means the drivers need special clearance.",
-    "gloss": "",
-    "ghor": "le ʁu fɛst",
-    "orthography": "lø ʁo ti saj\n\n(note: I thought it was /dɛ saj/ but after seeing potential /ti/ for ‘your’ and listening to this again, it’s clearly /ti/. There’s our possessive ‘your’, then)",
-    "commentary": "a.fi naʃ ʁu skɛb.ʁɛn a.boʁ pʁi.ɛm"
-  },
-  {
-    "code": "5.34",
-    "timestamp": "25:37",
-    "english": "Neejon tea, please.",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": ""
-  },
-  {
-    "code": "6.01",
-    "timestamp": "19:36",
-    "english": "Enough from you.",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "mo hog vul kʁøf",
-    "commentary": "Mo hogue voulle creuf."
-  },
-  {
-    "code": "6.02",
-    "timestamp": "19:38",
-    "english": "I’ll say what I want.",
-    "gloss": "",
-    "ghor": "dib\n(this is very clearly heard)",
-    "orthography": "bi bu mɛ.gam po.vo han.du",
-    "commentary": "ta.zi ʃu pu"
-  },
-  {
-    "code": "6.06",
-    "timestamp": "38:44",
-    "english": "There was an accident.",
-    "gloss": "",
-    "ghor": "vu.da?",
-    "orthography": "sɛm fik sɛ so.lɛm bul.gɛʒ",
-    "commentary": "be lɔʁ — fig myl"
-  },
-  {
-    "code": "6.10",
-    "timestamp": "39:19",
-    "english": "Faster? Carefully? Go go go?",
-    "gloss": "",
-    "ghor": "da.lam (i te: ?)",
-    "orthography": "AUDIO",
-    "commentary": "aj an.ja — lo.ʁis, lo.ʁis, lo.ʁis"
-  },
-  {
-    "code": "6.12",
-    "timestamp": "40:58",
-    "english": "Hey! Hello – slow down, slow down, …",
-    "gloss": "",
-    "ghor": "Serafina: I guess we can easily add loriz to the dictionary.",
-    "orthography": "tɛm mik bi.noʁ ɛ ba.loʁ",
-    "commentary": "ɛ kum bit em sam pit     sil.mu ve no skɛ da.dɔʁ — skɛ da dɔʁ"
-  },
-  {
-    "code": "6.15",
-    "timestamp": "41:09",
-    "english": "Get the chob out of my way.",
-    "gloss": "",
-    "ghor": "mo tʁɛ.no fʁɛ.ʒɛk",
-    "orthography": "da.lam bi giz.mo",
-    "commentary": "sil.mu bi.nɔʁ ɛ ba.lɔʁ"
-  },
-  {
-    "code": "6.19",
-    "timestamp": "41:22",
-    "english": "It had better be a toy.",
-    "gloss": "",
-    "ghor": "il ma la stafsjon kø bɛl kɛ to ???? ket\n(extremely unclear part at the end",
-    "orthography": "da.lam bi ʃi giv.ʁɛn",
-    "commentary": "ba.loʁ"
-  },
-  {
-    "code": "6.23",
-    "timestamp": "41:31",
-    "english": "You dare point that thing at me?!",
-    "gloss": "",
-    "ghor": "ʒa.kem, ʒa.kem – lo stik sa.sɔʁ",
-    "orthography": "naʃ mik ba.lɔʁ   sim ʁo naʃ tel.po",
-    "commentary": ""
-  },
-  {
-    "code": "7.01",
-    "timestamp": "17:25",
-    "english": "Let’s make a decision.",
-    "gloss": "",
-    "ghor": "te la pon.dɔʁ a niz dɔʁ ma.dɛl bjom.bej (ø)",
-    "orthography": "tem kymy bas ʃʁit xon.gɔʁ",
-    "commentary": "fon.ta.lɛsk bi mu kaʁ bi vul di.kat\nFontalesque bi _____ bi _____"
-  },
-  {
-    "code": "7.05",
-    "timestamp": "17:35",
-    "english": "Peaceful resistance is not pretending.",
-    "gloss": "",
-    "ghor": "a laj fig bre.naʃ bi sɛl.mo poʃ fig ab sɛ.ʁe.fos",
-    "orthography": "sɛ.ʁɛ.fos\nSerefosse?",
-    "commentary": "naʃ fig skɛ.tan sɛ.ʁɛ.fos a do gam. bu.liz"
-  },
-  {
-    "code": "7.09",
-    "timestamp": "17:45",
-    "english": "To what purpose?",
-    "gloss": "",
-    "ghor": "naʃ kʁog vu.la fɔʁ\nNache crogue voula fort.",
-    "orthography": "sɛl.mo si.køʁ ɛ lo bʁaf",
-    "commentary": "da.lam bi veg fi kɛm bʁo\n\nSerafina: in 5.5 we also have /veg/ and ‘where’. Also, this could be /fig/ + /ɛm.bʁo/. I’ll come back to this."
-  },
-  {
-    "code": "7.13",
-    "timestamp": "17:53",
-    "english": "Have you learnt nothing?",
-    "gloss": "",
-    "ghor": "mo fig sku.be, nad bi bo nan sim naʃ go.da.lo\n\n(note: oh, this is an interesting sample! it tells us that Ghor certainly doesn’t have perfect aspect and uses past marker. I’m tempted to analyse /nad/ as a form  of /naʃ/, given that the following /bi/ is probably the verb ‘be, are’. Probably, then, /bo nan/ is something like ‘allow’, or ‘enable’. That’s the only way I can really imagine the semantic core meaning of the English translation being encoded in the Ghor given here.",
-    "orthography": "ten mik me bɔʁd",
-    "commentary": ""
-  },
-  {
-    "code": "7.15",
-    "timestamp": "17:58",
-    "english": "You have to listen.",
-    "gloss": "",
-    "ghor": "Serafina: Question is, is the word ‘listen’ /me.bɔʁd/, or is she actually saying /me/ as a sort of object case of /mo/ and the verb is simply /bɔʁd/? 8.14 also has /bɔʁ(du)/, so we might be onto something with this verb.",
-    "orthography": "viʁ kum tem bjed dop ti.kil su.kɛʁ to mas tek vaʃ\n\n(note: okay, /tɛm/ sounded really clear here. I’m going with that as the sound for ‘you’. Given how closely Ghor follows French phonology, we can assume /tek/ and /vaʃ/ are separate, but maybe /mas/ and /tek/ are one word. \n\nOh, I found a repeat! The word sounding like German “wir” is here and in 8.16, both with “can’t”, and also “kum” adding the negation. So I guess we found the word for “can”.",
-    "commentary": "li.dɛ"
-  },
-  {
-    "code": "7.18",
-    "timestamp": "18:09",
-    "english": "Look at us.",
-    "gloss": "",
-    "ghor": "kont vul   se.mad sim naʃ\nCont voulle semade sim nache.\n\n(note: since French phonology doesn’t have natural words starting with /sm/, I’m guessing there’s a very tiny elided vowel sound in between. I think the audio bears this out too.",
-    "orthography": "naʃ li.ɔʁ.gɛ",
-    "commentary": "sø bi fɛ ma.dal   naʃ tʁom.bãnt\n\n(note: /ma.dal/ is already established in 4.18 as meaning ‘right now’ – interestingly they don’t provide that in the English translation but it fits here.)"
-  },
-  {
-    "code": "7.22",
-    "timestamp": "18:22",
-    "english": "I don’t care…",
-    "gloss": "",
-    "ghor": "tem da.bɔʁ   sa lymz  sin plaʒz\ntem dabour\n\n(note: 4.46 seems quite conclusive for /daʃ/ being ‘street’, but /plaʒ/ here would make more sense – being quite similar to English ‘plaza’ or French ‘beach’. Listening to both again closely, they’re definitely different. Hard to say if /sa.lymz/ refers simply to rose petals, or if this is two words including a verb + noun. /sa/ would be quite a short verb, but not impossible.",
-    "orthography": "ʁis kɛl.kɔʁ sin kum.bons\nrice quelcour sin coumbônce\n\n(note: we haven’t seen ‘or’ yet – not sure if it’s /ʁi skɛl.kɔʁ/ or /ʁis kɛl.kɔʁ/, but French phonology would probably prefer the latter.",
-    "commentary": "mo swa kom bɛ̃(n)\n\n(note: so in conjunction with 7.22, we should conclude that ‘don’t care’ is /swa/. What /kom bɛ̃(n)/ is, I’m not sure – perhaps an adverb like ‘at all’, as in, ‘I don’t care at all’.)"
-  },
-  {
-    "code": "7.26",
-    "timestamp": "18:38",
-    "english": "We are the Ghor.",
-    "gloss": "",
-    "ghor": "di lan mo.lan vo laj\n\n(note: ’if’ is a tricky one here. In 4.10 and 7.23, there’s also a conditional clause, but no /di lan/, and no apparently conditional marker at all.",
-    "orthography": "mu kum kaz ma.la bliv ma.dan\n\n(note: frustrating – there are three cases of ‘worth’ and no consistent Ghor words for it.",
-    "commentary": "da vonz   ʃi pa.da bi ma.dal"
-  },
-  {
-    "code": "8.01",
-    "timestamp": "4:46",
-    "english": "(translation not provided)",
-    "gloss": "",
-    "ghor": "nam vek sim un tʁask",
-    "orthography": "vi lam diazh møg",
-    "commentary": "ãm pʁes.to"
-  },
-  {
-    "code": "8.05",
-    "timestamp": "5:03",
-    "english": "(translation not provided)",
-    "gloss": "",
-    "ghor": "??? ??? ???\nnaʃ pʁɛ.bo.no sxat?",
-    "orthography": "tem aʃ pi.pi\n\n(Note: we hear the same thing in 4.72; Here you can hear ‘tem’ which means it can’t be /vaʃ/ - and also, it seems like ‘vache’ really is a formal form, so unlikely that Enza would address her father with it. \n\nIt really sounds like /pi.pi/",
-    "commentary": "bi ko.kam"
-  },
-  {
-    "code": "8.09",
-    "timestamp": "7:50",
-    "english": "I’ve been worried about you.",
-    "gloss": "",
-    "ghor": "sim naʃ kʁøf va.lo\nSim nache creuf alons?",
-    "orthography": "saj.jo   dib",
-    "commentary": "tem muk lu fʁɛ.ʒɛk"
-  },
-  {
-    "code": "8.13",
-    "timestamp": "7:59",
-    "english": "It’s not too late.",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "su.ə mik ʁɛn bi a bɔʁ.du",
-    "commentary": "Souer mik ren bi abordu."
-  },
-  {
-    "code": "8.14",
-    "timestamp": "8:00",
-    "english": "People need to be heard.",
-    "gloss": "",
-    "ghor": "sim u fig naʃ ʁɛz da.bɔʁ",
-    "orthography": "",
-    "commentary": "naʃ kum viɛʁ stan so.ʁɛft i.nɛks"
-  },
-  {
-    "code": "8.16",
-    "timestamp": "8:06",
-    "english": "We can’t stay silent any longer.",
-    "gloss": "",
-    "ghor": "Serafina: Looks like “viɛʁ” means “can”. I’m going to go with /stan/ being “stay”. Not only does it fit well, but it looks and sounds like “stay” / “stand”, etc.",
-    "orthography": "so.ʁɛft?",
-    "commentary": "naʃ bi so.ʁɛft   vla naʃ bi gas.tam\n\n(note: this snippet is more evidence that Ghor doesn’t seem to mark for future. Nice to know that /gas.tam/ here confirms my suspicion that the Ghor word for killing in 4.28 and 4.29 /bʁon gas.tam/ was two words, not one. More support for relying on French phonology to find word barriers.)"
-  },
-  {
-    "code": "8.19",
-    "timestamp": "8:18",
-    "english": "Father. Father!",
-    "gloss": "",
-    "ghor": "(impossible to understand)\n\n(note: too much noise interference, but it sounds like whatever he’s saying, it’s a single word that he repeats twice – something like /pʁi.kɛ/",
-    "orthography": "naʃ ba.dɔʁ\nNache bador (subtitles)\n\n(note: we have /ba.doʁ/ from Ep4 at the end, so it could be that he is saying here ‘we’re meeting’.",
-    "commentary": "ʃlat gi.a.fel? \n\n(note: extremely hard to hear sounds here. We have ‘memorial’ from Ep4 as well but I don’t hear any of those sounds here – but the first word does sound similar to the word they use for ‘plaza’ in 8.6)"
-  },
-  {
-    "code": "8.23",
-    "timestamp": "8:35",
-    "english": "Come to the plaza…",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "daʃ ba.lɔʁ\n\n(note: in 4.46 they translated /daʃ/ as ‘streets’, but maybe ‘home’ is the real translation? Unless I’m mishearing this)"
-  },
-  {
-    "code": "8.27",
-    "timestamp": "9:07",
-    "english": "Ghormans, please!",
-    "gloss": "",
-    "ghor": "bi fu.la.diz ko.kam",
-    "orthography": "_____ bi naʃ\n\n(note: now that we can be confident that /mu/ expresses ‘there is _’, I’m expecting to hear /mu/ here as well, but the background noise is simply too strong to be sure.)",
-    "commentary": "sɛn mog vi.naʃ bi ʃon pɛ—"
-  },
-  {
-    "code": "8.31",
-    "timestamp": "10:20",
-    "english": "Can I help you?",
-    "gloss": "",
-    "ghor": "tɛm fig ap.ti mo saj\nTem figue aptille mau saille?\n\n(note: this really shows that /saj.jo/ when Enza speaks to her father must be some sort of vocative form – reserved for the child to her father or something like that. Here we just have /saj/.",
-    "orthography": "ɛlf\n\n(note: I’m guessing this is the elusive word for ‘no’ that we haven’t seen yet. Or else it’s a particular type of short answer used in negative responses.)",
-    "commentary": "pʁo.bɛ.stɔʁ"
-  },
-  {
-    "code": "8.35",
-    "timestamp": "17:42",
-    "english": "Dreena! Over here!",
-    "gloss": "",
-    "ghor": "ANTHEM",
-    "orthography": "AUDIO",
-    "commentary": "oŋg dum ɛz va la.vɛ glɛʒ"
-  },
-  {
-    "code": "8.36",
-    "timestamp": "19:14",
-    "english": "Raise your eyes to homeland skies",
-    "gloss": "",
-    "ghor": "Serafina: For now, I’m going to propose contested dictionary entries based on likely word order. I don’t see that we have any other sources for a lot of these words at this point, so unless new material comes to light, we can go with this.",
-    "orthography": "AUDIO",
-    "commentary": "gam.bol dym gɔʁ"
-  },
-  {
-    "code": "8.37",
-    "timestamp": "19:18",
-    "english": "We are the Ghor",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "AUDIO",
-    "commentary": "tʁas.pu flond tɛm gʁok ua.lond"
-  },
-  {
-    "code": "8.38",
-    "timestamp": "19:22",
-    "english": "Breathe the air and know you’re there",
-    "gloss": "",
-    "ghor": "Serafina: 8.10 and this one have something like /va.lo/ meaning ‘there’, as in ‘that place which is seen or mentioned’. 5.14 should also include ‘there’ in the same sense, but it’s possible that’s just an addition from the English translation and not reflected in the Ghor speech there.",
-    "orthography": "AUDIO",
-    "commentary": "gam.bol dym gɔʁ"
-  },
-  {
-    "code": "8.39",
-    "timestamp": "19:26",
-    "english": "We are the Ghor",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "AUDIO",
-    "commentary": "va.lɛn"
-  },
-  {
-    "code": "8.40",
-    "timestamp": "19:31",
-    "english": "Valley",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "AUDIO",
-    "commentary": "mɛʒ.ka"
-  },
-  {
-    "code": "8.41",
-    "timestamp": "13:33",
-    "english": "Highland",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "dib mo laj mun laj sol lɛʒ.na"
-  },
-  {
-    "code": "8.42",
-    "timestamp": "19:35",
-    "english": "Let me spend my every day there",
-    "gloss": "",
-    "ghor": "Serafina: interestingly, they use /mun/ here (night) instead of /ta:n/ (day))",
-    "orthography": "",
-    "commentary": "bɛk tem bʁol o.fot ka.ʁo"
-  },
-  {
-    "code": "8.43",
-    "timestamp": "19:41",
-    "english": "Call your kin to come and sing",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "gam.bol dym gɔʁ"
-  },
-  {
-    "code": "8.44",
-    "timestamp": "19:46",
-    "english": "We are the Ghor",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "vai bi gas e tʁɛm bi tʁa"
-  },
-  {
-    "code": "8.45",
-    "timestamp": "19:50",
-    "english": "Voices loud and standing proud",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "gam.bol dym gɔʁ"
-  },
-  {
-    "code": "8.46",
-    "timestamp": "19:55",
-    "english": "We are the Ghor",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "va.lɛn"
-  },
-  {
-    "code": "8.47",
-    "timestamp": "19:59",
-    "english": "Valley",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "mɛʒ.ka"
-  },
-  {
-    "code": "8.48",
-    "timestamp": "20:01",
-    "english": "Highland",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "dib mo laj mun laj sol lɛʒ.na"
-  },
-  {
-    "code": "8.49",
-    "timestamp": "20:03",
-    "english": "Let me spend my every day there",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": ""
-  },
-  {
-    "code": "8.50",
-    "timestamp": "20:10",
-    "english": "Tight the weave and roll the sleeve",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "gam.bol dym gɔʁ"
-  },
-  {
-    "code": "8.51",
-    "timestamp": "20:15",
-    "english": "We are the Ghor",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "na.vi mid ɛ pal.mo sid"
-  },
-  {
-    "code": "8.52",
-    "timestamp": "20:18",
-    "english": "From Navishare to Palmo Square",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": "gam.bol dym gɔʁ"
-  },
-  {
-    "code": "8.53",
-    "timestamp": "20:23",
-    "english": "We are the Ghor",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "va.lɛn",
-    "commentary": ""
-  },
-  {
-    "code": "8.54",
-    "timestamp": "20:27",
-    "english": "Valley",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "meʒ.ka",
-    "commentary": ""
-  },
-  {
-    "code": "8.55",
-    "timestamp": "20:29",
-    "english": "Highland",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "la di don gifel",
-    "commentary": "zip\nZippe!"
-  },
-  {
-    "code": "8.58",
-    "timestamp": "27:49",
-    "english": "Come on!",
-    "gloss": "",
-    "ghor": "ma.lam",
-    "orthography": "bi fe.fon",
-    "commentary": "a bo fej"
-  },
-  {
-    "code": "8.62",
-    "timestamp": "28:39",
-    "english": "Go!",
-    "gloss": "",
-    "ghor": "as / aʃ ba.lɔʁ",
-    "orthography": "gam.laʁ",
-    "commentary": "ʃu.ʁuk ma.dal"
-  },
-  {
-    "code": "8.66",
-    "timestamp": "29:55",
-    "english": "Go!",
-    "gloss": "",
-    "ghor": "ba.lɔʁ zip",
-    "orthography": "ɛn paz ig.lõ\n\n(note: /ɛn/ here and at 8.52 make me fairly sure that it means ‘to’ or ‘towards’, and we heard /ig.lõ/ in 4.58 meaning ‘building’. Really not sure what /paz/ could mean here. I don’t think we’ve seen it anywhere else – it’s definitely not an article.)",
-    "commentary": "CREDITS SONG"
-  },
-  {
-    "code": "8.69",
-    "timestamp": "42:50",
-    "english": "",
-    "gloss": "",
-    "ghor": "gom.bo dyn gɔʁ",
-    "orthography": "tʁo spɛ flo tʁɛm dug hoj lo",
-    "commentary": "gom.bo dyn gɔʁ"
-  },
-  {
-    "code": "8.73",
-    "timestamp": "",
-    "english": "Valley! Highland!",
-    "gloss": "",
-    "ghor": "di mo lai mun lai so.lel ʃna",
-    "orthography": "lej tem vo.la fo ta mo:n",
-    "commentary": "gom.bo dyn gɔʁ"
-  },
-  {
-    "code": "8.77",
-    "timestamp": "",
-    "english": "",
-    "gloss": "",
-    "ghor": "gom.bo dyn gɔʁ",
-    "orthography": "va.lel meʒ.ka",
-    "commentary": "di mo lai mun lai so.lel ʃna"
-  },
-  {
-    "code": "8.81",
-    "timestamp": "",
-    "english": "Valley! Highland!",
-    "gloss": "",
-    "ghor": "di mo lai mun lai so.lel ʃna",
-    "orthography": "lel ʃna",
-    "commentary": ""
-  },
-  {
-    "code": "8.85",
-    "timestamp": "",
-    "english": "",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": ""
-  },
-  {
-    "code": "8.89",
-    "timestamp": "",
-    "english": "",
-    "gloss": "",
-    "ghor": "",
-    "orthography": "",
-    "commentary": ""
+    "features": [
+      {"lemma": "till", "feature": ["preposition"]},
+      {"lemma": "then", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "till", "Ghor": "do"},
+      {"English": "then", "Ghor": "i.nɛks"}
+    ]
   }
 ]

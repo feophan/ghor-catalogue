@@ -54,10 +54,40 @@
     "item": "item_5.jpg"
   },
   {
-    "code": "Item 6",
+    "code": "Item 13a",
     "timestamp": "??",
-    "text": "leke",
-    "item": "item_6.png"
+    "text": "haute\nqualitie",
+    "item": "item_13.jpg"
+  },
+  {
+    "code": "Item 13c",
+    "timestamp": "??",
+    "text": "c??de\ngouel",
+    "item": "item_13.jpg"
+  },
+  {
+    "code": "Item 13d",
+    "timestamp": "??",
+    "text": "en vente",
+    "item": "item_13.jpg"
+  },
+  {
+    "code": "Item 13e",
+    "timestamp": "??",
+    "text": "divers\ntissus",
+    "item": "item_13.jpg"
+  },
+  {
+    "code": "Item 6a",
+    "timestamp": "??",
+    "text": "?leke",
+    "item": "item_6a.png"
+  },
+  {
+    "code": "Item 6b",
+    "timestamp": "??",
+    "text": "pleke",
+    "item": "item_6b.png"
   },
   {
     "code": "Item 7",
@@ -86,13 +116,13 @@
   {
     "code": "Item 10",
     "timestamp": "??",
-    "text": "s?og",
+    "text": "skog",
     "item": "item_10.png"
   },
   {
     "code": "Secret message",
     "timestamp": "??",
-    "text": "##-maje-clage-palmo-ghor?",
+    "text": "##|maje|clage|palmo|ghor?",
     "item": "item_11.png"
   },
   {
@@ -100,30 +130,6 @@
     "timestamp": "??",
     "text": "koke",
     "item": "item_12.png"
-  },
-  {
-    "code": "Item 13a",
-    "timestamp": "??",
-    "text": "haute\nqualitie",
-    "item": "item_13.jpg"
-  },
-  {
-    "code": "Item 13c",
-    "timestamp": "??",
-    "text": "c??de\ngouel",
-    "item": "item_13.jpg"
-  },
-  {
-    "code": "Item 13d",
-    "timestamp": "??",
-    "text": "en vente",
-    "item": "item_13.jpg"
-  },
-  {
-    "code": "Item 13e",
-    "timestamp": "??",
-    "text": "divers\ntissus",
-    "item": "item_13.jpg"
   },
   {
     "code": "Bureau of Standards",
@@ -256,5 +262,17 @@
     "timestamp": "??",
     "text": "CW",
     "item": "frontHQ_e.png"
+  },
+  {
+    "code": "Item 22",
+    "timestamp": "??",
+    "text": "goss",
+    "item": "item_22.png"
+  },
+  {
+    "code": "Item 23",
+    "timestamp": "??",
+    "text": "goss",
+    "item": "item_23.png"
   }
 ]

@@ -1,0 +1,46 @@
+---
+import type { Attestation } from '../types/corpus'; // Import your types here
+import AudioButton from './AudioButton.astro';
+
+interface Props {
+  att: Attestation;
+}
+
+const { att } = Astro.props;
+---
+
+<article
+  data-code={att.code} class="bg-white rounded-xl shadow p-6">
+  <header class="mb-4">
+    <div class="flex justify-between text-sm text-gray-500">
+      <span>Code: {att.code ?? '—'}</span>
+      <span>Timestamp: {att.timestamp ?? '—'}</span>
+    </div>
+    {att.audio && <AudioButton audioUrl={`/audio/${att.audio}`} id={`audio-${att.code}`} />}
+    {att.ghor && <p class="text-lg font-medium text-blue-800 mt-2">{att.ghor}</p>}
+    {att.english && <p class="text-base text-gray-700 italic">{att.english}</p>}
+    {att.italian && <p class="text-base text-gray-400 italic">{att.italian}</p>}
+  </header>
+
+  {att.concord && (
+    <div class="mt-4 overflow-x-auto max-w-4xl mx-auto">
+      <table class="w-full table-fixed text-sm border rounded-lg">
+        <thead>
+          <tr class="bg-gray-100 text-left">
+            <th class="px-3 py-2 border w-1/2">English</th>
+            <th class="px-3 py-2 border w-1/2">Ghor</th>
+          </tr>
+        </thead>
+        <tbody>
+          {att.concord.map(item => (
+            <tr class="odd:bg-white even:bg-gray-50">
+              <td class="px-3 py-2 border">{item.English ?? '—'}</td>
+              <td class="px-3 py-2 border">{item.Ghor ?? '—'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {att.comment && <p class="text-xs text-amber-500 mt-2">{att.comment}</p>}
+    </div>
+  )}
+</article>

@@ -11,8 +11,9 @@ import Image from '../components/Image.svelte';
     <div>
       <div class="grid grid-cols-5 sm:grid-cols-5 gap-2 max-w-md mx-auto my-8">
         {['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'].map(letter => (
-          <div class="border border-gray-300 px-4 py-2 text-xl font-semibold text-center bg-white rounded">
-            {letter} <span class="ghor">{letter}</span>
+          <div class="border border-gray-300 px-4 py-2 text-xl font-semibold text-center bg-white rounded flex flex-col items-center leading-tight">
+            <span>{letter}</span>
+            <span class="ghor">{letter}</span>
           </div>
         ))}
       </div>

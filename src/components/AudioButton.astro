@@ -1,0 +1,31 @@
+---
+import PlayIcon from "./icons/playIcon.astro";
+import PauseIcon from "./icons/pauseIcon.astro";
+
+const { audioUrl, id } = Astro.props;
+
+---
+
+<div class="mt-2 flex-row">
+  <label class="relative inline-flex items-center justify-center w-10 h-10 rounded-full border border-gray-300 md:mx-2 cursor-pointer">
+    <input
+      type="checkbox"
+      id={id}
+      data-audio-url={audioUrl}
+      class="peer hidden card-play-buttons"
+      aria-label="Play and pause"
+    />
+    <div class="absolute peer-checked:hidden">
+      <PlayIcon />
+    </div>
+    <div class="absolute hidden peer-checked:block">
+      <PauseIcon />
+    </div>
+  </label>
+</div>
+
+<style>
+  .audio-card:last-child hr {
+    display: none;
+  }
+</style>
