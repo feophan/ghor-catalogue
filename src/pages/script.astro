@@ -30,7 +30,26 @@ import Image from '../components/Image.svelte';
               <p class="ghor text-6xl font-medium text-blue-800 mt-2 whitespace-pre-line">{item.text}</p>
               <p class="text-base text-gray-700 italic whitespace-pre-line">{item.text}</p>
             </header>
-            {item.item ? <Image src={`/images/${item.item}`} alt="A bird." client:only="svelte"/>: ''}
+            {Array.isArray(item.item)
+              ? <div class="flex gap-4 mt-4 flex-wrap">
+                  {item.item.map((img, i) => (
+                    <Image
+                      src={`/images/${img}`}
+                      alt={`Image ${i + 1}`}
+                      client:only="svelte"
+                      class="h-32 w-auto rounded shadow"
+                    />
+                  ))}
+                </div>
+              : item.item
+              ? <Image
+                  src={`/images/${item.item}`}
+                  alt="Image"
+                  client:only="svelte"
+                  class="mt-4 h-32 w-auto rounded shadow"
+                />
+              : ''
+            }
           </article>
         ))
       }

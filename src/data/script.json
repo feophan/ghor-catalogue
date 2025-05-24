@@ -78,16 +78,10 @@
     "item": "item_13.jpg"
   },
   {
-    "code": "Item 6a",
-    "timestamp": "??",
-    "text": "?leke",
-    "item": "item_6a.png"
-  },
-  {
-    "code": "Item 6b",
-    "timestamp": "??",
+    "code": "Item 6",
+    "timestamp": "E6: 41:46",
     "text": "pleke",
-    "item": "item_6b.png"
+    "item": ["item_6a.png", "item_6b.png", "item_6c.png"]
   },
   {
     "code": "Item 7",
@@ -182,7 +176,7 @@
   {
     "code": "Heist Sign",
     "timestamp": "??",
-    "text": "m?lee conss ghors",
+    "text": "mclee conss ghors",
     "item": "HeistSign.png"
   },
   {
@@ -217,9 +211,9 @@
   },
   {
     "code": "Item 20",
-    "timestamp": "??",
+    "timestamp": "??, E6: 42:47",
     "text": "commsoffi",
-    "item": "item_20.png"
+    "item": ["item_20a.png","item_20b.png"]
   },
   {
     "code": "Item 21",
@@ -274,5 +268,17 @@
     "timestamp": "??",
     "text": "goss",
     "item": "item_23.png"
+  },
+  {
+    "code": "Item 24",
+    "timestamp": "E6: 34:59, 40:59",
+    "text": "sawfe",
+    "item": "item_24.png"
+  },
+  {
+    "code": "Item 25",
+    "timestamp": "E6: 34:59, 40:59",
+    "text": "?iend?",
+    "item": ["item_25a.png", "item_25b.png","item_25c.png"]
   }
 ]
