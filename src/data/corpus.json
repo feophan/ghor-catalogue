@@ -662,11 +662,11 @@
     ]
   },
   {
-    "code": "4.32.5",
+    "code": "4.32a",
     "timestamp": "34:06",
-    "audio": "4-32-5.mp3",
+    "audio": "4-32a.mp3",
     "english": "Settle down.",
-    "ghor": "jal vəʃ pɔʁ",
+    "ghor": "jal vaʃ kʁɔʁ",
     "features": [
       {"lemma": "to settle", "feature": ["verb", "imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
@@ -877,13 +877,13 @@
     "timestamp": "34:32",
     "audio": "4-43a.mp3",
     "english": "(Settle down)",
-    "ghor": "jal vaʃ kvolt",
+    "ghor": "jal vaʃ kʁœlt",
     "features": [
       {"lemma": "to settle", "feature": ["verb","imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "settle down", "Ghor": "[jal vaʃ kvolt]"}
+      {"English": "settle down", "Ghor": "[jal vaʃ kʁœlt]"}
     ]
   },
   {
@@ -908,6 +908,7 @@
     "audio": "4-45.mp3",
     "english": "Convoys – rumbling all night long…",
     "ghor": "i ʃɛ.sɛd al taj mun",
+    "comment": "se sa kʁas tavɑ̃t",
     "features": [
       {"lemma": "convoy", "feature": ["noun","pl"]},
       {"lemma": "to rumble", "feature": ["verb","participle","active"]},
@@ -924,6 +925,7 @@
     "audio": "4-46.mp3",
     "english": "…racing through our streets",
     "ghor": "te.ha spu na daʃ",
+    "comment": "tɛʁaʒ pɔ̃(d) na daʒ",
     "features": [
       {"lemma": "to race", "feature": ["verb","participle","active"]},
       {"lemma": "through", "feature": ["preposition"]},
@@ -1004,13 +1006,13 @@
     "timestamp": "34:45",
     "audio": "4-51.mp3",
     "english": "Settle down!",
-    "ghor": "al.tɛn xø",
+    "ghor": "jal ten kʁœʁ",
     "features": [
       {"lemma": "to settle", "feature": ["verb","imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "settle down", "Ghor": "[al.tɛn xø]"}
+      {"English": "settle down", "Ghor": "[jal ten kʁœʁ]"}
     ]
   },
   {
