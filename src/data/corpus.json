@@ -183,7 +183,7 @@
     "timestamp": "12:32",
     "audio": "4-09.mp3",
     "english": "That’s not a plan.",
-    "ghor": "da.lam kum skɛ",
+    "ghor": "di.lam kum skɛ̃m",
     "comment": "dilam kœmskɛ̃",
     "features": [
       {"lemma": "that", "feature": ["pronoun","demonstrative"]},
@@ -553,7 +553,7 @@
     ],
     "concord": [
       {"English": "are wondering", "Ghor": "[…]"},
-      {"English": "if it's even worth it", "Ghor": "[…]"},
+      {"English": "if it’s even worth it", "Ghor": "[…]"},
       {"English": "to open the hives", "Ghor": "[…]"},
       {"English": "next spring", "Ghor": "[…]"}
     ]
@@ -632,48 +632,73 @@
   {
     "code": "4.31",
     "timestamp": "34:02",
-    "english": "Calmly!",
-    "ghor": "las.tym",
+    "audio": "4-31.mp3",
+    "english": "Don’t shout. Calmly!",
+    "ghor": "kum lam . las.tyl",
     "features": [
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "to shout", "feature": ["verb","imperative"]},
       {"lemma": "calmly", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "calmly", "Ghor": "[las.tym]"}
+      {"English": "don't", "Ghor": "kum"},
+      {"English": "shout", "Ghor": "[lam]"},
+      {"English": "calmly", "Ghor": "[las.tyl]"}
     ]
   },
   {
     "code": "4.32",
     "timestamp": "34:04",
+    "audio": "4-32.mp3",
     "english": "Let’s have order.",
-    "ghor": "i naʃ pʁo.bi.kɔʁ",
+    "ghor": "i naʃ pʁo.bi.kɔʁd",
     "features": [
       {"lemma": "to have", "feature": ["verb", "hortative"]},
       {"lemma": "order", "feature": ["noun", "sg"]}
     ],
     "concord": [
       {"English": "let's have", "Ghor": "[i naʃ]"},
-      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}      
+      {"English": "order", "Ghor": "[pʁo.bi.kɔʁd]"}      
+    ]
+  },
+  {
+    "code": "4.32.5",
+    "timestamp": "34:06",
+    "audio": "4-32-5.mp3",
+    "english": "Settle down.",
+    "ghor": "jal vəʃ pɔʁ",
+    "features": [
+      {"lemma": "to settle", "feature": ["verb", "imperative"]},
+      {"lemma": "down", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "settle down", "Ghor": "[jal vəʃ pɔʁ]"}   
     ]
   },
   {
     "code": "4.33",
     "timestamp": "34:11",
-    "english": "Let’s have order.",
-    "ghor": "i naʃ pʁo.bi.kɔʁ",
+    "audio": "4-33.mp3",
+    "english": "Let’s have order. (please, please)",
+    "ghor": "i naʃ pʁo.bi.kɔʁ . dib dib",
     "features": [
       {"lemma": "to have", "feature": ["verb", "hortative"]},
-      {"lemma": "order", "feature": ["noun", "sg"]}
+      {"lemma": "order", "feature": ["noun", "sg"]},
+      {"lemma": "please", "feature": ["interjection"]}
     ],
     "concord": [
       {"English": "let's have", "Ghor": "[i naʃ]"},
-      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}      
+      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"},
+      {"English": "please", "Ghor": "[dib]"}      
     ]
   },
   {
     "code": "4.34",
     "timestamp": "34:15",
+    "audio": "4-34.mp3",
     "english": "… steal a neighbourhood",
     "ghor": "laɪ ɛs tom rɛʒ",
+    "comment": "ʒa ʁɛst ɑ̃ bʁɛʒ",
     "features": [
       {"lemma": "to steal", "feature": ["verb"]},
       {"lemma": "a", "feature": ["article", "indefinite"]},
@@ -687,8 +712,10 @@
   {
     "code": "4.35",
     "timestamp": "34:17",
+    "audio": "4-35.mp3",
     "english": "Move the people into boxes.",
     "ghor": "ʒa.kɛm su.ə prõ.ka fɛlf",
+    "comment": "ʒakɛm sapʁɑ̃ kɔfɛf",
     "features": [
       {"lemma": "to move", "feature": ["verb"]},
       {"lemma": "the", "feature": ["article","definite"]},
@@ -705,8 +732,10 @@
   {
     "code": "4.36",
     "timestamp": "34:19",
+    "audio": "4-36.mp3",
     "english": "Put the boxes downwind from dust.",
     "ghor": "sa.ko fɛlf vo.fø dan vɛlt",
+    "comment": "sa kofɛ bɔ̃ flodɑn vɛt",
     "features": [
       {"lemma": "to put", "feature": ["verb"]},
       {"lemma": "the", "feature": ["article","definite"]},
@@ -725,8 +754,10 @@
   {
     "code": "4.37",
     "timestamp": "34:21",
+    "audio": "4-37.mp3",
     "english": "You’ll be spitting all day long.",
     "ghor": "ʃnar.gɛz taj tan",
+    "comment": "sɑ̃ ɡɛz daj taʁn",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p"]},
       {"lemma": "to spit", "feature": ["verb","2p","future","progressive"]},
@@ -740,8 +771,10 @@
   {
     "code": "4.38",
     "timestamp": "34.23",
+    "audio": "4-38.mp3",
     "english": "Citizen Lezine!",
     "ghor": "lɛ.tʁa lɛ.zin",
+    "comment": "?vɛtʁa",
     "features": [
       {"lemma": "citizen", "feature": ["noun","sg"]},
       {"lemma": "Lezine", "feature": ["name"]}
@@ -754,6 +787,7 @@
   {
     "code": "4.39",
     "timestamp": "34:24",
+    "audio": "4-39.mp3",
     "english": "And then, at night",
     "ghor": "ɛ si sɛ mun",
     "features": [
@@ -772,6 +806,7 @@
   {
     "code": "4.40",
     "timestamp": "34:25",
+    "audio": "4-40.mp3",
     "english": "when we’re trying to sleep… when we try to forget",
     "ghor": "vla pɛ.naʒ tyn.kɔʁ, vla pɛ.naʒ tɔʁ.de",
     "features": [
@@ -796,6 +831,7 @@
   {
     "code": "4.41",
     "timestamp": "34:28",
+    "audio": "4-41.mp3",
     "english": "Our city…",
     "ghor": "na gat",
     "features": [
@@ -809,6 +845,7 @@
   {
     "code": "4.42",
     "timestamp": "34:29",
+    "audio": "4-42.mp3",
     "english": "is being destroyed!",
     "ghor": "su biz dagøl",
     "features": [
@@ -821,20 +858,38 @@
   {
     "code": "4.43",
     "timestamp": "34:31",
-    "english": "let’s have order",
-    "ghor": "i naʃ pʁo.bi.kɔʁ",
+    "audio": "4-43.mp3",
+    "english": "(Lezine, let’s have order)",
+    "ghor": "lɛ.zin i naʃ pʁo.bi.kɔʁ",
     "features": [
+      {"lemma": "Lezine", "feature": ["name"]},
       {"lemma": "to have", "feature": ["verb","hortative"]},
       {"lemma": "order", "feature": ["noun"]}
     ],
     "concord": [
+      {"English": "Lezine", "Ghor": "lɛ.zin"},
       {"English": "let’s have", "Ghor": "[i naʃ]"},
       {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}
     ]
   },
   {
+    "code": "4.43a",
+    "timestamp": "34:32",
+    "audio": "4-43a.mp3",
+    "english": "(Settle down)",
+    "ghor": "jal vaʃ kvolt",
+    "features": [
+      {"lemma": "to settle", "feature": ["verb","imperative"]},
+      {"lemma": "down", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "settle down", "Ghor": "[jal vaʃ kvolt]"}
+    ]
+  },
+  {
     "code": "4.44",
     "timestamp": "34:34",
+    "audio": "4-44.mp3",
     "english": "we’ve got transports",
     "ghor": "i naʃ pø.ta.mɛ",
     "features": [
@@ -850,6 +905,7 @@
   {
     "code": "4.45",
     "timestamp": "34:35",
+    "audio": "4-45.mp3",
     "english": "Convoys – rumbling all night long…",
     "ghor": "i ʃɛ.sɛd al taj mun",
     "features": [
@@ -865,6 +921,7 @@
   {
     "code": "4.46",
     "timestamp": "34:36",
+    "audio": "4-46.mp3",
     "english": "…racing through our streets",
     "ghor": "te.ha spu na daʃ",
     "features": [
@@ -883,6 +940,7 @@
   {
     "code": "4.47",
     "timestamp": "34:38",
+    "audio": "4-47.mp3",
     "english": "Horns blowing!",
     "ghor": "bʁajd fi.ʃi",
     "features": [
@@ -897,6 +955,7 @@
   {
     "code": "4.48",
     "timestamp": "34:39",
+    "audio": "4-48.mp3",
     "english": "Engines whining!",
     "ghor": "po.dam li.zɛ",
     "features": [
@@ -911,6 +970,7 @@
   {
     "code": "4.49",
     "timestamp": "34:41",
+    "audio": "4-49.mp3",
     "english": "What?!",
     "ghor": "vu.da",
     "features": [
@@ -923,6 +983,7 @@
   {
     "code": "4.50",
     "timestamp": "34:42",
+    "audio": "4-50.mp3",
     "english": "Give someone else a chance.",
     "ghor": "po ʃvɛl mis.ɛl maz",
     "features": [
@@ -941,6 +1002,7 @@
   {
     "code": "4.51",
     "timestamp": "34:45",
+    "audio": "4-51.mp3",
     "english": "Settle down!",
     "ghor": "al.tɛn xø",
     "features": [
