@@ -1107,6 +1107,7 @@
   {
     "code": "4.57",
     "timestamp": "35:29",
+    "audio": "4-57.mp3",
     "english": "We were promised, …",
     "ghor": "naʃ don.si.mu",
     "features": [
@@ -1121,8 +1122,10 @@
   {
     "code": "4.58",
     "timestamp": "35:30",
+    "audio": "4-58.mp3",
     "english": "…there would be no shadow cast from the new building onto the memorial",
     "ghor": "mu kum klɛʒ.ton dan maz ig.lõ tɛlʃ xɛm",
+    "comment": "mɔ kup klɛʃtɑ̃dan maziɡlɑ̃ ɛlʃʁɛm",
     "features": [
       {"lemma": "there", "feature": ["adverb"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","past","conditional"]},
@@ -1148,8 +1151,25 @@
     ]
   },
   {
+    "code": "4.58a",
+    "timestamp": "35:35",
+    "audio": "4-58a.mp3",
+    "english": "(…)",
+    "ghor": "vaʃ gʁok ??? zin",
+    "features": []
+  },
+  {
+    "code": "4.58b",
+    "timestamp": "35:39",
+    "audio": "4-58b.mp3",
+    "english": "(…)",
+    "ghor": "ɛ(l) spaʃ no pɛ.tʁo",
+    "features": []
+  },
+  {
     "code": "4.59",
     "timestamp": "35:40",
+    "audio": "4-59.mp3",
     "english": "We were promised!",
     "ghor": "naʃ don.si.mu",
     "features": [
@@ -1162,8 +1182,16 @@
     ]
   },
   {
+    "code": "4.59a",
+    "timestamp": "35:40",
+    "audio": "4-59.mp3",
+    "english": "(…)",
+    "ghor": "a.sta pʁi.ʒɛ.na la bʁø"
+  },
+  {
     "code": "4.60",
     "timestamp": "35:41",
+    "audio": "4-60.mp3",
     "english": "yes, yes",
     "ghor": "dʒa, dʒa",
     "features": [
@@ -1176,6 +1204,7 @@
   {
     "code": "4.61",
     "timestamp": "35:42",
+    "audio": "4-61.mp3",
     "english": "it was agreed to",
     "ghor": "fig ka.zɔʁ",
     "features": [
@@ -1191,6 +1220,7 @@
   {
     "code": "4.62",
     "timestamp": "35:52",
+    "audio": "4-62.mp3",
     "english": "It’s a fortress.",
     "ghor": "i ɾan bi kɛl.ka.zad",
     "features": [
@@ -1207,6 +1237,7 @@
   {
     "code": "4.63",
     "timestamp": "35:53",
+    "audio": "4-63.mp3",
     "english": "You had your time! Lezine!",
     "ghor": "vɛn.gil ti kɔʁ",
     "features": [
@@ -1225,6 +1256,7 @@
   {
     "code": "4.64",
     "timestamp": "35:55",
+    "audio": "4-64.mp3",
     "english": "They are building a fortress.",
     "ghor": "vu.ʒɛ sim kɛl.ka.zad",
     "features": [
@@ -1242,18 +1274,20 @@
   {
     "code": "4.65",
     "timestamp": "35:57",
+    "audio": "4-65.mp3",
     "english": "Enough!",
-    "ghor": "lid",
+    "ghor": "plid",
     "features": [
       {"lemma": "enough", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "enough", "Ghor": "[lid]"}
+      {"English": "enough", "Ghor": "[plid]"}
     ]
   },
   {
     "code": "4.66",
     "timestamp": "35:59",
+    "audio": "4-66.mp3",
     "english": "We will have order!",
     "ghor": "i naʃ pʁo.bi.kɔʁ",
     "features": [
@@ -1269,6 +1303,7 @@
   {
     "code": "4.67",
     "timestamp": "36:00",
+    " audio": " 4-67.mp3",
     "english": "They’re building an armoury in the centre of Palmo, and you know it.",
     "ghor": "i sim das.von sin pal.mo, ɛ da.lam vaʃ kʁo.g",
     "features": [
@@ -1299,6 +1334,7 @@
   {
     "code": "4.68",
     "timestamp": "36:03",
+    "audio": "4-68.mp3",
     "english": "really?",
     "ghor": "ɛm.blo",
     "features": [
@@ -1311,6 +1347,7 @@
   {
     "code": "4.69",
     "timestamp": "36:04",
+    "audio": "4-69.mp3",
     "english": "really, Lezine?",
     "ghor": "em.blo, le.zin",
     "features": [
@@ -1325,6 +1362,7 @@
   {
     "code": "4.70",
     "timestamp": "36:08",
+    "audio": "4-70.mp3",
     "english": "That’s actually something we don’t know.",
     "ghor": "da.lam bi a un naʃ kʁog (kum?)",
     "features": [
@@ -1348,6 +1386,7 @@
   {
     "code": "4.71",
     "timestamp": "36:11",
+    "audio": "4-71.mp3",
     "english": "At this point we have nothing but rumours.",
     "ghor": "a.dɛlv i naʃ kum.wa tɔʁ.kliʃ",
     "features": [
@@ -1370,6 +1409,7 @@
   {
     "code": "4.72",
     "timestamp": "36:23",
+    "audio": "4-72.mp3",
     "english": "there you are",
     "ghor": "vaʃ bi pel",
     "features": [
@@ -1385,7 +1425,8 @@
   },
   {
     "code": "4.73",
-    "timestamp": "26:25",
+    "timestamp": "36:25",
+    "audio": "4-73.mp3",
     "english": "Your father is having fun.",
     "ghor": "i saj lon ma.gõ",
     "features": [
@@ -1403,6 +1444,7 @@
   {
     "code": "4.74",
     "timestamp": "36:26",
+    "audio": "4-74.mp3",
     "english": "it’s a nightmare",
     "ghor": "e u ʒi.ʒu",
     "features": [
@@ -1418,6 +1460,7 @@
   {
     "code": "4.75",
     "timestamp": "37:42",
+    "audio": "4-75.mp3",
     "english": "Father…",
     "ghor": "saj.jo",
     "features": [
@@ -1430,6 +1473,7 @@
   {
     "code": "4.76",
     "timestamp": "37:44",
+    "audio": "4-76.mp3",
     "english": "We should probably get going.",
     "ghor": "naʃ xod pʁi.kom pʁɛs.to",
     "features": [
@@ -1449,6 +1493,7 @@
   {
     "code": "4.77",
     "timestamp": "39:20",
+    "audio": "4-77.mp3",
     "english": "Till we meet again.",
     "ghor": "do naʃ ba.dɔ.ʁ i.nɛks",
     "features": [
@@ -1467,6 +1512,7 @@
   {
     "code": "4.78",
     "timestamp": "39:24",
+    "audio": "4-78.mp3",
     "english": "Till then",
     "ghor": "do i.nɛks",
     "features": [
