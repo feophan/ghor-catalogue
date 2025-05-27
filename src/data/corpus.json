@@ -1303,7 +1303,7 @@
   {
     "code": "4.67",
     "timestamp": "36:00",
-    " audio": " 4-67.mp3",
+    "audio": "4-67.mp3",
     "english": "They’re building an armoury in the centre of Palmo, and you know it.",
     "ghor": "i sim das.von sin pal.mo, ɛ da.lam vaʃ kʁo.g",
     "features": [
@@ -1365,6 +1365,7 @@
     "audio": "4-70.mp3",
     "english": "That’s actually something we don’t know.",
     "ghor": "da.lam bi a un naʃ kʁog (kum?)",
+    "comment": "ilɑ̃ biaun naʃ kʁog ku",
     "features": [
       {"lemma": "that", "feature": ["pronoun","demonstrative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
@@ -1389,6 +1390,7 @@
     "audio": "4-71.mp3",
     "english": "At this point we have nothing but rumours.",
     "ghor": "a.dɛlv i naʃ kum.wa tɔʁ.kliʃ",
+    "comment": "œ̃dalvinaʒ ku mwa tyʁ kʁiʃ",
     "features": [
       {"lemma": "at", "feature": ["preposition"]},
       {"lemma": "this", "feature": ["determiner"]},
