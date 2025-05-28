@@ -1477,7 +1477,7 @@
     "timestamp": "37:44",
     "audio": "4-76.mp3",
     "english": "We should probably get going.",
-    "ghor": "naʃ xod pʁi.kom pʁɛs.to",
+    "ghor": "naʃ xod pʁikom pʁɛsto",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
       {"lemma": "should", "feature": ["verb","modal"]},
@@ -1488,8 +1488,8 @@
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
       {"English": "should", "Ghor": "[xod]"},
-      {"English": "probably", "Ghor": "[pʁi.kom]"},
-      {"English": "get going", "Ghor": "[pʁɛs.to]"}
+      {"English": "probably", "Ghor": "[pʁikom]"},
+      {"English": "get going", "Ghor": "[pʁɛsto]"}
     ]
   },
   {
@@ -1497,7 +1497,7 @@
     "timestamp": "39:20",
     "audio": "4-77.mp3",
     "english": "Till we meet again.",
-    "ghor": "do naʃ ba.dɔ.ʁ i.nɛks",
+    "ghor": "do naʃ badɔʁ inɛks",
     "features": [
       {"lemma": "till", "feature": ["preposition"]},
       {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
@@ -1507,8 +1507,8 @@
     "concord": [
       {"English": "till", "Ghor": "do"},
       {"English": "we", "Ghor": "naʃ"},
-      {"English": "meet", "Ghor": "ba.dɔ.ʁ"},
-      {"English": "again", "Ghor": "i.nɛks"}
+      {"English": "meet", "Ghor": "badɔʁ"},
+      {"English": "again", "Ghor": "inɛks"}
     ]
   },
   {
@@ -1516,7 +1516,7 @@
     "timestamp": "39:24",
     "audio": "4-78.mp3",
     "english": "Till then",
-    "ghor": "do i.nɛks",
+    "ghor": "do inɛks",
     "features": [
       {"lemma": "till", "feature": ["preposition"]},
       {"lemma": "then", "feature": ["adverb"]}
@@ -1524,6 +1524,622 @@
     "concord": [
       {"English": "till", "Ghor": "do"},
       {"English": "then", "Ghor": "i.nɛks"}
+    ]
+  },
+  {
+    "code": "5.01",
+    "timestamp": "06:05",
+    "audio": "",
+    "english": "Cut the signal!",
+    "ghor": "ska.ʁa bʁi.nõ",
+    "features": [
+      {"lemma": "to cut", "feature": ["verb","imperative"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "signal", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "cut", "Ghor": "ska.ʁa"},
+      {"English": "the signal", "Ghor": "bʁi.nõ"}
+    ]
+  },
+  {
+    "code": "5.02",
+    "timestamp": "06:06",
+    "audio": "",
+    "english": "Shut it down! Cut it!",
+    "ghor": "du get bu skaʁa",
+    "features": [
+      {"lemma": "to shut", "feature": ["verb","imperative"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "down", "feature": ["adverb"]},
+      {"lemma": "to cut", "feature": ["verb","imperative"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]}
+    ],
+    "concord": [
+      {"English": "shut it down", "Ghor": "[du get bu]]"},
+      {"English": "cut it", "Ghor": "[skaʁa]"}
+    ]
+  },
+  {
+    "code": "5.03",
+    "timestamp": "06:10",
+    "audio": "",
+    "english": "(…)",
+    "ghor": "ʃak",
+    "features": [
+      {"lemma": "", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": "ʃak"}
+    ]
+  },
+  {
+    "code": "5.04",
+    "timestamp": "10:09",
+    "audio": "",
+    "english": "Karn’s prior record. We found him.",
+    "ghor": "pɔʒi kʁilistan kaʁn . naʃ lo kebe",
+    "features": [
+      {"lemma": "Karn", "feature": ["name", "genitive"]},
+      {"lemma": "prior", "feature": ["adjective"]},
+      {"lemma": "record", "feature": ["noun","sg"]},
+      {"lemma": "we", "feature": ["pronoun","1p","sg"]},
+      {"lemma": "to find", "feature": ["verb","1p","pl","past"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg","accusative"]}
+    ],
+    "concord": [
+      {"English": "Karn’s", "Ghor": "kaʁn"},
+      {"English": "prior record", "Ghor": "[pɔʒi kʁilistan]"},
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "found", "Ghor": "[kebe]"},
+      {"English": "him", "Ghor": "lo"}      
+    ]
+  },
+  {
+    "code": "5.05",
+    "timestamp": "10:13",
+    "audio": "",
+    "english": "Where’s this from?",
+    "ghor": "dan veg bi delam",
+    "features": [
+      {"lemma": "where", "feature": ["adver","interrogative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative","proximal"]},
+      {"lemma": "from", "feature": ["preposition"]}
+    ],
+    "concord": [
+      {"English": "where", "Ghor": "veg"},
+      {"English": "is", "Ghor": "bi"},
+      {"English": "this", "Ghor": "delam"},
+      {"English": "from", "Ghor": "dan"}    
+    ]
+  },
+  {
+    "code": "5.06",
+    "timestamp": "10:16",
+    "audio": "",
+    "english": "Morlana One.",
+    "ghor": "mɔʁlana wan",
+    "features": [
+      {"lemma": "Morlana", "feature": ["name"]},
+      {"lemma": "One", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "Morlana", "Ghor": "mɔʁlana"},
+      {"English": "One", "Ghor": "wan"}  
+    ]
+  },
+  {
+    "code": "5.07",
+    "timestamp": "10:17",
+    "audio": "",
+    "english": "We got this from a Preox-Morlana database.",
+    "ghor": "pa ba gɔd dan madevɔʁ pʁeɔks mɔʁlana",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to get", "feature": ["verb","1p","pl","past","simple"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative","proximal"]},
+      {"lemma": "from", "feature": ["preposition"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "Preox", "feature": ["name"]},
+      {"lemma": "Morlana", "feature": ["name"]},
+      {"lemma": "database", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "we got this", "Ghor": "[pa ba gɔd]"},
+      {"English": "from", "Ghor": "dan"},
+      {"English": "Preox-Morlana", "Ghor": "pʁeɔks mɔʁlana"},
+      {"English": "a database", "Ghor": "[madevɔʁ]"}
+    ]
+  },
+  {
+    "code": "5.08",
+    "timestamp": "10:20",
+    "audio": "",
+    "english": "It wasn’t easy.",
+    "ghor": "kum fig stʁɛ fønd",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "easy", "feature": ["adjective"]}
+    ],
+    "concord": [
+      {"English": "it wasn’t", "Ghor": "kum fig"},
+      {"English": "easy", "Ghor": "[stʁɛ fønd]"}
+    ]
+  },
+  {
+    "code": "5.09",
+    "timestamp": "10:22",
+    "audio": "",
+    "english": "The file was sealed",
+    "ghor": "bønd fig gɛʁmɛd",
+    "features": [
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "file", "feature": ["noun","sg"]},
+      {"lemma": "to seal", "feature": ["verb","3p","sg","past","simple","passive"]}
+    ],
+    "concord": [
+      {"English": "the file", "Ghor": "[bønd]"},
+      {"English": "was", "Ghor": "fig"},
+      {"English": "sealed", "Ghor": "[gɛʁmɛd]"}
+    ]
+  },
+  {
+    "code": "5.10",
+    "timestamp": "10:24",
+    "audio": "",
+    "english": "Interesting.",
+    "ghor": "ʒumɛstã",
+    "features": [
+      {"lemma": "interesting", "feature": ["adjective","deverbal"]}
+    ],
+    "concord": [
+      {"English": "interesting", "Ghor": "[ʒumɛstã]"}
+    ]
+  },
+  {
+    "code": "5.11",
+    "timestamp": "10:27",
+    "audio": "",
+    "english": "What was our friend Mr. Karn doing on Morlana One?",
+    "ghor": "ɛ vul ʃi mi tam ka:ʁn pɛʁ mɔʁlana wan",
+    "features": [
+      {"lemma": "what", "feature": ["pronoun","interrogative"]},
+      {"lemma": "to do", "feature": ["verb","3p","sg","past","progressive"]},
+      {"lemma": "our", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "friend", "feature": ["noun","sg"]},
+      {"lemma": "Mr.", "feature": ["name"]},
+      {"lemma": "Karn", "feature": ["name"]},
+      {"lemma": "on", "feature": ["preposition"]},
+      {"lemma": "Morlana", "feature": ["name"]},
+      {"lemma": "One", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "what", "Ghor": "[ɛ vul]"},
+      {"English": "was our friend doing", "Ghor": "[ʃi mi tam]"},
+      {"English": "Mr. Karn", "Ghor": "[ka:ʁn]"},
+      {"English": "on Morlana One", "Ghor": "[pɛʁ mɔʁlana wan]"}
+    ]
+  },
+  {
+    "code": "5.12",
+    "timestamp": "10:31",
+    "audio": "",
+    "english": "He was there for five years. He was a corporate cop.",
+    "ghor": "lo fym bi sɛlv gam bøln — fig tʁov ɛ.ta.ʒø",
+    "features": [
+      {"lemma": "he", "feature": ["pronoun","3p","sg", "nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "for", "feature": ["preposition"]},
+      {"lemma": "five", "feature": ["numeral","cardinal"]},
+      {"lemma": "year", "feature": ["noun", "pl"]},
+      {"lemma": "he", "feature": ["pronoun", "3p", "sg", "nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "corporate", "feature": ["adjective"]},
+      {"lemma": "cop", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "he was", "Ghor": "[lo bi]"},
+      {"English": "there for five years", "Ghor": "[fym sɛlv gam bøln]"},
+      {"English": "he was", "Ghor": "[fig tʁov]"},
+      {"English": "a corporate cop", "Ghor": "[ɛ.ta.ʒø]"}
+    ]
+  },
+  {
+    "code": "5.13",
+    "timestamp": "10:34",
+    "audio": "",
+    "english": "Scroll down.",
+    "ghor": "su ɛl",
+    "features": [
+      {"lemma": "to scroll", "feature": ["verb","imperative"]},
+      {"lemma": "down", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "scroll down", "Ghor": "[su ɛl]"}
+    ]
+  },
+  {
+    "code": "5.14",
+    "timestamp": "10:34",
+    "audio": "",
+    "english": "Apparently his departure there was quite a scandal.",
+    "ghor": "pɛʁsen tu se li ʒan dø fig (s?)maks keleny",
+    "features": [
+      {"lemma": "apparently", "feature": ["adverb"]},
+      {"lemma": "his", "feature": ["pronoun","3p","sg","possessive"]},
+      {"lemma": "departure", "feature": ["noun","sg"]},
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
+      {"lemma": "quite", "feature": ["adverb"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "scandal", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "apparently his departure", "Ghor": "[pɛʁsen tu se li ʒan dø]"},
+      {"English": "was", "Ghor": "fig"},
+      {"English": "quite a scandal", "Ghor": "[(s?)maks keleny]"}
+    ]
+  },
+  {
+    "code": "5.15",
+    "timestamp": "10:41",
+    "audio": "",
+    "english": "He was fired.",
+    "ghor": "lo fig ʃubit",
+    "features": [
+      {"lemma": "he", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to fire", "feature": ["verb","3p","sg","past","simple","passive"]}
+    ],
+    "concord": [
+      {"English": "he", "Ghor": "lo"},
+      {"English": "was", "Ghor": "fig"},
+      {"English": "fired", "Ghor": "ʃubit"}
+    ]
+  },
+  {
+    "code": "5.16",
+    "timestamp": "10:43",
+    "audio": "",
+    "english": "It’s better than that.",
+    "ghor": "bi bwɛnaz zo dalam",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
+      {"lemma": "good", "feature": ["adjective","comparative"]},
+      {"lemma": "than", "feature": ["conjunction"]},
+      {"lemma": "that", "feature": ["pronoun","demonstrative","distal"]}
+    ],
+    "concord": [
+      {"English": "it’s", "Ghor": "bi"},
+      {"English": "better", "Ghor": "[bwɛnaz]"},
+      {"English": "than", "Ghor": "[zo]"},
+      {"English": "that", "Ghor": "dalam"}
+    ]
+  },
+  {
+    "code": "5.17",
+    "timestamp": "10:45",
+    "audio": "",
+    "english": "He was fired by the ISB.",
+    "ghor": "fig ʃubit dan esaba",
+    "features": [
+      {"lemma": "he", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to fire", "feature": ["verb","3p","sg","past","simple","passive"]},
+      {"lemma": "by", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "ISB", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "he was", "Ghor": "fig"},
+      {"English": "fired", "Ghor": "ʃubit"},
+      {"English": "by", "Ghor": "dan"},
+      {"English": "the ISB", "Ghor": "esaba"}
+    ]
+  },
+  {
+    "code": "5.18",
+    "timestamp": "10:46",
+    "audio": "",
+    "english": "Fired by the ISB and sent packing with full dishonour.",
+    "ghor": "ʃubit dan ɛsaba ɛ gigon bɛl kakonɛz",
+    "features": [
+      {"lemma": "to fire", "feature": ["verb","participle","passive"]},
+      {"lemma": "by", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "ISB", "feature": ["name"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to send", "feature": ["verb","participle","passive"]},
+      {"lemma": "to pack", "feature": ["verb","participle","active"]},
+      {"lemma": "with", "feature": ["preposition"]},
+      {"lemma": "full", "feature": ["adjective","positive"]},
+      {"lemma": "dishonour", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "fired", "Ghor": "ʃubit"},
+      {"English": "by", "Ghor": "dan"},
+      {"English": "the ISB", "Ghor": "ɛsaba"},
+      {"English": "and", "Ghor": "ɛ"},
+      {"English": "sent packing", "Ghor": "[gigon]"},
+      {"English": "with full dishonour", "Ghor": "[bɛl kakonɛz]"}
+    ]
+  },
+  {
+    "code": "5.19",
+    "timestamp": "10:51",
+    "audio": "",
+    "english": "Well, well…",
+    "ghor": "tʁeb tʁeb",
+    "features": [
+      {"lemma": "well", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "well", "Ghor": "tʁeb"}
+    ]
+  },
+  {
+    "code": "5.20",
+    "timestamp": "10:55",
+    "audio": "",
+    "english": "That would explain a great deal, wouldn’t it?",
+    "ghor": "dalam spi la vɛʁʒo blo ki kɛʁ",
+    "features": [
+      {"lemma": "that", "feature": ["pronoun","demonstrative","distal"]},
+      {"lemma": "to explain", "feature": ["verb","3p","sg","past","simple","conditional"]},
+      {"lemma": "a", "feature": ["interjection"]},
+      {"lemma": "great", "feature": ["interjection"]},
+      {"lemma": "deal", "feature": ["interjection"]},
+      {"lemma": "", "feature": ["tag"]}
+    ],
+    "concord": [
+      {"English": "that", "Ghor": "dalam"},
+      {"English": "would explain a great deal", "Ghor": "[spi la vɛʁʒo blo]"},
+      {"English": "wouldn’t it", "Ghor": "[ki kɛʁ]"}
+    ]
+  },
+  {
+    "code": "5.21",
+    "timestamp": "19:43",
+    "audio": "",
+    "english": "Look at this…",
+    "ghor": "dalam kont bɔʁ",
+    "features": [
+      {"lemma": "to look", "feature": ["verb","imperative"]},
+      {"lemma": "at", "feature": ["preposition"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative","proximal"]}
+    ],
+    "concord": [
+      {"English": "look at", "Ghor": "[kont bɔʁ]"},
+      {"English": "this", "Ghor": "dalam"}
+    ]
+  },
+  {
+    "code": "5.22",
+    "timestamp": "19:46",
+    "audio": "",
+    "english": "every transport",
+    "ghor": "lai pø.ta.mɛ",
+    "features": [
+      {"lemma": "every", "feature": ["determiner"]},
+      {"lemma": "transport", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "every", "Ghor": "lai"},
+      {"English": "transport", "Ghor": "pø.ta.mɛ"}
+    ]
+  },
+  {
+    "code": "5.23",
+    "timestamp": "19:47",
+    "audio": "",
+    "english": "every item",
+    "ghor": "lai sɛ.ʒy",
+    "features": [
+      {"lemma": "every", "feature": ["determiner"]},
+      {"lemma": "item", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "every", "Ghor": "lai"},
+      {"English": "item", "Ghor": "[sɛʒy]"}
+    ]
+  },
+  {
+    "code": "5.24",
+    "timestamp": "19:49",
+    "audio": "",
+    "english": "it’s all here.",
+    "ghor": "lai bi fɛ",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","expletive"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
+      {"lemma": "all", "feature": ["pronoun"]},
+      {"lemma": "here", "feature": ["averb"]}
+    ],
+    "concord": [
+      {"English": "it’s", "Ghor": "bi"},
+      {"English": "all", "Ghor": "lai"},
+      {"English": "here", "Ghor": "fɛ"}
+    ]
+  },
+  {
+    "code": "5.25",
+    "timestamp": "19:50",
+    "audio": "",
+    "english": "Precise, aren’t they?",
+    "ghor": "sim bi fɛʁstɛ . ki kɛʁ",
+    "features": [
+      {"lemma": "precise", "feature": ["adjective","positive"]},
+      {"lemma": "", "feature": ["tag"]}
+    ],
+    "concord": [
+      {"English": "precise", "Ghor": "[sim bi fɛʁstɛ]"},
+      {"English": "aren’t they", "Ghor": "ki kɛʁ"}
+    ]
+  },
+  {
+    "code": "5.26",
+    "timestamp": "19:52",
+    "audio": "",
+    "english": "Wait, hang on.",
+    "ghor": "stom boʁ bʁube(g?)",
+    "features": [
+      {"lemma": "to wait", "feature": ["verb","imperative"]},
+      {"lemma": "to hang on", "feature": ["verb","imperative"]}
+    ],
+    "concord": [
+      {"English": "wait, hang on", "Ghor": "[…]"}
+    ]
+  },
+  {
+    "code": "5.27",
+    "timestamp": "19:54",
+    "audio": "",
+    "english": "What’s this? What is MSR?",
+    "ghor": "vula bi dalam — vula bi ma-sa-aʁ",
+    "features": [
+      {"lemma": "what", "feature": ["pronoun","interrogative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative","proximal"]},
+      {"lemma": "what", "feature": ["pronoun","interrogative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
+      {"lemma": "MSR", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "what", "Ghor": "[vula]"},
+      {"English": "is", "Ghor": "bi"},
+      {"English": "this", "Ghor": "dalam"},
+      {"English": "what", "Ghor": "[vula]"},
+      {"English": "is", "Ghor": "bi"},
+      {"English": "MSR", "Ghor": "ma-sa-aʁ"}
+    ]
+  },
+  {
+    "code": "5.28",
+    "timestamp": "19:56",
+    "audio": "",
+    "english": "That’s a military code.",
+    "ghor": "ka ʁan bi big naz gʁon donda",
+    "features": [
+      {"lemma": "that", "feature": ["pronoun","demonstrative","distal"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "military", "feature": ["adjective","positive"]},
+      {"lemma": "code", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "that’s a military code", "Ghor": "[ka ʁan bi big naz gʁon donda]"}
+    ]
+  },
+  {
+    "code": "5.29",
+    "timestamp": "19:58",
+    "audio": "",
+    "english": "We need Leeza.",
+    "ghor": "naʃ mik liːza",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "to need", "feature": ["verb","1p","pl","present","simple"]},
+      {"lemma": "Leeza", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "need", "Ghor": "mik"},
+      {"English": "Leeza", "Ghor": "liːza"}
+    ]
+  },
+  {
+    "code": "5.30",
+    "timestamp": "20:03",
+    "audio": "",
+    "english": "It means the drivers need special clearance.",
+    "ghor": "kø ʒo vødz mik ʁɛn bɛk iz waf",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to mean", "feature": ["verb","3p","sg","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "driver", "feature": ["noun","pl"]},
+      {"lemma": "to need", "feature": ["verb","3p","pl","present","simple"]},
+      {"lemma": "special", "feature": ["adjective","positive"]},
+      {"lemma": "clearance", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "it means", "Ghor": "[kø ʒo]"},
+      {"English": "drivers", "Ghor": "[vødz]"},
+      {"English": "need", "Ghor": "[mik ʁɛn]"},
+      {"English": "special clearance", "Ghor": "[bɛk iz waf]"}
+    ]
+  },
+  {
+    "code": "5.31",
+    "timestamp": "20:06",
+    "audio": "",
+    "english": "There it is.",
+    "ghor": "le ʁu fɛst",
+    "features": [
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
+      {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]}
+    ],
+    "concord": [
+      {"English": "there it is", "Ghor": "[le ʁu fɛst]"}
+    ]
+  },
+  {
+    "code": "5.32",
+    "timestamp": "20:09",
+    "audio": "",
+    "english": "Get your father.",
+    "ghor": "lø ʁo ti saj",
+    "features": [
+      {"lemma": "to get", "feature": ["verb","imperative"]},
+      {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "father", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "get", "Ghor": "[lø ʁo]"},
+      {"English": "your", "Ghor": "ti"},
+      {"English": "father", "Ghor": "saj"}
+    ]
+  },
+  {
+    "code": "5.33",
+    "timestamp": "20:11",
+    "audio": "",
+    "english": "Let’s break it down and get the schedules first.",
+    "ghor": "afi naʃ ʁu skɛbʁɛn aboʁ pʁiɛm",
+    "features": [
+      {"lemma": "to break", "feature": ["verb","hortative"]},
+      {"lemma": "it", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "down", "feature": ["preposition"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to get", "feature": ["verb","hortative"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "schedule", "feature": ["noun","pl"]},
+      {"lemma": "first", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "let’s break it down and get the schedules first", "Ghor": "[a.fi naʃ ʁu skɛb.ʁɛn a.boʁ pʁi.ɛm]"}
+    ]
+  },
+  {
+    "code": "5.34",
+    "timestamp": "25:37",
+    "audio": "",
+    "english": "Neejon tea, please.",
+    "ghor": "fyzi niʒon dib",
+    "features": [
+      {"lemma": "Neejon", "feature": ["name"]},
+      {"lemma": "tea", "feature": ["noun","sg"]},
+      {"lemma": "please", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "Neejon", "Ghor": "niʒon"},
+      {"English": "tea", "Ghor": "[fyzi]"},
+      {"English": "please", "Ghor": "dib"}
     ]
   }
 ]

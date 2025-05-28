@@ -1,48 +1,44 @@
-# Astro Starter Kit: Basics
+# Ghor Catalogue
 
-```sh
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+This site collects everything known about the Ghor language, featured in the second season of the show _Star Wars: Andor_.
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of the project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── audio/
+|   └── images/
+└── src/
+    └── data/
+        ├── corpus.json
+        └── script.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Data organisation
 
-## 🧞 Commands
+The data shown in the corpus is labeled according to [Master Docs](https://docs.google.com/document/d/1EkCnPsbQYOHFEjgA57DhLsB-d_02Ocpp).
 
-All commands are run from the root of the project, from a terminal:
+## Feature search keywords
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- part of speech: noun, name, verb, adjective, determiner, article, adverb, pronoun, preposition, conjunction, interjection, particle, numeral, tag
+- number: sg, pl
+- person: 1p, 2p, 3p
+- case: nominative, accusative, genitive, possessive
+- tense: past, present, future, conditional
+- aspect: simple, progressive, perfect
+- form: participle, deverbal
+- mode: active, passive, imperative, hortative
+- type: demonstrative, expletive
+- demonstrativeness: proximal, distal
+- definiteness: definite, indefinite
+- degree: positive, comparative, superlative
+- pronoun features: \[case, person, number, demonstrative\]
+- verb features: \[person, number, tense, aspect, form, mode\]
+- noun features: \[number\]
+- adjective features: \[degree\]
+- article features: \[definiteness\]
+- particle features: negative
+- numeral features: cardinal
