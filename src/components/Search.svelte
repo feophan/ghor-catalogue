@@ -26,11 +26,11 @@
       visible = att.features?.some(entry => {
         const lemma = normalize(entry.lemma);
         const features = (entry.feature ?? []).map(normalize);
-        // Combine lemma and features into a single array
-        const combined = [lemma, ...features];
 
-        // Check if every search tag is present in combined (partial match allowed)
-        return searchTags.every(tag => combined.some(val => val.includes(tag)));
+        // A match occurs only if every tag is either in the features array or matches the lemma
+        return searchTags.every(tag =>
+          tag === lemma || features.includes(tag)
+        );
       });
     } else if (searchMode === 'concord') {
       visible = att.concord?.some(

@@ -5,8 +5,7 @@
     "audio": "4-01.mp3",
     "english": "I told you he was different.",
     "italian": "Vi ho detto che era diverso.",
-    "ghor": "mo te ʁo fig go.pɛn",
-    "comment": "mɔ tɛ ʁo fiɡ ɡɔ̃pɛn",
+    "ghor": "mɔ tɛ ʁo fig gɔpɛn",
     "features": [
       {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
       {"lemma": "to tell", "feature": ["verb", "1p", "sg", "past"]},
@@ -16,11 +15,11 @@
       {"lemma": "different", "feature": ["adjective", "sg"]}
     ],
     "concord": [
-      {"English": "I", "Ghor": "mo"},
+      {"English": "I", "Ghor": "mɔ"},
       {"English": "told", "Ghor": "ʁo"},
-      {"English": "you", "Ghor": "te"},
+      {"English": "you", "Ghor": "tɛ"},
       {"English": "he was", "Ghor": "fig"},
-      {"English": "different", "Ghor": "go.pɛn"}
+      {"English": "different", "Ghor": "gɔpɛn"}
     ]
   },
   {
@@ -29,8 +28,7 @@
     "audio": "4-02.mp3",
     "english": "I want to hear it again.",
     "italian": "Voglio risentirlo.",
-    "ghor": "kʁøf vi.li boʁd i.nɛks",
-    "comment": "ʁəvle bɔʁ dinɛks",
+    "ghor": "kʁøvə le boʁd inɛks",
     "features": [
       {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
       {"lemma": "to want", "feature": ["verb", "1p", "sg", "present"]},
@@ -39,10 +37,10 @@
       {"lemma": "again", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "I want", "Ghor": "kʁøf"},
+      {"English": "I want", "Ghor": "kʁøvə"},
       {"English": "to hear", "Ghor": "boʁd"},
-      {"English": "it", "Ghor": "[vi.li]"},
-      {"English": "again", "Ghor": "i.nɛks"}
+      {"English": "it", "Ghor": "[le]"},
+      {"English": "again", "Ghor": "inɛks"}
     ]
   },
   {
@@ -51,8 +49,7 @@
     "audio": "4-03.mp3",
     "english": "He’s clearly conflicted.",
     "italian": "È combattuto.",
-    "ghor": "lo bi vɛkz pʁi.ʃø",
-    "comment": "lobilɛks pʁɛʃy",
+    "ghor": "lo bi vɛkz pʁiʃ",
     "features": [
       {"lemma": "he", "feature": ["pronoun", "3p", "sg"]},
       {"lemma": "to be", "feature": ["verb", "3p", "sg", "present"]},
@@ -62,7 +59,7 @@
     "concord": [
       {"English": "he", "Ghor": "lo"},
       {"English": "is", "Ghor": "bi"},
-      {"English": "clearly conflicted", "Ghor": "[vɛkz pʁi.ʃø]"}
+      {"English": "clearly conflicted", "Ghor": "[vɛkz pʁiʃ]"}
     ]
   },
   {
@@ -71,8 +68,7 @@
     "audio": "4-04.mp3", 
     "english": "The mother is terrifying.",
     "italian": "La madre è terribile.",
-    "ghor": "tu mej pʁa.ka.tɑ̃",
-    "comment": "tum mɛ pʁatatɑ̃",
+    "ghor": "dum mej pʁakatɑ̃",
     "features": [
       {"lemma": "the", "feature": ["determiner", "definite"]},
       {"lemma": "mother", "feature": ["noun", "sg"]},
@@ -80,9 +76,9 @@
       {"lemma": "terrifying", "feature": ["adjective", "sg"]}
     ],
     "concord": [
-      {"English": "the", "Ghor": "[tu]"},
+      {"English": "the", "Ghor": "[dum]"},
       {"English": "mother", "Ghor": "[mej]"},
-      {"English": "is terrifying", "Ghor": "[pʁa.ka.tɑ̃]"}
+      {"English": "is terrifying", "Ghor": "[pʁakatɑ̃]"}
     ]
   },
   {
@@ -91,8 +87,7 @@
     "audio": "4-05.mp3",
     "english": "It’s the same thing every week.",
     "italian": "È così ogni settimana.",
-    "ghor": "bi tʁɛm møʒ laɪ pʁit",
-    "comment": "bitwɛm moʒla epʁit",
+    "ghor": "bi twɛm møʒ laɪ pʁit",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
@@ -103,7 +98,7 @@
     ],
     "concord": [
       {"English": "it is", "Ghor": "bi"},
-      {"English": "the same", "Ghor": "[tʁɛm]"},
+      {"English": "the same", "Ghor": "[twɛm]"},
       {"English": "thing", "Ghor": "[møʒ]"},
       {"English": "every", "Ghor": "laɪ"},
       {"English": "week", "Ghor": "pʁit"}
@@ -115,8 +110,7 @@
     "audio": "4-06.mp3",
     "english": "Rylanz, he’s perfect.",
     "italian": "Rylanz, è perfetto.",
-    "ghor": "ʁaɪ.lanz, lo bi kwɑd",
-    "comment": "ʁalɛn lobi kwad",
+    "ghor": "ʁaɪlanz, lo bi kwɑd",
     "features": [
       {"lemma": "Rylanz", "feature": ["name"]},
       {"lemma": "he", "feature": ["pronoun","3p","sg"]},
@@ -124,7 +118,7 @@
       {"lemma": "perfect", "feature": ["adjective","sg"]}
     ],
     "concord": [
-      {"English": "Rylanz", "Ghor": "ʁaɪ.lanz"},
+      {"English": "Rylanz", "Ghor": "ʁaɪlanz"},
       {"English": "he", "Ghor": "lo"},
       {"English": "is", "Ghor": "bi"},
       {"English": "perfect", "Ghor": "kwɑd"}
@@ -136,8 +130,7 @@
     "audio": "4-07.mp3",
     "english": "But what can he do for us?",
     "italian": "Ma cosa può fare per noi?",
-    "ghor": "tjo mat vul naʃ sɛ.mad",
-    "comment": "tymad vilnasjɔ̃",
+    "ghor": "tyʁ mad vil naʃ lo ma",
     "features": [
       {"lemma": "but", "feature": ["conjunction"]},
       {"lemma": "what", "feature": ["pronoun","interrogative"]},
@@ -148,11 +141,12 @@
       {"lemma": "us", "feature": ["pronoun","1p","pl"]}
     ],
     "concord": [
-      {"English": "but", "Ghor": "[tjo]"},
-      {"English": "what", "Ghor": "vul"},
-      {"English": "can", "Ghor": "[mat]"},
-      {"English": "he do for", "Ghor": "[sɛ.mad]"},
-      {"English": "us", "Ghor": "naʃ"}
+      {"English": "but", "Ghor": "tyʁ"},
+      {"English": "what", "Ghor": "vil"},
+      {"English": "can", "Ghor": "[ma]"},
+      {"English": "he", "Ghor": "lo"},
+      {"English": "do", "Ghor": "[mad]"},
+      {"English": "for us", "Ghor": "naʃ"}
     ]
   },
   {
@@ -160,8 +154,7 @@
     "timestamp": "12:31",
     "audio": "4-08.mp3",
     "english": "We won’t know until we ask.",
-    "ghor": "naʃ kum so.mɛl do pɛ.ly",
-    "comment": "maʃ kɔ̃smat dopelyɡ",
+    "ghor": "naʃ kum smat do pɛly",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl"]},
       {"lemma": "to know", "feature": ["verb","future","1p","pl"]},
@@ -172,10 +165,10 @@
     ],
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
-      {"English": "will know", "Ghor": "[so.mɛl]"},
+      {"English": "will know", "Ghor": "[smat]"},
       {"English": "not", "Ghor": "kum"},
       {"English": "until", "Ghor": "do"},
-      {"English": "we ask", "Ghor": "[pɛ.ly]"}
+      {"English": "we ask", "Ghor": "[pɛly]"}
     ]
   },
   {
@@ -183,19 +176,18 @@
     "timestamp": "12:32",
     "audio": "4-09.mp3",
     "english": "That’s not a plan.",
-    "ghor": "di.lam kum skɛ̃m",
-    "comment": "dilam kœmskɛ̃",
+    "ghor": "dilam kum skɛ̃m",
     "features": [
-      {"lemma": "that", "feature": ["pronoun","demonstrative"]},
+      {"lemma": "that", "feature": ["pronoun","demonstrative","distal"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
       {"lemma": "not", "feature": ["particle","negative"]},
       {"lemma": "a", "feature": ["determiner","indefinite"]},
       {"lemma": "plan", "feature": ["noun"]}
     ],
     "concord": [
-      {"English": "that is", "Ghor": "[da.lam]"},
-      {"English": "not", "Ghor": "kum"},
-      {"English": "a plan", "Ghor": "[skɛ]"}
+      {"English": "that", "Ghor": "dilam"},
+      {"English": "is not", "Ghor": "kum"},
+      {"English": "a plan", "Ghor": "skɛ̃m"}
     ]    
   },
   {
@@ -1529,9 +1521,10 @@
   {
     "code": "5.01",
     "timestamp": "06:05",
-    "audio": "",
+    "audio": "5-01.mp3",
     "english": "Cut the signal!",
     "ghor": "ska.ʁa bʁi.nõ",
+    "comment": "skaʁbunɛ̃",
     "features": [
       {"lemma": "to cut", "feature": ["verb","imperative"]},
       {"lemma": "the", "feature": ["article","definite"]},
@@ -1545,9 +1538,10 @@
   {
     "code": "5.02",
     "timestamp": "06:06",
-    "audio": "",
+    "audio": "5-02.mp3",
     "english": "Shut it down! Cut it!",
     "ghor": "du get bu skaʁa",
+    "comment": "nɔ̃ɡɛt puskaʁa",
     "features": [
       {"lemma": "to shut", "feature": ["verb","imperative"]},
       {"lemma": "it", "feature": ["pronoun","3p","sg"]},
@@ -1563,22 +1557,24 @@
   {
     "code": "5.03",
     "timestamp": "06:10",
-    "audio": "",
+    "audio": "5-03.mp3",
     "english": "(…)",
-    "ghor": "ʃak",
+    "ghor": "ʃaklə",
+    "comment": "ɔm ʃɛʁɡ",
     "features": [
       {"lemma": "", "feature": ["interjection"]}
     ],
     "concord": [
-      {"English": "", "Ghor": "ʃak"}
+      {"English": "", "Ghor": "ʃaklə"}
     ]
   },
   {
     "code": "5.04",
     "timestamp": "10:09",
-    "audio": "",
+    "audio": "5-04.mp3",
     "english": "Karn’s prior record. We found him.",
     "ghor": "pɔʒi kʁilistan kaʁn . naʃ lo kebe",
+    "comment": "poʒe kʁilist dɑdkaʁm maʃlo kabɛ",
     "features": [
       {"lemma": "Karn", "feature": ["name", "genitive"]},
       {"lemma": "prior", "feature": ["adjective"]},
@@ -1598,9 +1594,10 @@
   {
     "code": "5.05",
     "timestamp": "10:13",
-    "audio": "",
+    "audio": "5-05.mp3",
     "english": "Where’s this from?",
     "ghor": "dan veg bi delam",
+    "comment": "dɑ̃ vɛk bidalam",
     "features": [
       {"lemma": "where", "feature": ["adver","interrogative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
@@ -1617,9 +1614,10 @@
   {
     "code": "5.06",
     "timestamp": "10:16",
-    "audio": "",
+    "audio": "5-06.mp3",
     "english": "Morlana One.",
     "ghor": "mɔʁlana wan",
+    "comment": "maʁanawan",
     "features": [
       {"lemma": "Morlana", "feature": ["name"]},
       {"lemma": "One", "feature": ["name"]}
@@ -1632,9 +1630,10 @@
   {
     "code": "5.07",
     "timestamp": "10:17",
-    "audio": "",
+    "audio": "5-07.mp3",
     "english": "We got this from a Preox-Morlana database.",
     "ghor": "pa ba gɔd dan madevɔʁ pʁeɔks mɔʁlana",
+    "comment": "lə baɡo dɑ̃ madvɔʁ pʁəɔksmɔʁlɛn",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
       {"lemma": "to get", "feature": ["verb","1p","pl","past","simple"]},
@@ -1655,9 +1654,10 @@
   {
     "code": "5.08",
     "timestamp": "10:20",
-    "audio": "",
+    "audio": "5-08.mp3",
     "english": "It wasn’t easy.",
     "ghor": "kum fig stʁɛ fønd",
+    "comment": "kɔm fiks tʁefod",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
@@ -1672,9 +1672,10 @@
   {
     "code": "5.09",
     "timestamp": "10:22",
-    "audio": "",
+    "audio": "5-09.mp3",
     "english": "The file was sealed",
     "ghor": "bønd fig gɛʁmɛd",
+    "comment": "dɔʁn fikaʁnɛ",
     "features": [
       {"lemma": "the", "feature": ["article","definite"]},
       {"lemma": "file", "feature": ["noun","sg"]},
@@ -1689,9 +1690,10 @@
   {
     "code": "5.10",
     "timestamp": "10:24",
-    "audio": "",
+    "audio": "5-10.mp3",
     "english": "Interesting.",
     "ghor": "ʒumɛstã",
+    "comment": "ʒə mɛst",
     "features": [
       {"lemma": "interesting", "feature": ["adjective","deverbal"]}
     ],
@@ -1702,9 +1704,10 @@
   {
     "code": "5.11",
     "timestamp": "10:27",
-    "audio": "",
+    "audio": "5-11.mp3",
     "english": "What was our friend Mr. Karn doing on Morlana One?",
     "ghor": "ɛ vul ʃi mi tam ka:ʁn pɛʁ mɔʁlana wan",
+    "comment": "eviʒi mɛto kaʁn bɛlmɑ̃ lanavan",
     "features": [
       {"lemma": "what", "feature": ["pronoun","interrogative"]},
       {"lemma": "to do", "feature": ["verb","3p","sg","past","progressive"]},
@@ -1726,9 +1729,10 @@
   {
     "code": "5.12",
     "timestamp": "10:31",
-    "audio": "",
+    "audio": "5-12.mp3",
     "english": "He was there for five years. He was a corporate cop.",
     "ghor": "lo fym bi sɛlv gam bøln — fig tʁov ɛ.ta.ʒø",
+    "comment": "loʁskil bɛsɛv ɡɑ̃bɔl fiktʁɔf ɛt aʒã",
     "features": [
       {"lemma": "he", "feature": ["pronoun","3p","sg", "nominative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
@@ -1752,9 +1756,10 @@
   {
     "code": "5.13",
     "timestamp": "10:34",
-    "audio": "",
+    "audio": "5-13.mp3",
     "english": "Scroll down.",
     "ghor": "su ɛl",
+    "comment": "su ɛ",
     "features": [
       {"lemma": "to scroll", "feature": ["verb","imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
@@ -1766,9 +1771,10 @@
   {
     "code": "5.14",
     "timestamp": "10:34",
-    "audio": "",
+    "audio": "5-14.mp3",
     "english": "Apparently his departure there was quite a scandal.",
     "ghor": "pɛʁsen tu se li ʒan dø fig (s?)maks keleny",
+    "comment": "pɛʁsɛ lə saleʒɑ̃d le fiks maks ka la vy",
     "features": [
       {"lemma": "apparently", "feature": ["adverb"]},
       {"lemma": "his", "feature": ["pronoun","3p","sg","possessive"]},
@@ -1788,9 +1794,10 @@
   {
     "code": "5.15",
     "timestamp": "10:41",
-    "audio": "",
+    "audio": "5-15.mp3",
     "english": "He was fired.",
     "ghor": "lo fig ʃubit",
+    "comment": "vasik flopit",
     "features": [
       {"lemma": "he", "feature": ["pronoun","3p","sg","nominative"]},
       {"lemma": "to fire", "feature": ["verb","3p","sg","past","simple","passive"]}
@@ -1804,9 +1811,10 @@
   {
     "code": "5.16",
     "timestamp": "10:43",
-    "audio": "",
+    "audio": "5-16.mp3",
     "english": "It’s better than that.",
     "ghor": "bi bwɛnaz zo dalam",
+    "comment": "vi bonɛzo də lam",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
@@ -1824,9 +1832,10 @@
   {
     "code": "5.17",
     "timestamp": "10:45",
-    "audio": "",
+    "audio": "5-17.mp3",
     "english": "He was fired by the ISB.",
     "ghor": "fig ʃubit dan esaba",
+    "comment": "lə fil stopid dɑn ɛ saba",
     "features": [
       {"lemma": "he", "feature": ["pronoun","3p","sg","nominative"]},
       {"lemma": "to fire", "feature": ["verb","3p","sg","past","simple","passive"]},
@@ -1844,9 +1853,10 @@
   {
     "code": "5.18",
     "timestamp": "10:46",
-    "audio": "",
+    "audio": "5-18.mp3",
     "english": "Fired by the ISB and sent packing with full dishonour.",
     "ghor": "ʃubit dan ɛsaba ɛ gigon bɛl kakonɛz",
+    "comment": "slypit dan ɛ saba e ɡiɡɔm bɛʁl ɡʁakona",
     "features": [
       {"lemma": "to fire", "feature": ["verb","participle","passive"]},
       {"lemma": "by", "feature": ["preposition"]},
@@ -1871,9 +1881,10 @@
   {
     "code": "5.19",
     "timestamp": "10:51",
-    "audio": "",
+    "audio": "5-19.mp3",
     "english": "Well, well…",
     "ghor": "tʁeb tʁeb",
+    "comment": "sɛpsab",
     "features": [
       {"lemma": "well", "feature": ["interjection"]}
     ],
@@ -1884,9 +1895,10 @@
   {
     "code": "5.20",
     "timestamp": "10:55",
-    "audio": "",
+    "audio": "5-20.mp3",
     "english": "That would explain a great deal, wouldn’t it?",
     "ghor": "dalam spi la vɛʁʒo blo ki kɛʁ",
+    "comment": "talam spyla vɛʁ ʒɔbl kɛkœ̃",
     "features": [
       {"lemma": "that", "feature": ["pronoun","demonstrative","distal"]},
       {"lemma": "to explain", "feature": ["verb","3p","sg","past","simple","conditional"]},
