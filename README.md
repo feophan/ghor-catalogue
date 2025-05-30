@@ -29,7 +29,7 @@ The data shown in the corpus is labeled according to [Master Docs](https://docs.
 - case: nominative, accusative, genitive, possessive
 - tense: past, present, future, conditional
 - aspect: simple, progressive, perfect
-- form: participle, deverbal
+- form: participle, gerund, inifinitive, deverbal
 - mode: active, passive, imperative, hortative
 - type: demonstrative, expletive
 - demonstrativeness: proximal, distal
