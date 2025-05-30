@@ -2151,7 +2151,7 @@
   {
     "code": "6.01",
     "timestamp": "19:36",
-    "audio": "",
+    "audio": "6-01.mp3",
     "english": "Enough from you.",
     "ghor": "dan tɛm lid zam",
     "features": [
@@ -2168,9 +2168,9 @@
   {
     "code": "6.02",
     "timestamp": "19:38",
-    "audio": "",
+    "audio": "6-02.mp3",
     "english": "I’ll say what I want.",
-    "ghor": "mo hog vul kʁøf",
+    "ghor": "mo ʁɔk vyl kʁøv",
     "features": [
       {"lemma": "I", "feature": ["pronoun","1p","sg"]},
       {"lemma": "to say", "feature": ["verb","future","simple"]},
@@ -2188,7 +2188,7 @@
   {
     "code": "6.03",
     "timestamp": "20:55",
-    "audio": "",
+    "audio": "6-03.mp3",
     "english": "please",
     "ghor": "dib",
     "features": [
@@ -2201,9 +2201,9 @@
   {
     "code": "6.04",
     "timestamp": "20:57",
-    "audio": "",
+    "audio": "6-04.mp3",
     "english": "It’s a bit rough taking orders from strangers.",
-    "ghor": "bi bu mɛ.gam po.vo han.du",
+    "ghor": "bi bumɛ ɡɛ̃ pɔ(ʁ) va ʁando",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","expletive"]},
       {"lemma": "to be", "feature": ["verb","present","simple"]},
@@ -2216,15 +2216,15 @@
     ],
     "concord": [
       {"English": "it’s", "Ghor": "bi"},
-      {"English": "a bit rough taking orders from strangers", "Ghor": "[bu mɛ.gam po.vo han.du]"}
+      {"English": "a bit rough taking orders from strangers", "Ghor": "[bumɛ ɡɛ̃ pɔ(ʁ) va ʁando]"}
     ]
   },
   {
     "code": "6.05",
     "timestamp": "31:34",
-    "audio": "",
+    "audio": "6-05.mp3",
     "english": "Keep your eyes open.",
-    "ghor": "ta.zi ʃu pu",
+    "ghor": "tazi ʃobu",
     "features": [
       {"lemma": "to keep", "feature": ["verb","imperative"]},
       {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
@@ -2232,15 +2232,16 @@
       {"lemma": "open", "feature": ["adjective","positive"]}
     ],
     "concord": [
-      {"English": "keep your eyes open", "Ghor": "[ta.zi ʃu pu]"}
+      {"English": "keep open", "Ghor": "[ʃobu]"},
+      {"English": "your eyes", "Ghor": "[tazi]"}
     ]
   },
   {
     "code": "6.06",
     "timestamp": "38:44",
-    "audio": "",
+    "audio": "6-06.mp3",
     "english": "There was an accident.",
-    "ghor": "fig mu sɛb.ʁon",
+    "ghor": "fig bu sebʁɑ̃",
     "features": [
       {"lemma": "there", "feature": ["adverb"]},
       {"lemma": "to be", "feature": ["verb","past","simple"]},
@@ -2248,30 +2249,30 @@
       {"lemma": "accident", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "there", "Ghor": "[mu]"},
+      {"English": "there", "Ghor": "[bu]"},
       {"English": "was", "Ghor": "fig"},
-      {"English": "an accident", "Ghor": "[sɛb.ʁon]"}
+      {"English": "an accident", "Ghor": "[sebʁɑ̃]"}
     ]
   },
   {
     "code": "6.07",
     "timestamp": "38:46",
-    "audio": "",
+    "audio": "6-07.mp3",
     "english": "What?",
-    "ghor": "vu.da ?",
+    "ghor": "m-da ",
     "features": [
       {"lemma": "what", "feature": ["pronoun","interrogative"]}
     ],
     "concord": [
-      {"English": "what", "Ghor": "vu.da"}
+      {"English": "what", "Ghor": "m-da"}
     ]
   },
   {
     "code": "6.08",
     "timestamp": "38:48",
-    "audio": "",
+    "audio": "6-08.mp3",
     "english": "Do you need help with the bags?",
-    "ghor": "sɛm fik sɛ so.lɛm bul.gɛʒ",
+    "ghor": "tɛm fiks a sɔʁ yn bylɡɛʃ",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p","sg"]},
       {"lemma": "to need", "feature": ["verb","present","simple","question"]},
@@ -2281,15 +2282,15 @@
       {"lemma": "bag", "feature": ["noun","pl"]}
     ],
     "concord": [
-      {"English": "do you need help with the bags?", "Ghor": "[sɛm fik sɛ so.lɛm bul.gɛʒ]"}
+      {"English": "do you need help with the bags?", "Ghor": "[tɛm fiks a sɔʁ yn bylɡɛʃ]"}
     ]
   },
   {
     "code": "6.09",
     "timestamp": "38:50",
-    "audio": "",
+    "audio": "6-09.mp3",
     "english": "But I was… almost home.",
-    "ghor": "be lɔʁ — fig myl",
+    "ghor": "balɔʁ . fig mun",
     "features": [
       {"lemma": "but", "feature": ["conjunction"]},
       {"lemma": "I", "feature": ["pronoun","1p","sg"]},
@@ -2298,15 +2299,16 @@
       {"lemma": "home", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "but I was almost home", "Ghor": "[be lɔʁ fig myl]"}
+      {"English": "but I was almost home", "Ghor": "[balɔʁ . fig mun]"}
     ]
   },
   {
     "code": "6.10",
     "timestamp": "39:19",
-    "audio": "",
+    "audio": "6-10.mp3",
     "english": "Faster? Carefully? Go go go?",
     "ghor": "zip zip zip",
+    "comment": "Unable to isolate this",
     "orthography": "zippe zippe zippe",
     "features": [
       {"lemma": "go", "feature": ["interjection"]}
@@ -2318,24 +2320,24 @@
   {
     "code": "6.11",
     "timestamp": "40:55",
-    "audio": "",
+    "audio": "6-11.mp3",
     "english": "What is this?",
-    "ghor": "da.lam i te",
+    "ghor": "dilam bi te",
     "features": [
       {"lemma": "what", "feature": ["pronoun","interrogative"]},
       {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "this", "feature": ["pronoun","demonstrative"]}
     ],
     "concord": [
-      {"English": "what is this?", "Ghor": "[da.lam i te]"}
+      {"English": "what is this?", "Ghor": "[dilam bi te]"}
     ]
   },
   {
     "code": "6.12",
     "timestamp": "40:58",
-    "audio": "",
+    "audio": "6-12.mp3",
     "english": "Hey! Hello – slow down, slow down, …",
-    "ghor": "aj an.ja — lo.ʁis, lo.ʁis, lo.ʁis",
+    "ghor": "aj aɲa – loʁis , loʁis , loʁis",
     "features": [
       {"lemma": "hey", "feature": ["interjection"]},
       {"lemma": "hello", "feature": ["interjection"]},
@@ -2343,16 +2345,16 @@
     ],
     "concord": [
       {"English": "hey", "Ghor": "[aj]]"},
-      {"English": "hello", "Ghor": "[an.ja]"},
-      {"English": "slow down", "Ghor": "[lo.ʁis]"}
+      {"English": "hello", "Ghor": "[aɲa]"},
+      {"English": "slow down", "Ghor": "[loʁis]"}
     ]
   },
   {
     "code": "6.13",
     "timestamp": "40:59",
-    "audio": "",
+    "audio": "6-13.mp3",
     "english": "You need to turn around and go home.",
-    "ghor": "tɛm mik bi.noʁ ɛ ba.loʁ",
+    "ghor": "tɛ mik binoʁ ɛ baloʁ",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p","sg"]},
       {"lemma": "to need", "feature": ["verb","present","simple"]},
@@ -2373,9 +2375,9 @@
   {
     "code": "6.14",
     "timestamp": "41:02",
-    "audio": "",
+    "audio": "6-14.mp3",
     "english": "This isn’t for you. Just turn around and walk away. Walk away!",
-    "ghor": "ɛ kum bit em sam pit . sil.mu ve no skɛ da.dɔʁ . skɛ da dɔʁ",
+    "ghor": "ɛ kum bi tem sɑ̃ pit sɛlmo binɔʁ skɛdadɔʁ . skɛdadɔʁ",
     "features": [
       {"lemma": "this", "feature": ["pronoun","demonstrative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
@@ -2390,17 +2392,19 @@
       {"lemma": "away", "feature": ["preposition"]}
     ],
     "concord": [
-      {"English": "this isn’t for you", "Ghor": "[ɛ kum bit em sam pit]"},
-      {"English": "just turn around and walk away", "Ghor": "[sil.mu ve no skɛ da.dɔʁ]"},
-      {"English": "walk away", "Ghor": "[skɛ da dɔʁ]"}
+      {"English": "this isn’t for you", "Ghor": "[ɛ kum bi tem sam pit]"},
+      {"English": "just", "Ghor": "[sɛlmo]"},
+      {"English": "turn around", "Ghor": "[binɔʁ]"},
+      {"English": "and", "Ghor": ""},
+      {"English": "walk away", "Ghor": "[skɛdadɔʁ]"}
     ]
   },
   {
     "code": "6.15",
     "timestamp": "41:09",
-    "audio": "",
+    "audio": "6-15.mp3",
     "english": "Get the chob out of my way.",
-    "ghor": "dan mo bɛlo ʃank",
+    "ghor": "lan mo bɛlaʁsɛ̃k",
     "features": [
       {"lemma": "to get", "feature": ["verb","imperative"]},
       {"lemma": "the", "feature": ["article","definite"]},
@@ -2411,18 +2415,15 @@
       {"lemma": "way", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "get the chob", "Ghor": "[…]"},
-      {"English": "out of", "Ghor": "[dan]"},
-      {"English": "my", "Ghor": "[mo]"},
-      {"English": "way", "Ghor": "[…]"}
+      {"English": "get the chob out of my way", "Ghor": "[…]"}
     ]
   },
   {
     "code": "6.16",
     "timestamp": "41:11",
-    "audio": "",
+    "audio": "6-16.mp3",
     "english": "I said stop!",
-    "ghor": "mo tʁɛ.no fʁɛ.ʒɛk",
+    "ghor": "mo tʁɛnɔ̃ fʁɛʒɛk",
     "features": [
       {"lemma": "I", "feature": ["pronoun","1p","sg"]},
       {"lemma": "to say", "feature": ["verb","past","simple"]},
@@ -2430,16 +2431,16 @@
     ],
     "concord": [
       {"English": "I", "Ghor": "mo"},
-      {"English": "said", "Ghor": "tʁɛ.no"},
-      {"English": "stop", "Ghor": "[fʁɛ.ʒɛk]"}
+      {"English": "said", "Ghor": "tʁɛnɔ̃"},
+      {"English": "stop", "Ghor": "[fʁɛʒɛk]"}
     ]
   },
   {
     "code": "6.17",
     "timestamp": "41:18",
-    "audio": "",
+    "audio": "6-17.mp3",
     "english": "Is that a toy?",
-    "ghor": "da.lam bi giz.mo",
+    "ghor": "dilam bi gizmo",
     "features": [
       {"lemma": "to be", "feature": ["verb","3p","sg","present","simple"]},
       {"lemma": "that", "feature": ["pronoun","demonstrative"]},
@@ -2448,16 +2449,16 @@
     ],
     "concord": [
       {"English": "is", "Ghor": "bi"},
-      {"English": "that", "Ghor": "da.lam"},
-      {"English": "a toy", "Ghor": "[giz.mo]"}
+      {"English": "that", "Ghor": "dilam"},
+      {"English": "a toy", "Ghor": "[gizmo]"}
     ]
   },
   {
     "code": "6.18",
     "timestamp": "41:20",
-    "audio": "",
+    "audio": "6-18.mp3",
     "english": "Just turn around and go home. Go home!",
-    "ghor": "sil.mu bi.nɔʁ ɛ ba.lɔʁ",
+    "ghor": "sɛlmo binɔʁ ɛ balɔʁ",
     "features": [
       {"lemma": "just", "feature": ["adverb"]},
       {"lemma": "to turn", "feature": ["verb","imperative"]},
@@ -2467,18 +2468,32 @@
       {"lemma": "home", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "just", "Ghor": "sil.mu"},
-      {"English": "turn around", "Ghor": "bi.nɔʁ"},
+      {"English": "just", "Ghor": "sɛlmo"},
+      {"English": "turn around", "Ghor": "binɔʁ"},
       {"English": "and", "Ghor": "ɛ"},
-      {"English": "go home", "Ghor": "ba.lɔʁ"}
+      {"English": "go home", "Ghor": "balɔʁ"}
+    ]
+  },
+  {
+    "code": "6.18a",
+    "timestamp": "41:22",
+    "audio": "6-18a.mp3",
+    "english": "(Go home!)",
+    "ghor": "balɔʁ",
+    "features": [
+      {"lemma": "to go", "feature": ["verb","imperative"]},
+      {"lemma": "home", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "go home", "Ghor": "balɔʁ"}
     ]
   },
   {
     "code": "6.19",
-    "timestamp": "20:55",
-    "audio": "",
+    "timestamp": "41:22",
+    "audio": "6-19.mp3",
     "english": "It had better be a toy.",
-    "ghor": "u tʃi.tʃi giz.mo",
+    "ghor": "po kliti gizmo",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg"]},
       {"lemma": "had better", "feature": ["verb","modal"]},
@@ -2494,9 +2509,9 @@
   {
     "code": "6.20",
     "timestamp": "41:25",
-    "audio": "",
+    "audio": "6-20.mp3",
     "english": "Because if it isn’t, I’m going to stuff it down your ignorant little throat.",
-    "ghor": "il ma la stafsjon kø bɛl kɛ to (…) ket",
+    "ghor": "tɛl mo lã skafsjɔ̃ (?lobal/ʁobaʁ) katɔʁ tɛm fjɛfuskakɛt",
     "features": [
       {"lemma": "because", "feature": ["conjunction"]},
       {"lemma": "if", "feature": ["conjunction"]},
@@ -2512,14 +2527,22 @@
       {"lemma": "ignorant", "feature": ["adjective","positive"]},
       {"lemma": "little", "feature": ["adjective","positive"]},
       {"lemma": "throat", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "because", "Ghor": "[…]"},
+      {"English": "if", "Ghor": "[tɛl]"},
+      {"English": "it isn’t", "Ghor": "[mo lã]"},
+      {"English": "I’m going to stuff it down", "Ghor": "[skafsjɔ̃ (?lobal/ʁobaʁ) katɔʁ]"},
+      {"English": "your", "Ghor": "[tɛm]"},
+      {"English": "ignorant little throat", "Ghor": "[fjɛfuskakɛt]"}
     ]
   },
   {
     "code": "6.21",
     "timestamp": "41:28",
-    "audio": "",
+    "audio": "6-21.mp3",
     "english": "This is serious shit here.",
-    "ghor": "da.lam bi ʃi giv.ʁɛn",
+    "ghor": "dalam bi ʃi givʁɛl",
     "features": [
       {"lemma": "this", "feature": ["pronoun","demonstrative"]},
       {"lemma": "to be", "feature": ["verb","present","simple"]},
@@ -2530,30 +2553,32 @@
     "concord": [
       {"English": "this", "Ghor": "dalam"},
       {"English": "is", "Ghor": "bi"},
-      {"English": "serious shit here", "Ghor": "[ʃi giv.ʁɛn]"}
+      {"English": "serious shit here", "Ghor": "[ʃi givʁɛl]"}
     ]
   },
   {
     "code": "6.22",
     "timestamp": "41:30",
-    "audio": "",
+    "audio": "6-22.mp3",
     "english": "You need to go.",
-    "ghor": "ba.loʁ",
+    "ghor": "baloʁ",
+    "comment": "Cannot isolate this",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p", "sg"]},
       {"lemma": "to need", "feature": ["verb","modal","present","simple"]},
       {"lemma": "to go", "feature": ["verb","infinitive"]}
     ],
     "concord": [
-      {"English": "you need to go", "Ghor": "[ba.loʁ]"}
+      {"English": "you need to go", "Ghor": "[baloʁ]"}
     ]
   },
   {
     "code": "6.23",
     "timestamp": "41:31",
-    "audio": "",
+    "audio": "6-23.mp3",
     "english": "You dare point that thing at me?!",
-    "ghor": "(…)",
+    "ghor": "tɛ pri gastɔ̃ prijen",
+    "comment": "Cannot isolate this",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p","sg"]},
       {"lemma": "to dare", "feature": ["verb","present","simple"]},
@@ -2567,25 +2592,25 @@
   {
     "code": "6.24",
     "timestamp": "42:31",
-    "audio": "",
+    "audio": "6-24.mp3",
     "english": "(Move, move, he […])",
-    "ghor": "ʒa.kem, ʒa.kem – lo stik sa.sɔʁ",
+    "ghor": "ʒakem , ʒakem – lo stik zasɔʁ",
     "features": [
       {"lemma": "to move", "feature": ["verb","imperative"]},
       {"lemma": "he", "feature": ["pronoun","3p","sg"]}
     ],
     "concord": [
-      {"English": "move", "Ghor": "ʒa.kem"},
+      {"English": "move", "Ghor": "ʒakem"},
       {"English": "he", "Ghor": "lo"},
-      {"English": "[…]", "Ghor": "[stik sa.sɔʁ]"}
+      {"English": "[…]", "Ghor": "[stik zasɔʁ]"}
     ]
   },
   {
     "code": "6.25",
     "timestamp": "42:33",
-    "audio": "",
-    "english": "(We need to go, they […] us […])",
-    "ghor": "naʃ mik ba.lɔʁ . sim ʁo naʃ tel.po",
+    "audio": "6-25.mp3",
+    "english": "(We need to go, they told us […])",
+    "ghor": "naʃ mik balɔʁ . sim ʁo naʃ telpo",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl"]},
       {"lemma": "to need", "feature": ["verb","modal","present","simple"]},
@@ -2598,9 +2623,9 @@
       {"English": "need", "Ghor": "mik"},
       {"English": "to go", "Ghor": "ba.lɔʁ"},
       {"English": "they", "Ghor": "sim"},
-      {"English": "[…]", "Ghor": "ʁo"},
+      {"English": "told", "Ghor": "ʁo"},
       {"English": "us", "Ghor": "naʃ"},
-      {"English": "[…]", "Ghor": "tel.po"}
+      {"English": "[…]", "Ghor": "telpo"}
     ]
   }
 ]
