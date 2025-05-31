@@ -5,7 +5,8 @@
     "audio": "4-01.mp3",
     "english": "I told you he was different.",
     "italian": "Vi ho detto che era diverso.",
-    "ghor": "mɔ tɛ ʁo fig gɔpɛn",
+    "ghor": "mɔ tɛ ʁõ fig gɔpɛn",
+    "comment": "The reocrding has ʁo, but nasality is expected with other examples",
     "features": [
       {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
       {"lemma": "to tell", "feature": ["verb", "1p", "sg", "past"]},
@@ -16,7 +17,7 @@
     ],
     "concord": [
       {"English": "I", "Ghor": "mɔ"},
-      {"English": "told", "Ghor": "ʁo"},
+      {"English": "told", "Ghor": "ʁõ"},
       {"English": "you", "Ghor": "tɛ"},
       {"English": "he was", "Ghor": "fig"},
       {"English": "different", "Ghor": "gɔpɛn"}
@@ -138,7 +139,7 @@
       {"lemma": "he", "feature": ["pronoun","3p","sg"]},
       {"lemma": "to do", "feature": ["verb","infinitive"]},
       {"lemma": "for", "feature": ["preposition"]},
-      {"lemma": "us", "feature": ["pronoun","1p","pl"]}
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
     ],
     "concord": [
       {"English": "but", "Ghor": "tyʁ"},
@@ -156,11 +157,11 @@
     "english": "We won’t know until we ask.",
     "ghor": "naʃ kum smat do pɛly",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to know", "feature": ["verb","future","1p","pl"]},
       {"lemma": "not", "feature": ["particle","negative"]},
       {"lemma": "until", "feature": ["preposition"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to ask", "feature": ["verb","1p","pl"]}
     ],
     "concord": [
@@ -195,7 +196,7 @@
     "timestamp": "12:33",
     "audio": "4-10.mp3",
     "english": "If he just answers questions, he’s worth it.",
-    "ghor": "tel sɛlmo babiʃʁib lo smulagi",
+    "ghor": "djal sɛlmo babiʃʁib lo smulagi",
     "features": [
       {"lemma": "if", "feature": ["conjunction"]},
       {"lemma": "he", "feature": ["pronoun","3p","sg"]},
@@ -208,7 +209,7 @@
       {"lemma": "it", "feature": ["pronoun","3p","sg"]}
     ],
     "concord": [
-      {"English": "if", "Ghor": "[tel]"},
+      {"English": "if", "Ghor": "djal"},
       {"English": "he", "Ghor": ""},
       {"English": "just", "Ghor": "[sɛlmo]"},
       {"English": "answers questions", "Ghor": "[babiʃʁib]"},
@@ -223,7 +224,7 @@
     "english": "We have to run this down.",
     "ghor": "naʃ mik ʁapys matiʃ dalam",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to have to", "feature": ["verb","1p","pl","present"]},
       {"lemma": "to run down", "feature": ["verb","infinitive"]},
       {"lemma": "this", "feature": ["pronoun","demonstrative"]}
@@ -585,7 +586,7 @@
       {"lemma": "the", "feature": ["article", "definite"]},
       {"lemma": "empire", "feature": ["noun", "sg"]},
       {"lemma": "to kill", "feature": ["verb", "3p", "sg", "present"]},
-      {"lemma": "us", "feature": ["pronoun", "1p", "pl"]}
+      {"lemma": "we", "feature": ["pronoun", "1p", "pl","obj"]}
     ],
     "concord": [
       {"English": "the Empire", "Ghor": "fu.la.dis"},
@@ -795,11 +796,11 @@
     "ghor": "vla pɛ.naʒ tyn.kɔʁ, vla pɛ.naʒ tɔʁ.de",
     "features": [
       {"lemma": "when", "feature": ["conjunction"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to try", "feature": ["verb","1p","pl","present","progressive"]},
       {"lemma": "to sleep", "feature": ["verb","infinitive"]},
       {"lemma": "when", "feature": ["conjunction"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to try", "feature": ["verb","1p","pl","present"]},
       {"lemma": "to forget", "feature": ["verb","infinitive"]}
     ],
@@ -877,7 +878,7 @@
     "english": "we’ve got transports",
     "ghor": "i naʃ pø.ta.mɛ",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to have", "feature": ["verb","present","1p","pl"]},
       {"lemma": "transport", "feature": ["noun","pl"]}
     ],
@@ -1095,7 +1096,7 @@
     "english": "We were promised, …",
     "ghor": "naʃ don.si.mu",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to promise", "feature": ["verb","1p","pl","past","passive"]}
     ],
     "concord": [
@@ -1157,7 +1158,7 @@
     "english": "We were promised!",
     "ghor": "naʃ don.si.mu",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to promise", "feature": ["verb","1p","pl","past","passive"]}
     ],
     "concord": [
@@ -1275,7 +1276,7 @@
     "english": "We will have order!",
     "ghor": "i naʃ pʁo.bi.kɔʁ",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to have", "feature": ["verb","1p","pl","future"]},
       {"lemma": "order", "feature": ["noun","sg"]}
     ],
@@ -1355,7 +1356,7 @@
       {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
       {"lemma": "actually", "feature": ["adverb"]},
       {"lemma": "something", "feature": ["pronoun","indefinite"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to know", "feature": ["verb","1p","pl","present"]},
       {"lemma": "not", "feature": ["particle","negative"]}
     ],
@@ -1379,7 +1380,7 @@
       {"lemma": "at", "feature": ["preposition"]},
       {"lemma": "this", "feature": ["determiner"]},
       {"lemma": "point", "feature": ["noun","sg"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to have", "feature": ["verb","1p","pl","present"]},
       {"lemma": "nothing", "feature": ["pronoun","indefinite","negative"]},
       {"lemma": "but", "feature": ["conjunction"]},
@@ -1463,7 +1464,7 @@
     "english": "We should probably get going.",
     "ghor": "naʃ xod pʁikom pʁɛsto",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "should", "feature": ["verb","modal"]},
       {"lemma": "probably", "feature": ["adverb"]},
       {"lemma": "to get", "feature": ["verb","infinitive"]},
@@ -1484,7 +1485,7 @@
     "ghor": "do naʃ badɔʁ inɛks",
     "features": [
       {"lemma": "till", "feature": ["preposition"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to meet", "feature": ["verb","1p","pl","present"]},
       {"lemma": "again", "feature": ["adverb"]}
     ],
@@ -1563,7 +1564,7 @@
       {"lemma": "Karn", "feature": ["name", "genitive"]},
       {"lemma": "prior", "feature": ["adjective"]},
       {"lemma": "record", "feature": ["noun","sg"]},
-      {"lemma": "we", "feature": ["pronoun","1p","sg"]},
+      {"lemma": "we", "feature": ["pronoun","1p","sg","sub"]},
       {"lemma": "to find", "feature": ["verb","1p","pl","past"]},
       {"lemma": "he", "feature": ["pronoun","3p","sg","accusative"]}
     ],
@@ -1616,7 +1617,7 @@
     "english": "We got this from a Preox-Morlana database.",
     "ghor": "lə bagɔ dan madevɔʁ pʁeɔks mɔʁlana",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to get", "feature": ["verb","1p","pl","past","simple"]},
       {"lemma": "this", "feature": ["pronoun","demonstrative","proximal"]},
       {"lemma": "from", "feature": ["preposition"]},
@@ -1638,7 +1639,7 @@
     "timestamp": "10:20",
     "audio": "5-08.mp3",
     "english": "It wasn’t easy.",
-    "ghor": "kum fig stʁɛtʁefod",
+    "ghor": "kum fig stʁɛfod",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
       {"lemma": "to be", "feature": ["verb","3p","sg","past","simple"]},
@@ -1647,7 +1648,7 @@
     ],
     "concord": [
       {"English": "it wasn’t", "Ghor": "kum fig"},
-      {"English": "easy", "Ghor": "[stʁɛtʁefod]"}
+      {"English": "easy", "Ghor": "[stʁɛfod]"}
     ]
   },
   {
@@ -2034,7 +2035,7 @@
     "english": "We need Leeza.",
     "ghor": "naʃ mik liza",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","nominative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to need", "feature": ["verb","1p","pl","present","simple"]},
       {"lemma": "Leeza", "feature": ["name"]}
     ],
@@ -2511,7 +2512,7 @@
     "timestamp": "41:25",
     "audio": "6-20.mp3",
     "english": "Because if it isn’t, I’m going to stuff it down your ignorant little throat.",
-    "ghor": "tɛl mo lã skafsjɔ̃ (?lobal/ʁobaʁ) katɔʁ tɛm fjɛfuskakɛt",
+    "ghor": "djal mo lã skafsjɔ̃ (?lobal/ʁobaʁ) katɔʁ tɛm fjɛfuskakɛt",
     "features": [
       {"lemma": "because", "feature": ["conjunction"]},
       {"lemma": "if", "feature": ["conjunction"]},
@@ -2530,7 +2531,7 @@
     ],
     "concord": [
       {"English": "because", "Ghor": "[…]"},
-      {"English": "if", "Ghor": "[tɛl]"},
+      {"English": "if", "Ghor": "djal"},
       {"English": "it isn’t", "Ghor": "[mo lã]"},
       {"English": "I’m going to stuff it down", "Ghor": "[skafsjɔ̃ (?lobal/ʁobaʁ) katɔʁ]"},
       {"English": "your", "Ghor": "[tɛm]"},
@@ -2612,11 +2613,11 @@
     "english": "(We need to go, they told us […])",
     "ghor": "naʃ mik balɔʁ . sim ʁo naʃ telpo",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
       {"lemma": "to need", "feature": ["verb","modal","present","simple"]},
       {"lemma": "to go", "feature": ["verb","infinitive"]},
       {"lemma": "they", "feature": ["pronoun","3p","pl"]},
-      {"lemma": "us", "feature": ["pronoun","1p","pl"]}
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
     ],
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
@@ -2626,6 +2627,585 @@
       {"English": "told", "Ghor": "ʁo"},
       {"English": "us", "Ghor": "naʃ"},
       {"English": "[…]", "Ghor": "telpo"}
+    ]
+  },
+  {
+    "code": "7.01",
+    "timestamp": "17:25",
+    "audio": "7-01.mp3",
+    "english": "Let’s make a decision.",
+    "ghor": "naʃ mik ʁɛgulɑ̃",
+    "features": [
+      {"lemma": "to make", "feature": ["verb","hortative"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "decision", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "let’s", "Ghor": "naʃ mik"},
+      {"English": "make a decision", "Ghor": "[ʁɛgulɑ̃]"}
+    ]
+  },
+  {
+    "code": "7.02",
+    "timestamp": "17:27",
+    "audio": "7-02.mp3",
+    "english": "You were the one that started this.",
+    "ghor": "te la pondɔʁ a niz dɔʁ madɛl bjombej (ø)",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "to be", "feature": ["verb","past","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "one", "feature": ["numeral"]},
+      {"lemma": "that", "feature": ["pronoun"]},
+      {"lemma": "to start", "feature": ["verb","past","simple"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative","proximal"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.03",
+    "timestamp": "17:30",
+    "audio": "7-03.mp3",
+    "english": "You keep changing your mind.",
+    "ghor": "tem kymy bas ʃʁit xongɔʁ",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "to keep", "feature": ["verb","present","simple"]},
+      {"lemma": "to change", "feature": ["verb","gerund"]},
+      {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "mind", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.04",
+    "timestamp": "17:32",
+    "audio": "7-04.mp3",
+    "english": "Pretending there is a chance is what’s stupid.",
+    "ghor": "fontalɛsk bi mu kaʁ bi vul dikat",
+    "features": [
+      {"lemma": "to pretend", "feature": ["verb","gerund"]},
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "chance", "feature": ["noun","sg"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "what", "feature": ["pronoun","interrogative"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "stupid", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.05",
+    "timestamp": "17:35",
+    "audio": "7-05.mp3",
+    "english": "Peaceful resistance is not pretending.",
+    "ghor": "siʁ fødɛlt kum bi fontalɛsk",
+    "features": [
+      {"lemma": "peaceful", "feature": ["adjective","positive"]},
+      {"lemma": "resistance", "feature": ["noun","sg"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "to pretend", "feature": ["verb","gerund"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.06",
+    "timestamp": "17:38",
+    "audio": "7-06.mp3",
+    "english": "It’s the only thing that carries any dignity.",
+    "ghor": "a laj fig brenaʃ bi sɛlmo poʃ fig ab sɛʁefos",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the only", "feature": ["determiner"]},
+      {"lemma": "thing", "feature": ["noun","sg"]},
+      {"lemma": "that", "feature": ["pronoun"]},
+      {"lemma": "to carry", "feature": ["verb","present","simple"]},
+      {"lemma": "any", "feature": ["determiner"]},
+      {"lemma": "diginity", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.07",
+    "timestamp": "17:42",
+    "audio": "7-07.mp3",
+    "english": "Dignity?",
+    "ghor": "sɛʁɛfos",
+    "features": [
+      {"lemma": "dignity", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "dignity", "Ghor": "sɛʁɛfos"}
+    ]
+  },
+  {
+    "code": "7.08",
+    "timestamp": "17:43",
+    "audio": "7-08.mp3",
+    "english": "We left dignity behind years ago.",
+    "ghor": "naʃ fig skɛtan sɛʁɛfos a do gam. buliz",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to leave", "feature": ["verb","past","simple"]},
+      {"lemma": "dignity", "feature": ["noun","sg"]},
+      {"lemma": "behind", "feature": ["adverb"]},
+      {"lemma": "year", "feature": ["noun","pl"]},
+      {"lemma": "ago", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "left", "Ghor": "fig skɛtan"},
+      {"English": "dignity", "Ghor": "sɛʁɛfos"},
+      {"English": "behind years ago", "Ghor": "[a do gam. buliz]"}
+    ]
+  },
+  {
+    "code": "7.09",
+    "timestamp": "17:45",
+    "audio": "7-09.mp3",
+    "english": "To what purpose?",
+    "ghor": "va vul finɛg",
+    "features": [
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "what", "feature": ["pronoun","interrogative"]},
+      {"lemma": "purpose", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "to", "Ghor": "va"},
+      {"English": "what", "Ghor": "vyl"},
+      {"English": "purpose", "Ghor": "finɛg"}
+    ]
+  },
+  {
+    "code": "7.10",
+    "timestamp": "17:46",
+    "audio": "7-10.mp3",
+    "english": "We know what’s coming.",
+    "ghor": "naʃ gʁok vula fɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to know", "feature": ["verb","present","simple"]},
+      {"lemma": "what", "feature": ["pronoun"]},
+      {"lemma": "to come", "feature": ["verb","present","progressive"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "know", "Ghor": "gʁok"},
+      {"English": "what", "Ghor": "vyla"},
+      {"English": "is coming", "Ghor": "fɔʁ"}
+    ]
+  },
+  {
+    "code": "7.11",
+    "timestamp": "17:48",
+    "audio": "7-11.mp3",
+    "english": "Should we stand and take it?",
+    "ghor": "sɛlmo sikøʁ ɛ lo bʁaf",
+    "features": [
+      {"lemma": "should", "feature": ["verb","modal"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to stand", "feature": ["verb","infinitive"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to take", "feature": ["verb","infinitive"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]}
+    ],
+    "concord": [
+      {"English": "should we stand", "Ghor": "[sɛlmo sikøʁ]"},
+      {"English": "and", "Ghor": "ɛ"},
+      {"English": "take", "Ghor": "[bʁaf]"},
+      {"English": "it", "Ghor": "[lo]"}
+    ]
+  },
+  {
+    "code": "7.12",
+    "timestamp": "17:49",
+    "audio": "7-12.mp3",
+    "english": "This is where we started.",
+    "ghor": "dalam bi veg fig ɛmbʁo",
+    "features": [
+      {"lemma": "this", "feature": ["pronoun","demonstrative"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "where", "feature": ["adverb","interrogative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to start", "feature": ["verb","past","simple"]}
+    ],
+    "concord": [
+      {"English": "this", "Ghor": "dalam"},
+      {"English": "is", "Ghor": "bi"},
+      {"English": "where", "Ghor": "veg"},
+      {"English": "we started", "Ghor": "fig ɛmbʁo"}
+    ]
+  },
+  {
+    "code": "7.12a",
+    "timestamp": "17:49",
+    "audio": "7-12a.mp3",
+    "english": "Rylanz!",
+    "ghor": "ʁaɪlanz",
+    "features": [
+      {"lemma": "Rylanz", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "Rylanz", "Ghor": "ʁaɪlanz"}
+    ]
+  },
+  {
+    "code": "7.13",
+    "timestamp": "17:53",
+    "audio": "7-13.mp3",
+    "english": "Have you learnt nothing?",
+    "ghor": "ten fig kumwa skube",
+    "features": [
+      {"lemma": "to learn", "feature": ["verb","present","perfect","question"]},
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "nothing", "feature": ["pronoun","negative"]}
+    ],
+    "concord": [
+      {"English": "have", "Ghor": "fig"},
+      {"English": "you", "Ghor": "ten"},
+      {"English": "learnt", "Ghor": "skube"},
+      {"English": "nothing", "Ghor": "kumwa"}
+    ]
+  },
+  {
+    "code": "7.14",
+    "timestamp": "17:54",
+    "audio": "7-14.mp3",
+    "english": "I’ve learned how good we are at letting them provoke us.",
+    "ghor": "mo fig skube , nad bi bo nan sim naʃ godalo",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg"]},
+      {"lemma": "to learn", "feature": ["verb","present","perfect"]},
+      {"lemma": "how", "feature": ["adverb"]},
+      {"lemma": "good", "feature": ["adjective","positive"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "at", "feature": ["preposition"]},
+      {"lemma": "to let", "feature": ["verb","gerund"]},
+      {"lemma": "them", "feature": ["pronoun","3p","pl"]},
+      {"lemma": "to provoke", "feature": ["verb","infinitive"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "I", "Ghor": "mo"},
+      {"English": "have", "Ghor": "fig"},
+      {"English": "learned", "Ghor": "skube"},
+      {"English": "how good we are at letting them", "Ghor": "nad bi bo nan"},
+      {"English": "them", "Ghor": "sim"},
+      {"English": "provoke", "Ghor": "godalo"},
+      {"English": "us", "Ghor": "naʃ"}
+    ]
+  },
+  {
+    "code": "7.15",
+    "timestamp": "17:58",
+    "audio": "7-15.mp3",
+    "english": "You have to listen.",
+    "ghor": "ten mik me bɔʁd",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "to have to", "feature": ["verb","modal","present","simple"]},
+      {"lemma": "to listen", "feature": ["verb","infinitive"]}
+    ],
+    "concord": [
+      {"English": "you", "Ghor": "ten"},
+      {"English": "have to", "Ghor": "mik"},
+      {"English": "listen", "Ghor": "bɔʁd"},
+      {"English": "[to me]", "Ghor": "[me]"}
+    ]
+  },
+  {
+    "code": "7.16",
+    "timestamp": "18:00",
+    "audio": "7-16.mp3",
+    "english": "You can’t keep screaming the same ideas expecting change.",
+    "ghor": "viʁ kum tem bjed dop tikil su.kɛʁ to mas tek vaʃ",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p"]},
+      {"lemma": "can", "feature": ["verb","modal","present"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "to keep", "feature": ["verb","present","simple"]},
+      {"lemma": "to scream", "feature": ["verb","gerund"]},
+      {"lemma": "the same", "feature": ["determiner"]},
+      {"lemma": "idea", "feature": ["noun","pl"]},
+      {"lemma": "to expect", "feature": ["verb","participle","active"]},
+      {"lemma": "change", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "you", "Ghor": "tem"},
+      {"English": "can", "Ghor": "[viʁ]"},
+      {"English": "not", "Ghor": "kum"},
+      {"English": "keep screaming the same ideas expecting change", "Ghor": "bjed dop tikil su.kɛʁ to mas tek vaʃ"}
+    ]
+  },
+  {
+    "code": "7.17",
+    "timestamp": "18:03",
+    "audio": "7-17.mp3",
+    "english": "Enough!",
+    "ghor": "lidɛ",
+    "features": [
+      {"lemma": "enough", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "enough", "Ghor": "lidɛ"}
+    ]
+  },
+  {
+    "code": "7.18",
+    "timestamp": "18:09",
+    "audio": "7-18.mp3",
+    "english": "Look at us.",
+    "ghor": "naʃ kont",
+    "features": [
+      {"lemma": "to look", "feature": ["verb","imperative"]},
+      {"lemma": "at", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "look at", "Ghor": "kont"},
+      {"English": "us", "Ghor": "naʃ"}
+    ]
+  },
+  {
+    "code": "7.19",
+    "timestamp": "18:11",
+    "audio": "7-19.mp3",
+    "english": "Look what they’ve done to us.",
+    "ghor": "kont vul semad sim naʃ",
+    "features": [
+      {"lemma": "to look", "feature": ["verb","imperative"]},
+      {"lemma": "what", "feature": ["pronoun","interrogative"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl"]},
+      {"lemma": "to do", "feature": ["verb","present","perfect"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "look", "Ghor": "kont"},
+      {"English": "what", "Ghor": "vyl"},
+      {"English": "they", "Ghor": "sim"},
+      {"English": "have done", "Ghor": "semad"},
+      {"English": "to us", "Ghor": "naʃ"}
+    ]
+  },
+  {
+    "code": "7.20",
+    "timestamp": "18:15",
+    "audio": "7-20.mp3",
+    "english": "Poisoned us…",
+    "ghor": "naʃ liɔʁgɛ",
+    "features": [
+      {"lemma": "to poison", "feature": ["verb","past","simple"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "poisoned", "Ghor": "[liɔʁgɛ]"},
+      {"English": "us", "Ghor": "naʃ"}
+    ]
+  },
+  {
+    "code": "7.21",
+    "timestamp": "18:17",
+    "audio": "7-21.mp3",
+    "english": "… as if they’re in here laughing at us.",
+    "ghor": "sø bi fɛ madal naʃ tʁombãnt",
+    "features": [
+      {"lemma": "as", "feature": ["conjunction"]},
+      {"lemma": "if", "feature": ["conjunction"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "here", "feature": ["adverb"]},
+      {"lemma": "to laugh", "feature": ["verb","participle"]},
+      {"lemma": "at", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "as if", "Ghor": "[sø]"},
+      {"English": "they’re", "Ghor": "bi"},
+      {"English": "in here", "Ghor": "fɛ"},
+      {"English": "laughing", "Ghor": "[tʁombãnt]"},
+      {"English": "at us", "Ghor": "naʃ"}
+    ]
+  },
+  {
+    "code": "7.22",
+    "timestamp": "18:22",
+    "audio": "7-22.mp3",
+    "english": "I don’t care… (if)",
+    "ghor": "mo swa dial",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg"]},
+      {"lemma": "to care", "feature": ["verb","present","simple"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "if", "feature": [""]}
+    ],
+    "concord": [
+      {"English": "I", "Ghor": "mo"},
+      {"English": "don’t care", "Ghor": "swa"},
+      {"English": "if", "Ghor": "dial"}
+    ]
+  },
+  {
+    "code": "7.23",
+    "timestamp": "18:24",
+    "audio": "7-23.mp3",
+    "english": "… you fight or lay rose petals in the street…",
+    "ghor": "tem dabɔʁ sa lymz sin plaʒz",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p","subj"]},
+      {"lemma": "to fight", "feature": ["verb","present","simple"]},
+      {"lemma": "or", "feature": ["conjunction"]},
+      {"lemma": "to lay", "feature": ["verb","present","simple"]},
+      {"lemma": "rose", "feature": ["noun","sg"]},
+      {"lemma": "petal", "feature": ["noun","pl"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "street", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.24",
+    "timestamp": "18:28",
+    "audio": "7-24.mp3",
+    "english": "… or hide in the basement.",
+    "ghor": "ʁis kɛl.kɔʁ sin kum.bons",
+    "features": [
+      {"lemma": "or", "feature": ["conjunction"]},
+      {"lemma": "to hide", "feature": ["verb","present","simple"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "basement", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.25",
+    "timestamp": "18:30",
+    "audio": "7-25.mp3",
+    "english": "I don’t care for any of it.",
+    "ghor": "mo swa kom bɛ̃(n)",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg","sub"]},
+      {"lemma": "to care", "feature": ["verb","present","simple"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "for", "feature": ["preposition"]},
+      {"lemma": "any", "feature": ["pronoun","indefinite"]},
+      {"lemma": "of", "feature": ["preposition"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.26",
+    "timestamp": "18:38",
+    "audio": "7-26.mp3",
+    "english": "We are the Ghor.",
+    "ghor": "naʃ bi dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "are", "Ghor": "bi"},
+      {"English": "the Ghor", "Ghor": "dym gɔʁ"}
+    ]
+  },
+  {
+    "code": "7.26a",
+    "timestamp": "18:42",
+    "audio": "7-26a.mp3",
+    "english": "We are the Ghor.",
+    "ghor": "naʃ bi dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "are", "Ghor": "bi"},
+      {"English": "the Ghor", "Ghor": "dym gɔʁ"}
+    ]
+  },
+  {
+    "code": "7.27",
+    "timestamp": "18:45",
+    "audio": "7-27.mp3",
+    "english": "If they take that from us…",
+    "ghor": "dial lan molan vo laj",
+    "features": [
+      {"lemma": "if", "feature": ["conjunction"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl"]},
+      {"lemma": "to take", "feature": ["verb","present","simple","conditional"]},
+      {"lemma": "that", "feature": ["pronoun"]},
+      {"lemma": "from", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "if", "Ghor": "dial"},
+      {"English": "they take that from us", "Ghor": "lan molan vo laj"}
+    ]
+  },
+  {
+    "code": "7.28",
+    "timestamp": "18:48",
+    "audio": "7-28.mp3",
+    "english": "… then what’s worth saving?",
+    "ghor": "mu kum kaz mala bliv madan",
+    "features": [
+      {"lemma": "then", "feature": ["adverb"]},
+      {"lemma": "what", "feature": ["pronoun"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "worth", "feature": ["adjective","positive"]},
+      {"lemma": "to save", "feature": ["verb","gerund"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "7.29",
+    "timestamp": "33:12",
+    "audio": "7-29.mp3",
+    "english": "Attention! Curfew is now in effect!",
+    "ghor": "da vonz ʃi pada bi madal",
+    "features": [
+      {"lemma": "attention", "feature": ["noun","sg"]},
+      {"lemma": "curfew", "feature": ["noun","sg"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "now", "feature": ["adverb"]},
+      {"lemma": "in", "feature": ["preposition"]},
+      {"lemma": "effect", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
     ]
   }
 ]
