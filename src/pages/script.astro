@@ -21,14 +21,14 @@ import Image from '../components/Image.svelte';
     <div class="space-y-10">
       {
         data.map((item) => (
-          <article class="bg-white rounded-xl shadow p-6" id={item.code}>
+          <article class="bg-white rounded-xl shadow p-6" id={item.id}>
             <header class="mb-4">
               <div class="flex justify-between text-sm text-gray-500">
                 <span>{item.code ? item.code : '??'}</span>
                 <span>{item.timestamp ? item.timestamp : '??'}</span>
               </div>
-              <p class="ghor text-6xl font-medium text-blue-800 mt-2 whitespace-pre-line">{item.text}</p>
-              <p class="text-base text-gray-700 italic whitespace-pre-line">{item.text}</p>
+              <p class="ghor text-6xl font-medium text-blue-800 mt-2 whitespace-pre">{item.text}</p>
+              <p class="text-base text-gray-700 italic whitespace-pre">{item.text}</p>
             </header>
             {Array.isArray(item.item)
               ? <div class="flex gap-4 mt-4 flex-wrap">

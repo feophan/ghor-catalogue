@@ -3,282 +3,336 @@
     "code": "Item 1",
     "timestamp": "??",
     "text": "sapen dan\nRebecca",
-    "item": "item_1.jpg"
+    "item": "item_1.jpg",
+    "id": "1"
   },
   {
     "code": "Item 2",
     "timestamp": "??",
     "text": "bouti\nguies",
-    "item": "item_2.png"
+    "item": "item_2.png",
+    "id": "2"
   },
   {
     "code": "Item 3",
     "timestamp": "??",
     "text": "gulto strale",
-    "item": "item_3.png"
+    "item": "item_3.png",
+    "id": "3"
   },
   {
     "code": "Item 4",
     "timestamp": "??",
     "text": "Grandesque\nOulette",
-    "item": "item_4.png"
+    "item": "item_4.png",
+    "id": "4"
   },
   {
     "code": "Item 5a",
     "timestamp": "??",
     "text": "gridel\nghors",
-    "item": "item_5.jpg"
+    "item": "item_5.jpg",
+    "id": "5a"
   },
   {
     "code": "Item 5b",
     "timestamp": "??",
     "text": "bloube",
-    "item": "item_5.jpg"
+    "item": "item_5.jpg",
+    "id": "5b"
   },
   {
     "code": "Item 5c",
     "timestamp": "??",
     "text": "coupe?a\n?atap??",
-    "item": "item_5.jpg"
+    "item": "item_5.jpg",
+    "id": "5c"
   },
     {
     "code": "Item 5d",
     "timestamp": "??",
     "text": "spude?oue",
-    "item": "item_5.jpg"
+    "item": "item_5.jpg",
+    "id": "5d"
   },
   {
     "code": "Item 5e",
     "timestamp": "??",
     "text": "handy-\npain-dy",
-    "item": "item_5.jpg"
+    "item": "item_5.jpg",
+    "id": "5e"
   },
   {
-    "code": "Item 13a",
+    "code": "Item 13: 1st plaque",
     "timestamp": "??",
     "text": "haute\nqualitie",
-    "item": "item_13.jpg"
+    "item": "item_13.jpg",
+    "id": "13-1"
   },
   {
-    "code": "Item 13c",
+    "code": "Item 13: 2nd plaque",
+    "timestamp": "??",
+    "text": "??e??awoste",
+    "item": "item_13.jpg",
+    "id": "13-2"
+  },
+  {
+    "code": "Item 13: 3rd plaque",
     "timestamp": "??",
     "text": "c??de\ngouel",
-    "item": "item_13.jpg"
+    "item": "item_13.jpg",
+    "id": "13-3"
   },
   {
-    "code": "Item 13d",
+    "code": "Item 13: 4th plaque",
     "timestamp": "??",
     "text": "en vente",
-    "item": "item_13.jpg"
+    "item": "item_13.jpg",
+    "id": "13-4"
   },
   {
-    "code": "Item 13e",
+    "code": "Item 13: 5th plaque",
     "timestamp": "??",
     "text": "divers\ntissus",
-    "item": "item_13.jpg"
+    "item": "item_13.jpg",
+    "id": "13-5"
   },
   {
     "code": "Item 6",
     "timestamp": "E6: 41:46",
     "text": "pleke",
-    "item": ["item_6a.png", "item_6b.png", "item_6c.png"]
+    "item": ["item_6a.png", "item_6b.png", "item_6c.png"],
+    "id": "6"
   },
   {
     "code": "Item 7",
     "timestamp": "??",
     "text": "genege\nghor\notrasque",
-    "item": "item_7.png"
+    "item": "item_7.png",
+    "id": "7"
   },
   {
-    "code": "Menu a",
-    "timestamp": "\"Andor Declassified: Worldbuilding\": ??",
-    "text": "menu\nsplac\nsap ghors",
-    "item": "menu_a.png"
-  },
-  {
-    "code": "Menu b",
-    "timestamp": "??",
-    "text": "menu",
-    "item": "item_8b.png"
+    "code": "Menu",
+    "timestamp": "Andor Declassified: Worldbuilding: ??",
+    "text": "menu\nsplac\n\tsplac naboo\n\tsplac ???\n\tsplac ???\nsap ghors\n\t??? ??? ???",
+    "item": ["menu_a.png","menu_b.png","menu_c.png","menu_d.png"],
+    "id": "menu"
   },
   {
     "code": "Item 9",
     "timestamp": "??",
     "text": "osta",
-    "item": "item_9.png"
+    "item": "item_9.png",
+    "id": "9"
   },
   {
     "code": "Item 10",
     "timestamp": "??",
     "text": "skog",
-    "item": "item_10.png"
+    "item": "item_10.png",
+    "id": "10"
   },
   {
     "code": "Secret message",
     "timestamp": "??",
     "text": "##|maje|clage|palmo|ghor?",
-    "item": "item_11.png"
+    "item": "item_11.png",
+    "id": "11"
   },
   {
     "code": "Item 12",
     "timestamp": "??",
     "text": "koke",
-    "item": "item_12.png"
+    "item": "item_12.png",
+    "id": "12"
   },
   {
     "code": "Bureau of Standards",
     "timestamp": "??",
     "text": "Brubaquer\ndan Enries",
-    "item": "BureauOfStandards.png"
+    "item": "BureauOfStandards.png",
+    "id": "bureau"
   },
   {
     "code": "Numerals A",
     "timestamp": "??",
     "text": "",
-    "item": "numerals_a.png"
+    "item": "numerals_a.png",
+    "id": "numA"
   },
   {
     "code": "Numerals B",
     "timestamp": "??",
     "text": "",
-    "item": "numerals_b.png"
+    "item": "numerals_b.png",
+    "id": "numB"
   },
   {
     "code": "Numerals C",
     "timestamp": "??",
     "text": "",
-    "item": "numerals_c.png"
+    "item": "numerals_c.png",
+    "id": "numC"
   },
   {
     "code": "Numerals D",
     "timestamp": "??",
     "text": "",
-    "item": "numerals_d.png"
+    "item": "numerals_d.png",
+    "id": "numD"
   },
   {
     "code": "Ghorlectopod Mural",
     "timestamp": "S2E1: ??",
     "text": "too soon we\nmiss you",
-    "item": "GhorlectopodMural.png"
+    "item": "GhorlectopodMural.png",
+    "id": "mural"
   },
   {
     "code": "Item 14",
     "timestamp": "??",
     "text": "yarro",
-    "item": "item_14.png"
+    "item": "item_14.png",
+    "id": "14"
   },
   {
     "code": "Item 15",
     "timestamp": "??",
     "text": "futu",
-    "item": "item_15.png"
+    "item": "item_15.png",
+    "id": "15"
   },
   {
     "code": "Heist Sign",
     "timestamp": "??",
     "text": "mclee conss ghors",
-    "item": "HeistSign.png"
+    "item": "HeistSign.png",
+    "id": "heist"
   },
   {
     "code": "Item 16 left",
     "timestamp": "??",
     "text": "osta",
-    "item": "item_16.png"
+    "item": "item_16.png",
+    "id": "16-left"
   },
   {
     "code": "Item 16 right",
     "timestamp": "??",
     "text": "futu",
-    "item": "item_16.png"
+    "item": "item_16.png",
+    "id": "16-right"
   },
   {
     "code": "Item 17",
     "timestamp": "??",
     "text": "Sulette\nMiscele",
-    "item": "item_17.png"
+    "item": "item_17.png",
+    "id": "17"
   },
   {
     "code": "Item 18",
     "timestamp": "??",
     "text": "srcou ben",
-    "item": "item_18.png"
+    "item": "item_18.png",
+    "id": "18"
   },
   {
     "code": "Item 19",
     "timestamp": "??",
     "text": "huda",
-    "item": "item_19.png"
+    "item": "item_19.png",
+    "id": "19"
   },
   {
     "code": "Item 20",
     "timestamp": "??, E6: 42:47",
     "text": "commsoffi",
-    "item": ["item_20a.png","item_20b.png"]
+    "item": ["item_20a.png","item_20b.png"],
+    "id": "20"
   },
   {
     "code": "Item 21",
     "timestamp": "??",
     "text": "f",
-    "item": "item_21.png"
+    "item": "item_21.png",
+    "id": "21"
   },
   {
     "code": "Wine Sign",
     "timestamp": "E8 10:24",
     "text": "yima",
-    "item": "WineSign.png"
+    "item": "WineSign.png",
+    "id": "wine"
   },
   {
     "code": "Front HQ a",
     "timestamp": "??",
     "text": "GR",
-    "item": "frontHQ_a.png"
+    "item": "frontHQ_a.png",
+    "id": "HQ-a"
   },
   {
     "code": "Front HQ b",
     "timestamp": "??",
     "text": "IT",
-    "item": "frontHQ_b.png"
+    "item": "frontHQ_b.png",
+    "id": "HQ-b"
   },
   {
     "code": "Front HQ c",
     "timestamp": "??",
     "text": "HS",
-    "item": "frontHQ_c.png"
+    "item": "frontHQ_c.png",
+    "id": "HQ-c"
   },
   {
     "code": "Front HQ d",
     "timestamp": "??",
     "text": "DJ",
-    "item": "frontHQ_d.png"
+    "item": "frontHQ_d.png",
+    "id": "HQ-d"
   },
   {
     "code": "Front HQ e",
     "timestamp": "??",
     "text": "CW",
-    "item": "frontHQ_e.png"
+    "item": "frontHQ_e.png",
+    "id": "HQ-e"
   },
   {
     "code": "Item 22",
     "timestamp": "??",
     "text": "goss",
-    "item": "item_22.png"
+    "item": "item_22.png",
+    "id": "22"
   },
   {
     "code": "Item 23",
     "timestamp": "??",
     "text": "goss",
-    "item": "item_23.png"
+    "item": "item_23.png",
+    "id": "23"
   },
   {
     "code": "Item 24",
     "timestamp": "E6: 34:59, 40:59",
     "text": "sawfe",
-    "item": "item_24.png"
+    "item": "item_24.png",
+    "id": "24"
   },
   {
     "code": "Item 25",
     "timestamp": "E6: 34:59, 40:59",
     "text": "?iend?",
-    "item": ["item_25a.png", "item_25b.png","item_25c.png"]
+    "item": ["item_25a.png", "item_25b.png","item_25c.png"],
+    "id": "25"
+  },
+  {
+    "code": "Item 26",
+    "timestamp": "??",
+    "text": "dan bouti\nlecrelle",
+    "item": ["item_26.jpg"],
+    "id": "26"
   }
 ]
