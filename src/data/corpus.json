@@ -3207,5 +3207,1080 @@
     "concord": [
       {"English": "", "Ghor": ""}
     ]
+  },
+  {
+    "code": "8.01",
+    "timestamp": "04:46",
+    "audio": "8-01.mp3",
+    "english": "(...)",
+    "ghor": "mɛs i mo kʁast",
+    "features": [
+      {"lemma": "", "feature": [""]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.02",
+    "timestamp": "04:47",
+    "audio": "8-02.mp3",
+    "english": "They’re opening up the plaza.",
+    "ghor": "nam vek sim un tʁask",
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p", "pl","subj"]},
+      {"lemma": "to open", "feature": ["verb","present","progressive"]},
+      {"lemma": "up", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "plaza", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.03",
+    "timestamp": "04:49",
+    "audio": "8-03.mp3",
+    "english": "Let everyone know!",
+    "ghor": "vi lam diazh møg",
+    "features": [
+      {"lemma": "to let", "feature": ["verb","imperative"]},
+      {"lemma": "everyone", "feature": ["pronoun","indefinite"]},
+      {"lemma": "to know", "feature": ["verb","infinitive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.04",
+    "timestamp": "05:02",
+    "audio": "8-04.mp3",
+    "english": "Let’s get ready.",
+    "ghor": "ãm pʁesto",
+    "features": [
+      {"lemma": "to get", "feature": ["verb","hortative"]},
+      {"lemma": "ready", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.05",
+    "timestamp": "05:03",
+    "audio": "8-05.mp3",
+    "english": "(...)",
+    "ghor": "vi lam diazh møg",
+    "features": [
+      {"lemma": "", "feature": [""]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.06",
+    "timestamp": "07:27",
+    "audio": "8-06.mp3",
+    "english": "They’ve opened the plaza. We’re taking back the plaza.",
+    "ghor": "??? ??? ??? naʃ pʁɛbono sxat?",
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p","pl","subj"]},
+      {"lemma": "to open", "feature": ["verb","present","perfect"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "plaza", "feature": ["noun","sg"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to take", "feature": ["verb","present","progressive"]},
+      {"lemma": "back", "feature": ["adverb"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "plaza", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.06a",
+    "timestamp": "07:31",
+    "audio": "8-06a.mp3",
+    "english": "",
+    "ghor": "???",
+    "features": [
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.06b",
+    "timestamp": "07:41",
+    "audio": "8-06b.mp3",
+    "english": "",
+    "ghor": "???",
+    "features": [
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.07",
+    "timestamp": "07:45",
+    "audio": "8-07.mp3",
+    "english": "There you are…",
+    "ghor": "tem aʃ pipi",
+    "features": [
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "you", "feature": ["pronoun","2p","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.08",
+    "timestamp": "07:48",
+    "audio": "8-08.mp3",
+    "english": "It’s a trap.",
+    "ghor": "bi kokam",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","expletive"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "a", "feature": ["article","definite"]},
+      {"lemma": "trap", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.09",
+    "timestamp": "07:50",
+    "audio": "8-09.mp3",
+    "english": "I’ve been worried about you.",
+    "ghor": "u ni tʁi ʁo tʁaz (ʁul / vul?)",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","perfect"]},
+      {"lemma": "to worry", "feature": ["verb","participle","passive"]},
+      {"lemma": "about", "feature": ["preposition"]},
+      {"lemma": "you", "feature": ["pronoun","2p","obj"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.10",
+    "timestamp": "07:53",
+    "audio": "8-10.mp3",
+    "english": "They want us out there.",
+    "ghor": "sim naʃ kʁøf walond",
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p","pl","subj"]},
+      {"lemma": "want", "feature": ["verb","present","simple"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]},
+      {"lemma": "out", "feature": ["preposition"]},
+      {"lemma": "there", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.11",
+    "timestamp": "07:55",
+    "audio": "8-11.mp3",
+    "english": "Father, please…",
+    "ghor": "sajjo . dib",
+    "features": [
+      {"lemma": "father", "feature": ["noun","sg"]},
+      {"lemma": "please", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.12",
+    "timestamp": "07:57",
+    "audio": "8-12.mp3",
+    "english": "You could stop this.",
+    "ghor": "tem muk lu fʁɛ.ʒɛk",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p","subj"]},
+      {"lemma": "can", "feature": ["verb","present","modal"]},
+      {"lemma": "to stop", "feature": ["verb","infinitive"]},
+      {"lemma": "this", "feature": ["pronoun","demonstrative"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.13",
+    "timestamp": "07:59",
+    "audio": "8-13.mp3",
+    "english": "It’s not too late.",
+    "ghor": "kum bi õbu",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "not", "feature": ["particle","negative"]},
+      {"lemma": "too", "feature": ["adverb"]},
+      {"lemma": "late", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.14",
+    "timestamp": "08:00",
+    "audio": "8-14.mp3",
+    "english": "People need to be heard.",
+    "ghor": "suə mik ʁɛn bi a bɔʁdu",
+    "features": [
+      {"lemma": "people", "feature": ["noun","sg"]},
+      {"lemma": "to need", "feature": ["verb","present","modal"]},
+      {"lemma": "to hear", "feature": ["`verb","infinitive","passive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.15",
+    "timestamp": "08:03",
+    "audio": "8-15.mp3",
+    "english": "They’ve been begging us to fight.",
+    "ghor": "sim u fig naʃ ʁɛz dabɔʁ",
+    "features": [
+      {"lemma": "they", "feature": ["pronoun","3p","pl","subj"]},
+      {"lemma": "to beg", "feature": ["verb","present","perfect","progressive"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "to fight", "feature": ["verb","infinitive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.16",
+    "timestamp": "08:06",
+    "audio": "8-16.mp3",
+    "english": "We can’t stay silent any longer.",
+    "ghor": "naʃ kum viɛʁ stan soʁɛft inɛks",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "can", "feature": ["verb","present","modal"]},
+      {"lemma": "not", "feature": ["participle","negative"]},
+      {"lemma": "to stay", "feature": ["verb","infinitive"]},
+      {"lemma": "silent", "feature": ["adjective","positive"]},
+      {"lemma": "any longer", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.17",
+    "timestamp": "08:09",
+    "audio": "8-17.mp3",
+    "english": "Silent?",
+    "ghor": "soʁɛft",
+    "features": [
+      {"lemma": "silent", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.18",
+    "timestamp": "08:11",
+    "audio": "8-18.mp3",
+    "english": "We’ll be silent when we’re dead!",
+    "ghor": "naʃ bi soʁɛft vla naʃ bi gastam",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to be", "feature": ["verb","future","simple"]},
+      {"lemma": "silent", "feature": ["adjective","positive"]},
+      {"lemma": "when", "feature": ["adverb","relative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "dead", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.19",
+    "timestamp": "08:18",
+    "audio": "8-19.mp3",
+    "english": "Father. Father!",
+    "ghor": "sajjo . sajjo",
+    "features": [
+      {"lemma": "father", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.20",
+    "timestamp": "08:21",
+    "audio": "8-20.mp3",
+    "english": "I have to stop it.",
+    "ghor": "",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to have to", "feature": ["verb","present","simple","modal"]},
+      {"lemma": "to stop", "feature": ["verb","infinitive"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.21",
+    "timestamp": "08:29",
+    "audio": "",
+    "english": "(we are meeting)",
+    "ghor": "naʃ badɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to meet", "feature": ["verb","present"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.22",
+    "timestamp": "08:32",
+    "audio": "",
+    "english": "The memorial is open!",
+    "ghor": "ʃlat giafel",
+    "features": [
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "memorial", "feature": ["noun","sg"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "open", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.23",
+    "timestamp": "08:35",
+    "audio": "",
+    "english": "Come to the plaza… ",
+    "ghor": "",
+    "features": [
+      {"lemma": "to come", "feature": ["verb","imperative"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "plaza", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.24",
+    "timestamp": "08:37",
+    "audio": "",
+    "english": "and show them who we are!",
+    "ghor": "",
+    "features": [
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to show", "feature": ["verb","imperative"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl","obj"]},
+      {"lemma": "who", "feature": ["pronoun","relative"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.25",
+    "timestamp": "08:39",
+    "audio": "",
+    "english": "Take back the homeland!",
+    "ghor": "",
+    "features": [
+      {"lemma": "to take", "feature": ["verb","imperative"]},
+      {"lemma": "back", "feature": ["adverb"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "homeland", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.26",
+    "timestamp": "09:06",
+    "audio": "",
+    "english": "Go home!",
+    "ghor": "daʃ balɔʁ",
+    "features": [
+      {"lemma": "to go", "feature": ["verb","imperative"]},
+      {"lemma": "home", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.27",
+    "timestamp": "09:07",
+    "audio": "",
+    "english": "Ghormans, please!",
+    "ghor": "tʁan gɔʁ dib",
+    "features": [
+      {"lemma": "Ghorman", "feature": ["noun","pl"]},
+      {"lemma": "please", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.28",
+    "timestamp": "09:09",
+    "audio": "",
+    "english": "It’s an Imperial trap!",
+    "ghor": "bi fuladiz kokam",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg","subj","expletive"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "an", "feature": ["article","indefinite"]},
+      {"lemma": "imperial", "feature": ["adjective","positive"]},
+      {"lemma": "trap", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.29",
+    "timestamp": "09:11",
+    "audio": "",
+    "english": "There’s nothing here for us!",
+    "ghor": "??? bi naʃ",
+    "features": [
+      {"lemma": "there", "feature": ["adverb"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "nothing", "feature": ["pronoun","negative"]},
+      {"lemma": "here", "feature": ["adverb"]},
+      {"lemma": "for", "feature": ["preposition"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.30",
+    "timestamp": "09:14",
+    "audio": "",
+    "english": "The only path is silent resist—",
+    "ghor": "sɛn mog vi.naʃ bi ʃon pɛ—",
+    "features": [
+      {"lemma": "the only", "feature": ["determiner"]},
+      {"lemma": "path", "feature": ["noun","sg"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "silent", "feature": ["adjective","positive"]},
+      {"lemma": "resistance", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.31",
+    "timestamp": "10:20",
+    "audio": "",
+    "english": "Can I help you?",
+    "ghor": "tɛm vali mo",
+    "features": [
+      {"lemma": "can", "feature": ["verb","modal","present"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to help", "feature": ["verb","infinitive"]},
+      {"lemma": "you", "feature": ["pronoun","2p","obj"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.32",
+    "timestamp": "13:22",
+    "audio": "",
+    "english": "Have you seen my father?",
+    "ghor": "tɛm fig apti mo saj",
+    "features": [
+      {"lemma": "you", "feature": ["pronoun","2p","subj"]},
+      {"lemma": "to see", "feature": ["verb","present","perfect"]},
+      {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "father", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.33",
+    "timestamp": "13:24",
+    "audio": "",
+    "english": "I haven’t.",
+    "ghor": "ɛlf",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "not", "feature": ["particle","negative"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.34",
+    "timestamp": "13:25",
+    "audio": "",
+    "english": "Stay with me.",
+    "ghor": "pʁobɛstɔʁ",
+    "features": [
+      {"lemma": "to stay", "feature": ["verb","imperative"]},
+      {"lemma": "with", "feature": ["preposition"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","obj"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.35",
+    "timestamp": "17:42",
+    "audio": "",
+    "english": "Dreena! Over here!",
+    "ghor": "dʁi.na ???",
+    "features": [
+      {"lemma": "Dreena", "feature": ["name"]},
+      {"lemma": "over", "feature": ["preposition"]},
+      {"lemma": "there", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.36",
+    "timestamp": "19:14",
+    "audio": "",
+    "english": "Raise your eyes to homeland skies",
+    "ghor": "oŋg dum ɛz va lavɛ glɛʒ",
+    "features": [
+      {"lemma": "to raise", "feature": ["verb","imperative"]},
+      {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "eye", "feature": ["noun","pl"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "homeland", "feature": ["noun","sg"]},
+      {"lemma": "sky", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.37",
+    "timestamp": "19:18",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "gambol dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.38",
+    "timestamp": "19:22",
+    "audio": "",
+    "english": "Breathe the air and know you’re there",
+    "ghor": "tʁaspu flond tɛm gʁok ualond",
+    "features": [
+      {"lemma": "to breathe", "feature": ["verb","imperative"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "air", "feature": ["noun","sg"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to know", "feature": ["verb","imperative"]},
+      {"lemma": "you", "feature": ["pronoun","2p","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "there", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.39",
+    "timestamp": "19:26",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "gam.bol dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.40",
+    "timestamp": "19:31",
+    "audio": "",
+    "english": "Valley",
+    "ghor": "valɛn",
+    "features": [
+      {"lemma": "valley", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.41",
+    "timestamp": "19:33",
+    "audio": "",
+    "english": "Highland",
+    "ghor": "mɛʒka",
+    "features": [
+      {"lemma": "highland", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.42",
+    "timestamp": "19:35",
+    "audio": "",
+    "english": "Let me spend my every day there",
+    "ghor": "dib mo laj mun laj sol lɛʒna",
+    "features": [
+      {"lemma": "to let", "feature": ["verb","imperative"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","obj"]},
+      {"lemma": "to spend", "feature": ["verb","infinitive"]},
+      {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "every", "feature": ["determiner"]},
+      {"lemma": "day", "feature": ["noun","sg"]},
+      {"lemma": "there", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.43",
+    "timestamp": "19:41",
+    "audio": "",
+    "english": "Call your kin to come and sing",
+    "ghor": "bɛk tem bʁol ofot kaʁo",
+    "features": [
+      {"lemma": "to call", "feature": ["verb","imperative"]},
+      {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "kin", "feature": ["noun","sg"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "to come", "feature": ["verb","infinitive"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to sing", "feature": ["verb","infinitive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.44",
+    "timestamp": "19:46",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "gambol dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.45",
+    "timestamp": "19:50",
+    "audio": "",
+    "english": "Voices loud and standing proud",
+    "ghor": "vai bi gas e tʁɛm bi tʁa",
+    "features": [
+      {"lemma": "voice", "feature": ["noun","pl"]},
+      {"lemma": "loud", "feature": ["adjective","positive"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to stand", "feature": ["verb","participle"]},
+      {"lemma": "proud", "feature": ["adjective","positive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.46",
+    "timestamp": "19:55",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "gambol dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.47",
+    "timestamp": "19:59",
+    "audio": "",
+    "english": "Valley",
+    "ghor": "valɛn",
+    "features": [
+      {"lemma": "valley", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.48",
+    "timestamp": "20:01",
+    "audio": "",
+    "english": "Highland",
+    "ghor": "mɛʒka",
+    "features": [
+      {"lemma": "highland", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.49",
+    "timestamp": "20:03",
+    "audio": "",
+    "english": "Let me spend my every day there",
+    "ghor": "dib mo laj mun laj sol lɛʒ.na",
+    "features": [
+      {"lemma": "to let", "feature": ["verb","imperative"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","obj"]},
+      {"lemma": "to spend", "feature": ["verb","infinitive"]},
+      {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
+      {"lemma": "every", "feature": ["determiner"]},
+      {"lemma": "day", "feature": ["noun","sg"]},
+      {"lemma": "there", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.50",
+    "timestamp": "20:10",
+    "audio": "",
+    "english": "Tight the weave and roll the sleeve",
+    "ghor": "",
+    "features": [
+      {"lemma": "to tighten", "feature": ["verb","imperative"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "weave", "feature": ["noun","sg"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to roll", "feature": ["verb","imperative"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "sleeve", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.51",
+    "timestamp": "20:15",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "gambol dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.52",
+    "timestamp": "20:18",
+    "audio": "",
+    "english": "From Navishare to Palmo Square",
+    "ghor": "navi mid ɛ palmo sid",
+    "features": [
+      {"lemma": "from", "feature": ["preposition"]},
+      {"lemma": "Navishare", "feature": ["name"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "Palmo", "feature": ["name"]},
+      {"lemma": "square", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.53",
+    "timestamp": "20:23",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "gambol dym gɔʁ",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "Ghor", "feature": ["name"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.54",
+    "timestamp": "20:27",
+    "audio": "",
+    "english": "Valley",
+    "ghor": "valɛn",
+    "features": [
+      {"lemma": "valley", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.55",
+    "timestamp": "20:29",
+    "audio": "",
+    "english": "Highland",
+    "ghor": "meʒka",
+    "features": [
+      {"lemma": "highland", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.56",
+    "timestamp": "20:39",
+    "audio": "",
+    "english": "(…)",
+    "ghor": "la di don gifel",
+    "features": [
+      {"lemma": "", "feature": [""]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.57",
+    "timestamp": "27:27",
+    "audio": "",
+    "english": "Hurry!",
+    "ghor": "zip",
+    "features": [
+      {"lemma": "hurry", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.58",
+    "timestamp": "27:49",
+    "audio": "",
+    "english": "Come on!",
+    "ghor": "kjamo",
+    "features": [
+      {"lemma": "come on", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.59",
+    "timestamp": "27:56",
+    "audio": "",
+    "english": "Now!",
+    "ghor": "malam",
+    "features": [
+      {"lemma": "now", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.60",
+    "timestamp": "28:28",
+    "audio": "",
+    "english": "It’s blocked!",
+    "ghor": "bi fefon",
+    "features": [
+      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "to block", "feature": ["verb","present","simple","passive"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.61",
+    "timestamp": "28:29",
+    "audio": "",
+    "english": "Turn back!",
+    "ghor": "a bo fej",
+    "features": [
+      {"lemma": "to turn", "feature": ["verb","infinitive"]},
+      {"lemma": "back", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.62",
+    "timestamp": "28:39",
+    "audio": "",
+    "english": "Go!",
+    "ghor": "balɔʁ",
+    "features": [
+      {"lemma": "to go", "feature": ["verb","imperative"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.63",
+    "timestamp": "28:44",
+    "audio": "",
+    "english": "Go back!",
+    "ghor": "aʃ balɔʁ",
+    "features": [
+      {"lemma": "to go", "feature": ["verb","imperative"]},
+      {"lemma": "back", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.64",
+    "timestamp": "28:51",
+    "audio": "",
+    "english": "Bastards!",
+    "ghor": "gamlaʁ",
+    "features": [
+      {"lemma": "bastard", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.65",
+    "timestamp": "29:53",
+    "audio": "",
+    "english": "Get away now!",
+    "ghor": "ʃuʁuk madal",
+    "features": [
+      {"lemma": "to get", "feature": ["verb","imperative"]},
+      {"lemma": "away", "feature": ["adverb"]},
+      {"lemma": "now", "feature": ["adverb"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.66",
+    "timestamp": "29:55",
+    "audio": "",
+    "english": "Go!",
+    "ghor": "balɔʁ",
+    "features": [
+      {"lemma": "to go", "feature": ["verb","imperative"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.67",
+    "timestamp": "29:56",
+    "audio": "",
+    "english": "Go! Hurry!",
+    "ghor": "balɔʁ zip",
+    "features": [
+      {"lemma": "to go", "feature": ["verb","imperative"]},
+      {"lemma": "hurry", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
+    "code": "8.68",
+    "timestamp": "30:08",
+    "audio": "",
+    "english": "To the building!",
+    "ghor": "ɛn paz iglõ",
+    "features": [
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "building", "feature": ["noun","sg"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
   }
 ]

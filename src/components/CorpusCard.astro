@@ -10,7 +10,7 @@ const { att } = Astro.props;
 ---
 
 <article
-  data-code={att.code} class="bg-white rounded-xl shadow p-6">
+  data-code={att.code} id={att.code} class="bg-white rounded-xl shadow p-6">
   <header class="mb-4">
     <div class="flex justify-between text-sm text-gray-500">
       <span>Code: {att.code ?? '—'}</span>
