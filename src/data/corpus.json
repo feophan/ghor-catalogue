@@ -6,7 +6,7 @@
     "english": "I told you he was different.",
     "italian": "Vi ho detto che era diverso.",
     "ghor": "mɔ tɛ ʁõ fig gɔpɛn",
-    "comment": "The reocrding has ʁo, but nasality is expected with other examples",
+    "comment": "The recording has ʁo, but nasality is expected with other examples",
     "features": [
       {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
       {"lemma": "to tell", "feature": ["verb", "1p", "sg", "past"]},
@@ -3551,7 +3551,7 @@
   {
     "code": "8.21",
     "timestamp": "08:29",
-    "audio": "",
+    "audio": "8-21.mp3",
     "english": "(we are meeting)",
     "ghor": "naʃ badɔʁ",
     "features": [
@@ -3565,7 +3565,7 @@
   {
     "code": "8.22",
     "timestamp": "08:32",
-    "audio": "",
+    "audio": "8-22.mp3",
     "english": "The memorial is open!",
     "ghor": "ʃlat giafel",
     "features": [
@@ -3581,7 +3581,7 @@
   {
     "code": "8.23",
     "timestamp": "08:35",
-    "audio": "",
+    "audio": "8-23.mp3",
     "english": "Come to the plaza… ",
     "ghor": "",
     "features": [
@@ -3597,7 +3597,7 @@
   {
     "code": "8.24",
     "timestamp": "08:37",
-    "audio": "",
+    "audio": "8-24.mp3",
     "english": "and show them who we are!",
     "ghor": "",
     "features": [
@@ -3615,7 +3615,7 @@
   {
     "code": "8.25",
     "timestamp": "08:39",
-    "audio": "",
+    "audio": "8-25.mp3",
     "english": "Take back the homeland!",
     "ghor": "",
     "features": [
@@ -3631,7 +3631,7 @@
   {
     "code": "8.26",
     "timestamp": "09:06",
-    "audio": "",
+    "audio": "8-26.mp3",
     "english": "Go home!",
     "ghor": "daʃ balɔʁ",
     "features": [
@@ -3645,7 +3645,7 @@
   {
     "code": "8.27",
     "timestamp": "09:07",
-    "audio": "",
+    "audio": "8-27.mp3",
     "english": "Ghormans, please!",
     "ghor": "tʁan gɔʁ dib",
     "features": [
@@ -3659,7 +3659,7 @@
   {
     "code": "8.28",
     "timestamp": "09:09",
-    "audio": "",
+    "audio": "8-28.mp3",
     "english": "It’s an Imperial trap!",
     "ghor": "bi fuladiz kokam",
     "features": [
@@ -3676,7 +3676,7 @@
   {
     "code": "8.29",
     "timestamp": "09:11",
-    "audio": "",
+    "audio": "8-29.mp3",
     "english": "There’s nothing here for us!",
     "ghor": "??? bi naʃ",
     "features": [
@@ -3694,7 +3694,7 @@
   {
     "code": "8.30",
     "timestamp": "09:14",
-    "audio": "",
+    "audio": "8-30.mp3",
     "english": "The only path is silent resist—",
     "ghor": "sɛn mog vi.naʃ bi ʃon pɛ—",
     "features": [
