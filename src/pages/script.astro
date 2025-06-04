@@ -24,8 +24,14 @@ import Image from '../components/Image.svelte';
           <article class="bg-white rounded-xl shadow p-6" id={item.id}>
             <header class="mb-4">
               <div class="flex justify-between text-sm text-gray-500">
-                <span>{item.code ? item.code : '??'}</span>
-                <span>{item.timestamp ? item.timestamp : '??'}</span>
+                <span
+                  class="cursor-pointer hover:text-blue-600 transition"
+                  data-code={item.id}
+                  title="Click to copy link"
+                >
+                  {item.code ?? '??'}
+                </span>
+                <span>{item.timestamp ?? '??'}</span>
               </div>
               <p class="ghor text-6xl font-medium text-blue-800 mt-2 whitespace-pre">{item.text}</p>
               <p class="text-base text-gray-700 italic whitespace-pre">{item.text}</p>
@@ -54,5 +60,42 @@ import Image from '../components/Image.svelte';
         ))
       }
     </div>
+    <div
+      id="toast"
+      class="fixed bottom-4 left-9/10 transform -translate-x-1/2 bg-gray-800 text-white text-sm px-4 py-2 rounded-lg shadow-lg opacity-0 transition-opacity duration-300 pointer-events-none z-50"
+    >
+      Link copied!
+    </div>
   </main>
 </Layout>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+
+      const code = target.dataset.code;
+      if (!code) return;
+
+      const url = `${location.origin}${location.pathname}#${code}`;
+      navigator.clipboard.writeText(url).then(() => {
+        showToast("Link copied!");
+      });
+    });
+
+    function showToast(message: string) {
+      const toast = document.getElementById("toast");
+      if (!toast) return;
+
+      toast.textContent = message;
+      toast.classList.remove("opacity-0");
+      toast.classList.add("opacity-100");
+
+      setTimeout(() => {
+        toast.classList.remove("opacity-100");
+        toast.classList.add("opacity-0");
+      }, 1500);
+    }
+  });
+</script>

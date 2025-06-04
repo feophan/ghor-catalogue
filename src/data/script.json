@@ -79,7 +79,7 @@
   {
     "code": "Item 13: 3rd plaque",
     "timestamp": "??",
-    "text": "ckode\ngouel",
+    "text": "?kofe\ngouel",
     "item": "item_13.jpg",
     "id": "13-3"
   },
@@ -114,7 +114,7 @@
   {
     "code": "Menu",
     "timestamp": "Andor Declassified: Worldbuilding: ??",
-    "text": "menu\nsplac\n\tsplac naboo\n\tsplac ???\n\tsplac ???\nsap ghors\n\t??? ??? ???",
+    "text": "menu\nsplac\n\tsplac naboo\n\tsplac taris\n\tsplac pe????\nsap ghors\n\tsoa me? atmo",
     "item": ["menu_a.png","menu_b.png","menu_c.png","menu_d.png"],
     "id": "menu"
   },
@@ -184,7 +184,7 @@
   {
     "code": "Ghorlectopod Mural",
     "timestamp": "S2E1: ??",
-    "text": "too soon we\nmiss you",
+    "text": "taken\ntoo soon we\nmiss you",
     "item": "GhorlectopodMural.png",
     "id": "mural"
   },

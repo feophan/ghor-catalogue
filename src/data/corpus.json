@@ -3711,9 +3711,10 @@
   {
     "code": "8.31",
     "timestamp": "10:20",
-    "audio": "",
+    "audio": "8-31.mp3",
     "english": "Can I help you?",
     "ghor": "tɛm vali mo",
+    "comment": "Cannot isolate here",
     "features": [
       {"lemma": "can", "feature": ["verb","modal","present"]},
       {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
@@ -3727,7 +3728,7 @@
   {
     "code": "8.32",
     "timestamp": "13:22",
-    "audio": "",
+    "audio": "8-32.mp3",
     "english": "Have you seen my father?",
     "ghor": "tɛm fig apti mo saj",
     "features": [
@@ -3743,7 +3744,7 @@
   {
     "code": "8.33",
     "timestamp": "13:24",
-    "audio": "",
+    "audio": "8-33.mp3",
     "english": "I haven’t.",
     "ghor": "ɛlf",
     "features": [
@@ -3757,7 +3758,7 @@
   {
     "code": "8.34",
     "timestamp": "13:25",
-    "audio": "",
+    "audio": "8-34.mp3",
     "english": "Stay with me.",
     "ghor": "pʁobɛstɔʁ",
     "features": [
@@ -3772,7 +3773,7 @@
   {
     "code": "8.35",
     "timestamp": "17:42",
-    "audio": "",
+    "audio": "8-35.mp3",
     "english": "Dreena! Over here!",
     "ghor": "dʁi.na ???",
     "features": [
