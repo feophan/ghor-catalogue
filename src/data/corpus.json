@@ -3788,7 +3788,7 @@
   {
     "code": "8.36",
     "timestamp": "19:14",
-    "audio": "",
+    "audio": "8-36.mp3",
     "english": "Raise your eyes to homeland skies",
     "ghor": "oŋg dum ɛz va lavɛ glɛʒ",
     "features": [
@@ -3806,7 +3806,7 @@
   {
     "code": "8.37",
     "timestamp": "19:18",
-    "audio": "",
+    "audio": "8-37.mp3",
     "english": "We are the Ghor",
     "ghor": "gambol dym gɔʁ",
     "features": [
@@ -3822,7 +3822,7 @@
   {
     "code": "8.38",
     "timestamp": "19:22",
-    "audio": "",
+    "audio": "8-38.mp3",
     "english": "Breathe the air and know you’re there",
     "ghor": "tʁaspu flond tɛm gʁok ualond",
     "features": [
@@ -3842,7 +3842,7 @@
   {
     "code": "8.39",
     "timestamp": "19:26",
-    "audio": "",
+    "audio": "8-39.mp3",
     "english": "We are the Ghor",
     "ghor": "gam.bol dym gɔʁ",
     "features": [
@@ -3858,7 +3858,7 @@
   {
     "code": "8.40",
     "timestamp": "19:31",
-    "audio": "",
+    "audio": "8-40.mp3",
     "english": "Valley",
     "ghor": "valɛn",
     "features": [
@@ -3871,7 +3871,7 @@
   {
     "code": "8.41",
     "timestamp": "19:33",
-    "audio": "",
+    "audio": "8-41.mp3",
     "english": "Highland",
     "ghor": "mɛʒka",
     "features": [
@@ -3884,7 +3884,7 @@
   {
     "code": "8.42",
     "timestamp": "19:35",
-    "audio": "",
+    "audio": "8-42.mp3",
     "english": "Let me spend my every day there",
     "ghor": "dib mo laj mun laj sol lɛʒna",
     "features": [
@@ -3903,7 +3903,7 @@
   {
     "code": "8.43",
     "timestamp": "19:41",
-    "audio": "",
+    "audio": "8-43.mp3",
     "english": "Call your kin to come and sing",
     "ghor": "bɛk tem bʁol ofot kaʁo",
     "features": [
@@ -3922,7 +3922,7 @@
   {
     "code": "8.44",
     "timestamp": "19:46",
-    "audio": "",
+    "audio": "8-44.mp3",
     "english": "We are the Ghor",
     "ghor": "gambol dym gɔʁ",
     "features": [
@@ -3938,7 +3938,7 @@
   {
     "code": "8.45",
     "timestamp": "19:50",
-    "audio": "",
+    "audio": "8-45.mp3",
     "english": "Voices loud and standing proud",
     "ghor": "vai bi gas e tʁɛm bi tʁa",
     "features": [
@@ -3955,7 +3955,7 @@
   {
     "code": "8.46",
     "timestamp": "19:55",
-    "audio": "",
+    "audio": "8-46.mp3",
     "english": "We are the Ghor",
     "ghor": "gambol dym gɔʁ",
     "features": [
@@ -3971,7 +3971,7 @@
   {
     "code": "8.47",
     "timestamp": "19:59",
-    "audio": "",
+    "audio": "8-47.mp3",
     "english": "Valley",
     "ghor": "valɛn",
     "features": [
@@ -3984,7 +3984,7 @@
   {
     "code": "8.48",
     "timestamp": "20:01",
-    "audio": "",
+    "audio": "8-48.mp3",
     "english": "Highland",
     "ghor": "mɛʒka",
     "features": [
@@ -3997,7 +3997,7 @@
   {
     "code": "8.49",
     "timestamp": "20:03",
-    "audio": "",
+    "audio": "8-49.mp3",
     "english": "Let me spend my every day there",
     "ghor": "dib mo laj mun laj sol lɛʒ.na",
     "features": [
@@ -4016,7 +4016,7 @@
   {
     "code": "8.50",
     "timestamp": "20:10",
-    "audio": "",
+    "audio": "8-50.mp3",
     "english": "Tight the weave and roll the sleeve",
     "ghor": "",
     "features": [
@@ -4035,7 +4035,7 @@
   {
     "code": "8.51",
     "timestamp": "20:15",
-    "audio": "",
+    "audio": "8-51.mp3",
     "english": "We are the Ghor",
     "ghor": "gambol dym gɔʁ",
     "features": [
@@ -4051,7 +4051,7 @@
   {
     "code": "8.52",
     "timestamp": "20:18",
-    "audio": "",
+    "audio": "8-52.mp3",
     "english": "From Navishare to Palmo Square",
     "ghor": "navi mid ɛ palmo sid",
     "features": [
@@ -4068,7 +4068,7 @@
   {
     "code": "8.53",
     "timestamp": "20:23",
-    "audio": "",
+    "audio": "8-53.mp3",
     "english": "We are the Ghor",
     "ghor": "gambol dym gɔʁ",
     "features": [
@@ -4084,7 +4084,7 @@
   {
     "code": "8.54",
     "timestamp": "20:27",
-    "audio": "",
+    "audio": "8-54.mp3",
     "english": "Valley",
     "ghor": "valɛn",
     "features": [
@@ -4097,7 +4097,7 @@
   {
     "code": "8.55",
     "timestamp": "20:29",
-    "audio": "",
+    "audio": "8-55.mp3",
     "english": "Highland",
     "ghor": "meʒka",
     "features": [
@@ -4108,9 +4108,16 @@
     ]
   },
   {
+    "code": "8.55a",
+    "timestamp": "??:??",
+    "audio": "8-55a.mp3",
+    "english": "...",
+    "ghor": "..."
+  },
+  {
     "code": "8.56",
     "timestamp": "20:39",
-    "audio": "",
+    "audio": "8-56.mp3",
     "english": "(…)",
     "ghor": "la di don gifel",
     "features": [
@@ -4123,7 +4130,7 @@
   {
     "code": "8.57",
     "timestamp": "27:27",
-    "audio": "",
+    "audio": "8-57.mp3",
     "english": "Hurry!",
     "ghor": "zip",
     "features": [
@@ -4136,7 +4143,7 @@
   {
     "code": "8.58",
     "timestamp": "27:49",
-    "audio": "",
+    "audio": "8-58.mp3",
     "english": "Come on!",
     "ghor": "kjamo",
     "features": [
@@ -4147,9 +4154,22 @@
     ]
   },
   {
+    "code": "8.58a",
+    "timestamp": "27:53",
+    "audio": "8-58a.mp3",
+    "english": "(...)",
+    "ghor": "zip zip",
+    "features": [
+      {"lemma": "", "feature": ["interjection"]}
+    ],
+    "concord": [
+      {"English": "", "Ghor": ""}
+    ]
+  },
+  {
     "code": "8.59",
     "timestamp": "27:56",
-    "audio": "",
+    "audio": "8-59.mp3",
     "english": "Now!",
     "ghor": "malam",
     "features": [
@@ -4162,7 +4182,7 @@
   {
     "code": "8.60",
     "timestamp": "28:28",
-    "audio": "",
+    "audio": "8-60.mp3",
     "english": "It’s blocked!",
     "ghor": "bi fefon",
     "features": [
@@ -4176,7 +4196,7 @@
   {
     "code": "8.61",
     "timestamp": "28:29",
-    "audio": "",
+    "audio": "8-61.mp3",
     "english": "Turn back!",
     "ghor": "a bo fej",
     "features": [
@@ -4190,7 +4210,7 @@
   {
     "code": "8.62",
     "timestamp": "28:39",
-    "audio": "",
+    "audio": "8-62.mp3",
     "english": "Go!",
     "ghor": "balɔʁ",
     "features": [
@@ -4203,7 +4223,7 @@
   {
     "code": "8.63",
     "timestamp": "28:44",
-    "audio": "",
+    "audio": "8-63.mp3",
     "english": "Go back!",
     "ghor": "aʃ balɔʁ",
     "features": [
@@ -4217,7 +4237,7 @@
   {
     "code": "8.64",
     "timestamp": "28:51",
-    "audio": "",
+    "audio": "8-64.mp3",
     "english": "Bastards!",
     "ghor": "gamlaʁ",
     "features": [
@@ -4230,7 +4250,7 @@
   {
     "code": "8.65",
     "timestamp": "29:53",
-    "audio": "",
+    "audio": "8-65.mp3",
     "english": "Get away now!",
     "ghor": "ʃuʁuk madal",
     "features": [
@@ -4245,7 +4265,7 @@
   {
     "code": "8.66",
     "timestamp": "29:55",
-    "audio": "",
+    "audio": "8-66.mp3",
     "english": "Go!",
     "ghor": "balɔʁ",
     "features": [
@@ -4258,7 +4278,7 @@
   {
     "code": "8.67",
     "timestamp": "29:56",
-    "audio": "",
+    "audio": "8-67.mp3",
     "english": "Go! Hurry!",
     "ghor": "balɔʁ zip",
     "features": [
@@ -4272,7 +4292,7 @@
   {
     "code": "8.68",
     "timestamp": "30:08",
-    "audio": "",
+    "audio": "8-68.mp3",
     "english": "To the building!",
     "ghor": "ɛn paz iglõ",
     "features": [
