@@ -114,7 +114,7 @@
   {
     "code": "Menu",
     "timestamp": "Andor Declassified: Worldbuilding: ??",
-    "text": "menu\nsplac\n\tsplac naboo\n\tsplac taris\n\tsplac pe????\nsap ghors\n\tsoa me? atmo",
+    "text": "menu\nsplac\n\tsplac naboo\n\tsplac taris\n\tsplac pete??ne\nsap ghors\n\tsoa me? atmo",
     "item": ["menu_a.png","menu_b.png","menu_c.png","menu_d.png"],
     "id": "menu"
   },
@@ -135,7 +135,7 @@
   {
     "code": "Secret message",
     "timestamp": "??",
-    "text": "##|maje|clage|palmo|ghor?",
+    "text": "86|\nmaje|\nclage|\npalmo|\nghor?",
     "item": "item_11.png",
     "id": "11"
   },
@@ -156,28 +156,28 @@
   {
     "code": "Numerals A",
     "timestamp": "??",
-    "text": "",
+    "text": "803",
     "item": "numerals_a.png",
     "id": "numA"
   },
   {
     "code": "Numerals B",
     "timestamp": "??",
-    "text": "",
+    "text": "093",
     "item": "numerals_b.png",
     "id": "numB"
   },
   {
     "code": "Numerals C",
     "timestamp": "??",
-    "text": "",
+    "text": "09",
     "item": "numerals_c.png",
     "id": "numC"
   },
   {
     "code": "Numerals D",
     "timestamp": "??",
-    "text": "",
+    "text": "03",
     "item": "numerals_d.png",
     "id": "numD"
   },

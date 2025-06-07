@@ -18,8 +18,8 @@ const { att } = Astro.props;
     </div>
     {att.audio && <AudioButton audioUrl={`/audio/${att.audio}`} id={`audio-${att.code}`} />}
     {att.ghor && <p class="text-lg font-medium text-blue-800 mt-2">{att.ghor}</p>}
+    {att.script && <p class="text-base text-gray-400 italic">{att.script}</p>}
     {att.english && <p class="text-base text-gray-700 italic">{att.english}</p>}
-    {att.italian && <p class="text-base text-gray-400 italic">{att.italian}</p>}
   </header>
 
   {att.concord && (

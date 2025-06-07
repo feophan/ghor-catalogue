@@ -4,16 +4,16 @@
     "timestamp": "12:18",
     "audio": "4-01.mp3",
     "english": "I told you he was different.",
-    "italian": "Vi ho detto che era diverso.",
+    "script": "Mo tè ron figue gopenne.",
     "ghor": "mɔ tɛ ʁõ fig gɔpɛn",
     "comment": "The recording has ʁo, but nasality is expected with other examples",
     "features": [
-      {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
-      {"lemma": "to tell", "feature": ["verb", "1p", "sg", "past"]},
-      {"lemma": "you", "feature": ["pronoun", "2p", "sg"]},
-      {"lemma": "he", "feature": ["pronoun", "3p", "sg"]},
-      {"lemma": "to be", "feature": ["verb", "3p", "sg", "past"]},
-      {"lemma": "different", "feature": ["adjective", "sg"]}
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to tell", "feature": ["verb","past","simple"]},
+      {"lemma": "you", "feature": ["pronoun","2p","sg","obj"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","past","simple"]},
+      {"lemma": "different", "feature": ["adjective"]}
     ],
     "concord": [
       {"English": "I", "Ghor": "mɔ"},
@@ -28,19 +28,19 @@
     "timestamp": "12:20",
     "audio": "4-02.mp3",
     "english": "I want to hear it again.",
-    "italian": "Voglio risentirlo.",
-    "ghor": "kʁøvə le boʁd inɛks",
+    "ghor": "kʁøvə lə boʁd inɛks",
+    "script": "Creuf le bord inexe.",
     "features": [
-      {"lemma": "I", "feature": ["pronoun", "1p", "sg"]},
-      {"lemma": "to want", "feature": ["verb", "1p", "sg", "present"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to want", "feature": ["verb","present","simple"]},
       {"lemma": "to hear", "feature": ["verb", "infinitive"]},
-      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]},
       {"lemma": "again", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "I want", "Ghor": "kʁøvə"},
+      {"English": "I want", "Ghor": "kʁøv"},
       {"English": "to hear", "Ghor": "boʁd"},
-      {"English": "it", "Ghor": "[le]"},
+      {"English": "it", "Ghor": "lə"},
       {"English": "again", "Ghor": "inɛks"}
     ]
   },
@@ -49,18 +49,19 @@
     "timestamp": "12:22",
     "audio": "4-03.mp3",
     "english": "He’s clearly conflicted.",
-    "italian": "È combattuto.",
     "ghor": "lo bi vɛkz pʁiʃ",
+    "script": "Lo bi vexe priche.",
     "features": [
-      {"lemma": "he", "feature": ["pronoun", "3p", "sg"]},
-      {"lemma": "to be", "feature": ["verb", "3p", "sg", "present"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "clearly", "feature": ["adverb"]},
-      {"lemma": "conflicted", "feature": ["adjective","sg"]}
+      {"lemma": "conflicted", "feature": ["adjective","deverbal"]}
     ],
     "concord": [
       {"English": "he", "Ghor": "lo"},
       {"English": "is", "Ghor": "bi"},
-      {"English": "clearly conflicted", "Ghor": "[vɛkz pʁiʃ]"}
+      {"English": "clearly", "Ghor": "[vɛkz]"},
+      {"English": "conflicted", "Ghor": "[pʁiʃ]"}
     ]
   },
   {
@@ -68,13 +69,13 @@
     "timestamp": "12:23",
     "audio": "4-04.mp3", 
     "english": "The mother is terrifying.",
-    "italian": "La madre è terribile.",
     "ghor": "dum mej pʁakatɑ̃",
+    "script": "Dum meï pracatan.",
     "features": [
       {"lemma": "the", "feature": ["determiner", "definite"]},
       {"lemma": "mother", "feature": ["noun", "sg"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
-      {"lemma": "terrifying", "feature": ["adjective", "sg"]}
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "terrifying", "feature": ["adjective"]}
     ],
     "concord": [
       {"English": "the", "Ghor": "[dum]"},
@@ -87,11 +88,11 @@
     "timestamp": "12:25",
     "audio": "4-05.mp3",
     "english": "It’s the same thing every week.",
-    "italian": "È così ogni settimana.",
-    "ghor": "bi twɛm møʒ laɪ pʁit",
+    "ghor": "bi twɛm møʒə laɪ pʁit",
+    "script": "Bi toueme meuje laï prite.",
     "features": [
-      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present"]},
       {"lemma": "same", "feature": ["determiner"]},
       {"lemma": "thing", "feature": ["noun", "sg"]},
       {"lemma": "every", "feature": ["determiner"]},
@@ -100,7 +101,7 @@
     "concord": [
       {"English": "it is", "Ghor": "bi"},
       {"English": "the same", "Ghor": "[twɛm]"},
-      {"English": "thing", "Ghor": "[møʒ]"},
+      {"English": "thing", "Ghor": "[møʒə]"},
       {"English": "every", "Ghor": "laɪ"},
       {"English": "week", "Ghor": "pʁit"}
     ]
@@ -110,13 +111,13 @@
     "timestamp": "12:27",
     "audio": "4-06.mp3",
     "english": "Rylanz, he’s perfect.",
-    "italian": "Rylanz, è perfetto.",
     "ghor": "ʁaɪlanz, lo bi kwɑd",
+    "script": "Rylanz, lo bi quad.",
     "features": [
       {"lemma": "Rylanz", "feature": ["name"]},
-      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
-      {"lemma": "perfect", "feature": ["adjective","sg"]}
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "perfect", "feature": ["adjective"]}
     ],
     "concord": [
       {"English": "Rylanz", "Ghor": "ʁaɪlanz"},
@@ -130,13 +131,13 @@
     "timestamp": "12:30",
     "audio": "4-07.mp3",
     "english": "But what can he do for us?",
-    "italian": "Ma cosa può fare per noi?",
     "ghor": "tyʁ mad vyl naʃ lo ma",
+    "script": "Tur made vule nache lo mah",
     "features": [
       {"lemma": "but", "feature": ["conjunction"]},
       {"lemma": "what", "feature": ["pronoun","interrogative"]},
-      {"lemma": "can", "feature": ["verb","3p","sg","present"]},
-      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "can", "feature": ["verb","present","simple"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
       {"lemma": "to do", "feature": ["verb","infinitive"]},
       {"lemma": "for", "feature": ["preposition"]},
       {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
@@ -156,13 +157,14 @@
     "audio": "4-08.mp3",
     "english": "We won’t know until we ask.",
     "ghor": "naʃ kum smat do pɛly",
+    "script": "Nache coum sematte do pelu.",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to know", "feature": ["verb","future","1p","pl"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to know", "feature": ["verb","future","simple"]},
       {"lemma": "not", "feature": ["particle","negative"]},
       {"lemma": "until", "feature": ["preposition"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to ask", "feature": ["verb","1p","pl"]}
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to ask", "feature": ["verb","present","simple"]}
     ],
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
@@ -177,18 +179,19 @@
     "timestamp": "12:32",
     "audio": "4-09.mp3",
     "english": "That’s not a plan.",
-    "ghor": "dilam kum skɛ̃m",
+    "ghor": "dilam kum skɛ̃",
+    "script": "Di-lamme coum skem",
     "features": [
-      {"lemma": "that", "feature": ["pronoun","demonstrative","distal"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "that", "feature": ["pronoun","demonstrative"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "not", "feature": ["particle","negative"]},
-      {"lemma": "a", "feature": ["determiner","indefinite"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
       {"lemma": "plan", "feature": ["noun"]}
     ],
     "concord": [
       {"English": "that", "Ghor": "dilam"},
       {"English": "is not", "Ghor": "kum"},
-      {"English": "a plan", "Ghor": "skɛ̃m"}
+      {"English": "a plan", "Ghor": "skɛ̃"}
     ]    
   },
   {
@@ -197,16 +200,17 @@
     "audio": "4-10.mp3",
     "english": "If he just answers questions, he’s worth it.",
     "ghor": "djal sɛlmo babiʃʁib lo smulagi",
+    "script": "Dial … lo …",
     "features": [
       {"lemma": "if", "feature": ["conjunction"]},
-      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
       {"lemma": "just", "feature": ["adverb"]},
-      {"lemma": "to answer", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to answer", "feature": ["verb","present","simple"]},
       {"lemma": "question", "feature": ["noun","pl"]},
-      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
-      {"lemma": "worth", "feature": ["adjective","sg"]},
-      {"lemma": "it", "feature": ["pronoun","3p","sg"]}
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "worth", "feature": ["adjective"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]}
     ],
     "concord": [
       {"English": "if", "Ghor": "djal"},
@@ -223,9 +227,10 @@
     "audio": "4-11.mp3",
     "english": "We have to run this down.",
     "ghor": "naʃ mik ʁapys matiʃ dalam",
+    "script": "Nache mique rapusse matiche da-lamme.",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to have to", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to have to", "feature": ["verb","present","simple"]},
       {"lemma": "to run down", "feature": ["verb","infinitive"]},
       {"lemma": "this", "feature": ["pronoun","demonstrative"]}
     ],
@@ -242,6 +247,7 @@
     "audio": "4-12.mp3",
     "english": "Do it.",
     "ghor": "naʃ mad",
+    "script": "Nache made.",
     "features": [
       {"English": "to do", "feature": ["verb","imperative"]},
       {"English": "it", "feature": ["pronoun","3p","sg"]}
@@ -256,14 +262,14 @@
     "audio": "4-13.mp3",
     "english": "Let’s do it quickly before he’s replaced.",
     "ghor": "naʃ mad zip afi lo bʁɛd",
+    "script": "Nache made zippe afi lo braid",
     "features": [
       {"lemma": "to do", "feature": ["verb","imperative"]},
-      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]},
       {"lemma": "quickly", "feature": ["adverb"]},
       {"lemma": "before", "feature": ["preposition"]},
-      {"lemma": "he", "feature": ["pronoun","3p","sg"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
-      {"lemma": "to replace", "feature": ["verb","passive"]}
+      {"lemma": "he", "feature": ["pronoun","3p","sg","subj"]},
+      {"lemma": "to replace", "feature": ["verb","present","simple","passive"]}
     ],
     "concord": [
       {"English": "do it", "Ghor": "naʃ mad"},
@@ -279,10 +285,11 @@
     "audio": "4-14.mp3",
     "english": "My name is Sunif Brecanti.",
     "ghor": "mo domɛk synif bʁekɑ̃ti",
+    "script": "Mo domèque Sunif Brecanti.",
     "features": [
       {"lemma": "my", "feature": ["pronoun","possessive","1p","sg"]},
       {"lemma": "name", "feature": ["noun","sg"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "Sunif", "feature": ["name"]},
       {"lemma": "Brecanti", "feature": ["name"]}
     ],
@@ -300,18 +307,19 @@
     "audio": "4-15.mp3",
     "english": "I’m the broker for a webberie co-op in the Beldoni Valley.",
     "ghor": "mo dimaʁklɛʒ va kodɑ̃s sin bɛ̃doli valɛn",
+    "script": "Mo dimarclège va codance sin Bendoli Va-leine.",
     "comment": "Slip for bɛldoni",
     "features": [
-      {"lemma": "I", "feature": ["pronoun","1p","sg"]},
-      {"lemma": "to be", "feature": ["verb","1p","sg","present"]},
-      {"lemma": "the", "feature": ["determiner","definite"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
       {"lemma": "broker", "feature": ["noun","sg"]},
       {"lemma": "for", "feature": ["preposition"]},
-      {"lemma": "a", "feature": ["determiner","indefinite"]},
+      {"lemma": "a", "feature": ["article","indefinite"]},
       {"lemma": "webberie", "feature": ["noun", "sg"]},
       {"lemma": "co-op", "feature": ["noun", "sg"]},
       {"lemma": "in", "feature": ["preposition"]},
-      {"lemma": "the", "feature": ["determiner","definite"]},
+      {"lemma": "the", "feature": ["article","definite"]},
       {"lemma": "Beldoni", "feature": ["name"]},
       {"lemma": "valley", "feature": ["noun","sg"]}
     ],
@@ -332,11 +340,12 @@
     "english": "The estates I represent…",
     "gloss": "estate I represent",
     "ghor": "dopɛzɛl mo ɡaʁdit",
+    "script": "Dopèzels mo gardite…",
     "features": [
-      {"lemma": "the", "feature": ["determiner","definite"]},
-      {"lemma": "estate", "feature": ["noun", "pl"]},
-      {"lemma": "I", "feature": ["pronoun", "1p","sg"]},
-      {"lemma": "to represent", "feature": ["verb", "1p", "sg", "present"]}
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "estate", "feature": ["noun","pl"]},
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to represent", "feature": ["verb","present"]}
     ],
     "concord": [
       {"English": "the estates", "Ghor": "[dopɛzɛl]"},
@@ -350,13 +359,14 @@
     "audio": "4-17.mp3",
     "english": "…some have been in business almost a millenium.",
     "ghor": "lœʁ fig maʁʃɔ alõ dɔ̃bʁalɛʒ",
+    "script": "…leur figue marchaux alon dombralège.",
     "features": [
       {"lemma": "some", "feature": ["pronoun","indefinite"]},
-      {"lemma": "to be", "feature": ["verb", "3p","pl","perfect"]},
+      {"lemma": "to be", "feature": ["verb","present","perfect"]},
       {"lemma": "in", "feature": ["preposition"]},
       {"lemma": "business", "feature": ["noun", "sg"]},
       {"lemma": "almost", "feature": ["adverb"]},
-      {"lemma": "a", "feature": ["determiner", "indefinite"]},
+      {"lemma": "a", "feature": ["article", "indefinite"]},
       {"lemma": "millenium", "feature": ["noun", "sg"]}
     ],
     "concord": [
@@ -372,13 +382,14 @@
     "timestamp": "33:24",
     "audio": "4-18.mp3",
     "english": "Right now",
-    "ghor": "wadal",
+    "ghor": "madal",
+    "script": "Madal",
     "features": [
       {"lemma": "right", "feature": ["adverb"]},
       {"lemma": "now", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "right now", "Ghor": "[wadal]"}
+      {"English": "right now", "Ghor": "madal"}
     ]
   },
   {
@@ -386,16 +397,17 @@
     "timestamp": "33:26",
     "audio": "4-19.mp3",
     "english": "between the ground inspections",
-    "ghor": "ami soʃtɛ̃",
+    "ghor": "ami soʃtɑ̃",
+    "script": "ami sochetans",
     "features": [
       {"lemma": "between", "feature": ["preposition"]},
-      {"lemma": "the", "feature": ["determiner", "definite"]},
+      {"lemma": "the", "feature": ["article", "definite"]},
       {"lemma": "ground", "feature": ["noun", "sg"]},
       {"lemma": "inspection", "feature": ["noun", "pl"]}
     ],
     "concord": [
       {"English": "between", "Ghor": "[ami]"},
-      {"English": "the ground inspections", "Ghor": "[soʃtɛ̃]"}
+      {"English": "the ground inspections", "Ghor": "[soʃtɑ̃]"}
     ]
   },
   {
@@ -403,14 +415,15 @@
     "timestamp": "33:27",
     "audio": "4-20.mp3",
     "english": "the freight penalties",
-    "ghor": "glod beʒ",
+    "ghor": "glod bɛʒ",
+    "script": "glôdes beiges",
     "features": [
-      {"lemma": "the", "feature": ["determiner", "definite"]},
+      {"lemma": "the", "feature": ["article", "definite"]},
       {"lemma": "freight", "feature": ["noun", "sg"]},
       {"lemma": "penalties", "feature": ["noun", "pl"]}
     ],
     "concord": [
-      {"English": "the freight penalties", "Ghor": "[glod beʒ]"}
+      {"English": "the freight penalties", "Ghor": "[glod bɛʒ]"}
     ]
   },
   {
@@ -419,7 +432,7 @@
     "audio": "4-21.mp3",
     "english": "the new Imperial shipping codes",
     "ghor": "maz blik vø.ʃen fu.la.dis",
-    "comment": "maz blid vasɔ̃ foladi",
+    "comment": "maz blid vasɔ̃ foladis",
     "features": [
       {"lemma": "the", "feature": ["determiner", "definite"]},
       {"lemma": "new", "feature": ["adjective"]},

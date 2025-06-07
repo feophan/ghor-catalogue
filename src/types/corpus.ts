@@ -13,7 +13,7 @@ export interface Attestation {
   timestamp?: string;
   ghor?: string;
   english?: string;
-  italian?: string;
+  script?: string;
   audio?: string; // Optional audio URL
   concord?: ConcordItem[];
   features?: FeatureItem[];
