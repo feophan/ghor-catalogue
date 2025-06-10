@@ -304,15 +304,8 @@
     "code": "Item 22",
     "timestamp": "??",
     "text": "goss",
-    "item": "item_22.png",
+    "item": ["item_22.png", "item_23.png"],
     "id": "22"
-  },
-  {
-    "code": "Item 23",
-    "timestamp": "??",
-    "text": "goss",
-    "item": "item_23.png",
-    "id": "23"
   },
   {
     "code": "Item 24",
@@ -334,5 +327,12 @@
     "text": "dan bouti\nlecrelle",
     "item": ["item_26.jpg"],
     "id": "26"
+  },
+  {
+    "code": "Item 27",
+    "timestamp": "E4: 18:40",
+    "text": "s9?\ns9?\ns9?\ns9?\ns9?",
+    "item": ["item_27.png"],
+    "id": "27"
   }
 ]

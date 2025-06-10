@@ -431,19 +431,19 @@
     "timestamp": "33:29",
     "audio": "4-21.mp3",
     "english": "the new Imperial shipping codes",
-    "ghor": "maz blik vø.ʃen fu.la.dis",
-    "comment": "maz blid vasɔ̃ foladis",
+    "ghor": "maz blik vaʃen foladis",
+    "script": "maze blique vachéne foladis",
     "features": [
-      {"lemma": "the", "feature": ["determiner", "definite"]},
+      {"lemma": "the", "feature": ["article", "definite"]},
       {"lemma": "new", "feature": ["adjective"]},
       {"lemma": "imperial", "feature": ["adjective"]},
-      {"lemma": "shipping", "feature": ["noun", "sg","gerund"]},
+      {"lemma": "to ship", "feature": ["verb","gerund"]},
       {"lemma": "code", "feature": ["noun", "pl"]}
     ],
     "concord": [
       {"English": "new", "Ghor": "maz"},
-      {"English": "Imperial", "Ghor": "fu.la.dis"},
-      {"English": "the shipping codes", "Ghor": "[blik vø.ʃen]"}
+      {"English": "Imperial", "Ghor": "foladis"},
+      {"English": "the shipping codes", "Ghor": "[blik vaʃen]"}
     ]
   },
   {
@@ -451,12 +451,12 @@
     "timestamp": "33:32",
     "audio": "4-22.mp3",
     "english": "which they changed again last night",
-    "ghor": "sim tʁɑ̃.pøʒ ɛl mun",
-    "comment": "sɛ lə tʁɑ̃ pɔʒ ɛlmun",
+    "ghor": "sin tʁɑ̃ pøʒ ɛl mun",
+    "script": "Sim tran peuge el moun.",
     "features": [
       {"lemma": "which", "feature": ["pronoun", "relative"]},
       {"lemma": "they", "feature": ["pronoun","3p","pl"]},
-      {"lemma": "to change", "feature": ["verb","3p","pl","past"]},
+      {"lemma": "to change", "feature": ["verb","past","simple"]},
       {"lemma": "again", "feature": ["adverb"]},
       {"lemma": "last", "feature": ["adjective"]},
       {"lemma": "night", "feature": ["noun", "sg"]}
@@ -464,7 +464,8 @@
     "concord": [
       {"English": "which", "Ghor": ""},
       {"English": "they", "Ghor": "sim"},
-      {"English": "changed again", "Ghor": "[tʁɑ̃.pøʒ]"},
+      {"English": "changed", "Ghor": "tʁɑ̃"},
+      {"English": "again", "Ghor": "[pøʒ]"},
       {"English": "last", "Ghor": "ɛl"},
       {"English": "night", "Ghor": "mun"}
     ]
@@ -474,15 +475,14 @@
     "timestamp": "33:33",
     "audio": "4-23.mp3",
     "english": "without warning",
-    "ghor": "min da.go.ɾi",
-    "comment": "nil daval",
+    "ghor": "nin dagol",
     "features": [
       {"lemma": "without", "feature": ["preposition"]},
-      {"lemma": "warning", "feature": ["noun","sg","gerund"]}
+      {"lemma": "to warn", "feature": ["verb","gerund"]}
     ],
     "concord": [
-      {"English": "without", "Ghor": "min"},
-      {"English": "warning", "Ghor": "da.go.ɾi"}
+      {"English": "without", "Ghor": "nin"},
+      {"English": "warning", "Ghor": "dagol"}
     ]
   },
   {
@@ -490,8 +490,8 @@
     "timestamp": "33:39",
     "audio": "4-24.mp3",
     "english": "all nine of my clients",
-    "ghor": "laj ʒi.ʒi dani plyʃ tø(ʁ)",
-    "comment": "la ʒeʒe dalid pyʃte",
+    "ghor": "laj ʒeʒe dali pyʃtøʁ",
+    "script": "laï jéjé dali pucheteur",
     "features": [
       {"lemma": "all", "feature": ["determiner"]},
       {"lemma": "nine", "feature": ["numeral"]},
@@ -501,9 +501,9 @@
     ],
     "concord": [
       {"English": "all", "Ghor": "laj"},
-      {"English": "nine", "Ghor": "ʒi.ʒi"},
-      {"English": "of", "Ghor": "[dani]"},
-      {"English": "my clients", "Ghor": "[plyʃ tø(ʁ)]"}
+      {"English": "nine", "Ghor": "ʒeʒe"},
+      {"English": "of", "Ghor": "[dali]"},
+      {"English": "my clients", "Ghor": "[pyʃtøʁ]"}
     ]
   },
   {
@@ -511,21 +511,22 @@
     "timestamp": "33:41",
     "audio": "4-25.mp3",
     "english": "for the first time in their history",
-    "ghor": "van bu.du gi.sɛn pas polt",
-    "comment": "van bɔ̃doɡe ʃe lə paspɔl",
+    "ghor": "van bɔdo ɡe sen paspɔlt",
+    "script": "van bòdo gue sin passepolte",
     "features": [
       {"lemma": "for", "feature": ["preposition"]},
-      {"lemma": "the", "feature": ["article", "definite"]},
-      {"lemma": "first", "feature": ["numeral", "ordinal", "adjective"]},
-      {"lemma": "time", "feature": ["noun", "sg"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "first", "feature": ["numeral","ordinal"]},
+      {"lemma": "time", "feature": ["noun","sg"]},
       {"lemma": "in", "feature": ["preposition"]},
-      {"lemma": "their", "feature": ["pronoun", "3p", "pl", "possessive"]},
+      {"lemma": "their", "feature": ["pronoun","3p","pl","possessive"]},
       {"lemma": "history", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "for", "Ghor": "[…]"},
-      {"English": "the first time", "Ghor": "[…]"},
-      {"English": "in their history", "Ghor": "[…]"}
+      {"English": "for", "Ghor": "[van]"},
+      {"English": "the first time", "Ghor": "[bɔdo ɡe]"},
+      {"English": "in", "Ghor": "sin"},
+      {"English": "their history", "Ghor": "[paspɔlt]"}
     ]
   },
   {
@@ -533,16 +534,17 @@
     "audio": "4-26.mp3",
     "timestamp": "33:43",
     "english": "are wondering if it’s even worth it to open the hives next spring",
-    "ghor": "bu.den tje.des smy.na a.gen vø.no ka.ʁa pø.tiʃ py.tjel",
-    "comment": "pɔ̃dɛm djane smylɛ ɡamvɛlɔʁ kaʁapot si ʒə py djal",
+    "ghor": "pɔ̃dɛn djal deʁ smylɛ a ɡɛm velɔʁ kaʁa pøtiʃ pydjɛl",
+    "script": "pondène dial dére semulè á gèmme velore cara peutiche pudiel",
     "features": [
-      {"lemma": "to wonder", "feature": ["verb", "3p", "pl", "present"]},
+      {"lemma": "to wonder", "feature": ["verb","present","progressive"]},
       {"lemma": "if", "feature": ["conjunction"]},
-      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]},
-      {"lemma": "to be", "feature": ["verb", "3p", "sg", "copula"]},
+      {"lemma": "it", "feature": ["pronoun", "3p", "sg","subj"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "even", "feature": ["adverb"]},
       {"lemma": "worth", "feature": ["adjective"]},
-      {"lemma": "it", "feature": ["pronoun","3p","sg"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]},
+      {"lemma": "to", "feature": ["preposition"]},
       {"lemma": "to open", "feature": ["verb","infinitive"]},
       {"lemma": "the", "feature": ["article","definite"]},
       {"lemma": "hive", "feature": ["noun","pl"]},
@@ -550,23 +552,27 @@
       {"lemma": "spring", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "are wondering", "Ghor": "[…]"},
-      {"English": "if it’s even worth it", "Ghor": "[…]"},
-      {"English": "to open the hives", "Ghor": "[…]"},
-      {"English": "next spring", "Ghor": "[…]"}
+      {"English": "are wondering", "Ghor": "[pɔ̃dɛn]"},
+      {"English": "if", "Ghor": "djal"},
+      {"English": "it’s even worth it", "Ghor": "[deʁ smylɛ]"},
+      {"English": "to open the hives", "Ghor": "[a ɡɛm velɔʁ]"},
+      {"English": "next spring", "Ghor": "[kaʁa pøtiʃ pydjɛl]"}
     ]
   },
   {
     "code": "4.27",
+    "audio": "4-27.mp3",
     "timestamp": "33:47",
     "english": "Tell it!",
-    "ghor": "ful.ja",
+    "ghor": "lə fylgaʁ",
+    "script": "le fulgare",
     "features": [
       {"lemma": "tell", "feature": ["verb", "imperative"]},
       {"lemma": "it", "feature": ["pronoun", "3p", "sg"]}
     ],
     "concord": [
-      {"English": "tell it", "Ghor": "ful.ja"}
+      {"English": "tell", "Ghor": "fylgaʁ"},
+      {"English": "it", "Ghor": "lə"}
     ]
   },
   {
@@ -574,8 +580,8 @@
     "timestamp": "33:47",
     "audio": "4-28.mp3",
     "english": "The Empire is killing them.",
-    "ghor": "fu.la.dis sim bʁon gas.tam",
-    "comment": "fɔ laʁadi ̃bʁɑ̃ɡasta",
+    "ghor": "foladis em bʁɑ̃ gastam",
+    "script": "foladis sim bran gastamme",
     "features": [
       {"lemma": "the", "feature": ["article", "definite"]},
       {"lemma": "empire", "feature": ["noun", "sg"]},
@@ -583,9 +589,9 @@
       {"lemma": "them", "feature": ["pronoun", "3p", "pl"]}
     ],
     "concord": [
-      {"English": "the Empire", "Ghor": "fu.la.dis"},
-      {"English": "is killing", "Ghor": "bʁon gas.tam"},
-      {"English": "them", "Ghor": "sim"}
+      {"English": "the Empire", "Ghor": "foladis"},
+      {"English": "is killing", "Ghor": "bʁɑ̃ gastam"},
+      {"English": "them", "Ghor": "?[em]"}
     ]
   },
   {
@@ -593,8 +599,8 @@
     "timestamp": "33:50",
     "audio": "4-29.mp3",
     "english": "The Empire is killing us.",
-    "ghor": "naʃ fu.la.dis bʁon gas.tam",
-    "comment": "naʃ fola dispʁɑ̃ ɡastaʁ",
+    "ghor": "naʃ foladis bʁɑ̃ gastam",
+    "script": "nache foladis bran gastamme",
     "features": [
       {"lemma": "the", "feature": ["article", "definite"]},
       {"lemma": "empire", "feature": ["noun", "sg"]},
@@ -602,8 +608,8 @@
       {"lemma": "we", "feature": ["pronoun", "1p", "pl","obj"]}
     ],
     "concord": [
-      {"English": "the Empire", "Ghor": "fu.la.dis"},
-      {"English": "is killing", "Ghor": "bʁon gas.tam"},
+      {"English": "the Empire", "Ghor": "foladis"},
+      {"English": "is killing", "Ghor": "bʁɑ̃ gastam"},
       {"English": "us", "Ghor": "naʃ"}
     ]
   },

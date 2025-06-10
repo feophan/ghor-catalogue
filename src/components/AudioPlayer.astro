@@ -28,6 +28,11 @@ import AudioMutedIcon from "./icons/audioMutedIcon.astro";
     value="0"
     class="hidden sm:block range range-xs mx-5"
   />
+  <label class="ml-3 cursor-pointer">
+    <input id="slow-toggle" type="checkbox" class="peer hidden" />
+    <div class="peer-checked:hidden">1×</div>
+    <div class="hidden peer-checked:block text-blue-600">0.6×</div>
+  </label>
   <label class="ml-5 cursor-pointer">
     <input id="mute-icon" type="checkbox" class="peer hidden" />
     <div class="peer-checked:hidden"><AudioIcon /></div>
@@ -68,6 +73,7 @@ import AudioMutedIcon from "./icons/audioMutedIcon.astro";
     ) as HTMLAnchorElement | null;
     const footer = document.querySelector(".footer > div");
     const playButtons = document.querySelectorAll(".card-play-buttons");
+    const slowToggle = document.getElementById("slow-toggle") as HTMLInputElement | null;
 
     const formatTime = (secs: number) => {
       const minutes = Math.floor(secs / 60)
@@ -94,6 +100,11 @@ import AudioMutedIcon from "./icons/audioMutedIcon.astro";
       } else {
         audio.pause();
       }
+    });
+
+    slowToggle?.addEventListener("change", () => {
+      if (!audio) return;
+      audio.playbackRate = slowToggle.checked ? 0.6 : 1.0;
     });
 
     audio.addEventListener("play", () => {
