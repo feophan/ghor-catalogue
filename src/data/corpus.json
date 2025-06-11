@@ -4,9 +4,8 @@
     "timestamp": "12:18",
     "audio": "4-01.mp3",
     "english": "I told you he was different.",
-    "script": "Mo tè ron figue gopenne.",
-    "ghor": "mɔ tɛ ʁõ fig gɔpɛn",
-    "comment": "The recording has ʁo, but nasality is expected with other examples",
+    "script": "Mo tem ron figue gopenne.",
+    "ghor": "mɔ tɛ̃ ʁõ fig gɔpɛn",
     "features": [
       {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
       {"lemma": "to tell", "feature": ["verb","past","simple"]},
@@ -18,7 +17,7 @@
     "concord": [
       {"English": "I", "Ghor": "mɔ"},
       {"English": "told", "Ghor": "ʁõ"},
-      {"English": "you", "Ghor": "tɛ"},
+      {"English": "you", "Ghor": "tɛ̃"},
       {"English": "he was", "Ghor": "fig"},
       {"English": "different", "Ghor": "gɔpɛn"}
     ]
@@ -89,7 +88,7 @@
     "audio": "4-05.mp3",
     "english": "It’s the same thing every week.",
     "ghor": "bi twɛm møʒə laɪ pʁit",
-    "script": "Bi toueme meuje laï prite.",
+    "script": "Bi touème meuje laï prite.",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","subj"]},
       {"lemma": "to be", "feature": ["verb","present"]},
@@ -567,8 +566,8 @@
     "ghor": "lə fylgaʁ",
     "script": "le fulgare",
     "features": [
-      {"lemma": "tell", "feature": ["verb", "imperative"]},
-      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]}
+      {"lemma": "tell", "feature": ["verb","imperative"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]}
     ],
     "concord": [
       {"English": "tell", "Ghor": "fylgaʁ"},
@@ -583,10 +582,10 @@
     "ghor": "foladis em bʁɑ̃ gastam",
     "script": "foladis sim bran gastamme",
     "features": [
-      {"lemma": "the", "feature": ["article", "definite"]},
-      {"lemma": "empire", "feature": ["noun", "sg"]},
-      {"lemma": "to kill", "feature": ["verb", "3p", "sg", "present"]},
-      {"lemma": "them", "feature": ["pronoun", "3p", "pl"]}
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "empire", "feature": ["noun","sg"]},
+      {"lemma": "to kill", "feature": ["verb","present","progressive"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl","obj"]}
     ],
     "concord": [
       {"English": "the Empire", "Ghor": "foladis"},
@@ -602,10 +601,10 @@
     "ghor": "naʃ foladis bʁɑ̃ gastam",
     "script": "nache foladis bran gastamme",
     "features": [
-      {"lemma": "the", "feature": ["article", "definite"]},
-      {"lemma": "empire", "feature": ["noun", "sg"]},
-      {"lemma": "to kill", "feature": ["verb", "3p", "sg", "present"]},
-      {"lemma": "we", "feature": ["pronoun", "1p", "pl","obj"]}
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "empire", "feature": ["noun","sg"]},
+      {"lemma": "to kill", "feature": ["verb","present","progressive"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","obj"]}
     ],
     "concord": [
       {"English": "the Empire", "Ghor": "foladis"},
@@ -618,19 +617,20 @@
     "timestamp": "33:53",
     "audio": "4-30.mp3",
     "english": "and you’re letting it happen",
-    "ghor": "ɛ vaʃ da.lam ku.va.ʁɛn",
-    "comment": "e vwas / vɔʃ tilɑ̃ fuvaʁm",
+    "ghor": "ɛ vaʃ dilam kuvaʁn",
+    "script": "eh vache di-lamme couvarne",
     "features": [
       {"lemma": "and", "feature": ["conjunction"]},
-      {"lemma": "you", "feature": ["pronoun", "2p", "pl"]},
-      {"lemma": "to let", "feature": ["verb", "2p", "pl", "present"]},
-      {"lemma": "it", "feature": ["pronoun", "3p", "sg"]},
-      {"lemma": "to happen", "feature": ["verb", "infinitive"]}
+      {"lemma": "you", "feature": ["pronoun","2p","pl"]},
+      {"lemma": "to let", "feature": ["verb","present","progressive"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]},
+      {"lemma": "to happen", "feature": ["verb","infinitive"]}
     ],
     "concord": [
       {"English": "and", "Ghor": "ɛ"},
       {"English": "you", "Ghor": "vaʃ"},
-      {"English": "are letting it happen", "Ghor": "[da.lam ku.va.ʁɛn]"}
+      {"English": "are letting … happen", "Ghor": "[kuvaʁn]"},
+      {"English": "it", "Ghor": "dilam"}
     ]
   },
   {
@@ -638,7 +638,8 @@
     "timestamp": "34:02",
     "audio": "4-31.mp3",
     "english": "Don’t shout. Calmly!",
-    "ghor": "kum lam . las.tyl",
+    "ghor": "kum lam . lastyl",
+    "script": "Coum lamme. Lastule!",
     "features": [
       {"lemma": "not", "feature": ["particle","negative"]},
       {"lemma": "to shout", "feature": ["verb","imperative"]},
@@ -647,7 +648,7 @@
     "concord": [
       {"English": "don't", "Ghor": "kum"},
       {"English": "shout", "Ghor": "[lam]"},
-      {"English": "calmly", "Ghor": "[las.tyl]"}
+      {"English": "calmly", "Ghor": "[lastyl]"}
     ]
   },
   {
@@ -655,14 +656,16 @@
     "timestamp": "34:04",
     "audio": "4-32.mp3",
     "english": "Let’s have order.",
-    "ghor": "i naʃ pʁo.bi.kɔʁd",
+    "ghor": "i naʃ pʁobikɔʁdə",
+    "script": "I nache probicorde",
     "features": [
-      {"lemma": "to have", "feature": ["verb", "hortative"]},
-      {"lemma": "order", "feature": ["noun", "sg"]}
+      {"lemma": "to have", "feature": ["verb","hortative"]},
+      {"lemma": "order", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "let's have", "Ghor": "[i naʃ]"},
-      {"English": "order", "Ghor": "[pʁo.bi.kɔʁd]"}      
+      {"English": "let's", "Ghor": "naʃ"},
+      {"English": "have", "Ghor": "[i]"},
+      {"English": "order", "Ghor": "[pʁobikɔʁdə]"}      
     ]
   },
   {
@@ -670,13 +673,14 @@
     "timestamp": "34:06",
     "audio": "4-32a.mp3",
     "english": "Settle down.",
-    "ghor": "jal vaʃ kʁɔʁ",
+    "ghor": "djal vaʃ kʁœʁ",
+    "script": "Dial vache creure",
     "features": [
-      {"lemma": "to settle", "feature": ["verb", "imperative"]},
+      {"lemma": "to settle", "feature": ["verb","imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "settle down", "Ghor": "[jal vəʃ pɔʁ]"}   
+      {"English": "settle down", "Ghor": "[djal vaʃ kʁœʁ]"}   
     ]
   },
   {
@@ -684,16 +688,18 @@
     "timestamp": "34:11",
     "audio": "4-33.mp3",
     "english": "Let’s have order. (please, please)",
-    "ghor": "i naʃ pʁo.bi.kɔʁ . dib dib",
+    "ghor": "i naʃ pʁobikɔʁd . dib dib",
+    "script": "I nache probicorde. Dibe, dibe.",
     "features": [
-      {"lemma": "to have", "feature": ["verb", "hortative"]},
-      {"lemma": "order", "feature": ["noun", "sg"]},
+      {"lemma": "to have", "feature": ["verb","hortative"]},
+      {"lemma": "order", "feature": ["noun","sg"]},
       {"lemma": "please", "feature": ["interjection"]}
     ],
     "concord": [
-      {"English": "let's have", "Ghor": "[i naʃ]"},
-      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"},
-      {"English": "please", "Ghor": "[dib]"}      
+      {"English": "let’s", "Ghor": "naʃ"},
+      {"English": "have", "Ghor": "[i]"},
+      {"English": "order", "Ghor": "[pʁobikɔʁd]"},
+      {"English": "please", "Ghor": "dib"}      
     ]
   },
   {
@@ -705,8 +711,8 @@
     "comment": "ʒa ʁɛst ɑ̃ bʁɛʒ",
     "features": [
       {"lemma": "to steal", "feature": ["verb"]},
-      {"lemma": "a", "feature": ["article", "indefinite"]},
-      {"lemma": "neighbourhood", "feature": ["noun", "sg"]}
+      {"lemma": "a", "feature": ["article","indefinite"]},
+      {"lemma": "neighbourhood", "feature": ["noun","sg"]}
     ],
     "concord": [
       {"English": "steal", "Ghor": "[…]"},
@@ -4322,5 +4328,275 @@
     "concord": [
       {"English": "", "Ghor": ""}
     ]
+  },
+  {
+    "code": "AN.01",
+    "timestamp": "??",
+    "audio": "an-01.mp3",
+    "english": "Raise your eyes to homeland skies",
+    "ghor": "",
+    "script": "Ange dum èze va l’ave-glège",
+    "features": [
+      {"lemma": "to raise", "feature": ["verb","imperative"]},
+      {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
+      {"lemma": "eye", "feature": ["noun","pl"]},
+      {"lemma": "to", "feature": ["preposition"]},
+      {"lemma": "homeland", "feature": ["noun","sg"]},
+      {"lemma": "skies", "feature": ["noun","pl"]}
+    ],
+    "concord": [
+      {"English": "raise", "Ghor": "ange"},
+      {"English": "your eyes", "Ghor": "[dum èze]"},
+      {"English": "to", "Ghor": "va"},
+      {"English": "homeland skies", "Ghor": "[l’ave-glège]"}
+    ]
+  },
+  {
+    "code": "AN.02",
+    "timestamp": "??",
+    "audio": "an-02.mp3",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.03",
+    "timestamp": "??",
+    "audio": "an-03.mp3",
+    "english": "Breathe the air and know you’re there",
+    "ghor": "",
+    "script": "Traspu flonde tem groque ouälonde"
+  },
+  {
+    "code": "AN.04",
+    "timestamp": "??",
+    "audio": "an-04.mp3",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.05",
+    "timestamp": "??",
+    "audio": "an-05.mp3",
+    "english": "Valley…",
+    "ghor": "",
+    "script": "Va-leine"
+  },
+  {
+    "code": "AN.06",
+    "timestamp": "??",
+    "audio": "an-06.mp3",
+    "english": "Highland…",
+    "ghor": "",
+    "script": "Mèje-gah"
+  },
+  {
+    "code": "AN.07",
+    "timestamp": "??",
+    "audio": "an-07.mp3",
+    "english": "Let me spend my every day there",
+    "ghor": "",
+    "script": "Dibe-mo laï moune laï sol lège-na"
+  },
+  {
+    "code": "AN.08",
+    "timestamp": "??",
+    "audio": "an-08.mp3",
+    "english": "Call your kin to come and sing",
+    "ghor": "",
+    "script": "Béke tem brôles enforde-carole"
+  },
+  {
+    "code": "AN.09",
+    "timestamp": "??",
+    "audio": "an-09.mp3",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.10",
+    "timestamp": "??",
+    "audio": "an-10.mp3",
+    "english": "Voices loud and standing proud",
+    "ghor": "",
+    "script": "Paipes bi ouämes sti kren mikammes"
+  },
+  {
+    "code": "AN.11",
+    "timestamp": "??",
+    "audio": "an-11.mp3",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.15",
+    "timestamp": "??",
+    "audio": "",
+    "english": "Tight the weave and roll the sleeve",
+    "ghor": "",
+    "script": "Haberdache, vefan, prestache"
+  },
+  {
+    "code": "AN.16",
+    "timestamp": "??",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.17",
+    "timestamp": "??",
+    "audio": "",
+    "english": "From Navishare to Palmo Square",
+    "ghor": "",
+    "script": "Navi-Mide eh Palmo Zide"
+  },
+  {
+    "code": "AN.18",
+    "timestamp": "??",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.22",
+    "timestamp": "??",
+    "audio": "",
+    "english": "Hear the horn, it’s here we’re born",
+    "ghor": "",
+    "script": "Clarion, bi fé na fond"
+  },
+  {
+    "code": "AN.23",
+    "timestamp": "??",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.24",
+    "timestamp": "??",
+    "audio": "",
+    "english": "Raise a cask and if they ask",
+    "ghor": "",
+    "script": "Couffe tem stèr dial sim per"
+  },
+  {
+    "code": "AN.25",
+    "timestamp": "??",
+    "audio": "",
+    "english": "We are the Ghor",
+    "ghor": "",
+    "script": "Gambol dum Ghor"
+  },
+  {
+    "code": "AN.29",
+    "timestamp": "??",
+    "audio": "",
+    "english": "There…",
+    "ghor": "",
+    "script": "Lège-na…"
+  },
+  {
+    "code": "AR.01",
+    "timestamp": "??",
+    "audio": "ar-01.mp3",
+    "english": "When we said farewell",
+    "ghor": "vla tɾɛnã sawɛn",
+    "script": ""
+  },
+  {
+    "code": "AR.02",
+    "timestamp": "??",
+    "audio": "ar-02.mp3",
+    "english": "Even as we spoke",
+    "ghor": "ɛɾ vla ʃaglã",
+    "script": ""
+  },
+  {
+    "code": "AR.03",
+    "timestamp": "??",
+    "audio": "ar-03.mp3",
+    "english": "I knew",
+    "ghor": "mo gʁã",
+    "script": ""
+  },
+  {
+    "code": "AR.04",
+    "timestamp": "??",
+    "audio": "ar-04.mp3",
+    "english": "Trying not to hear",
+    "ghor": "eat kum vedelol",
+    "script": ""
+  },
+  {
+    "code": "AR.05",
+    "timestamp": "??",
+    "audio": "ar-05.mp3",
+    "english": "The words I knew we had to say",
+    "ghor": "nab zim na fig tʁɛnõ",
+    "script": ""
+  },
+  {
+    "code": "AR.06",
+    "timestamp": "??",
+    "audio": "ar-06.mp3",
+    "english": "Oh Farewell… oh…",
+    "ghor": "oj sawɛn",
+    "script": ""
+  },
+  {
+    "code": "AR.07",
+    "timestamp": "??",
+    "audio": "ar-07.mp3",
+    "english": "Our time has wandered",
+    "ghor": "oj na but tɛvlanɛ",
+    "script": ""
+  },
+  {
+    "code": "AR.08",
+    "timestamp": "??",
+    "audio": "ar-08.mp3",
+    "english": "no light left on that pathway",
+    "ghor": "kum ʃivilan gʁolen",
+    "script": ""
+  },
+  {
+    "code": "AR.09",
+    "timestamp": "??",
+    "audio": "ar-09.mp3",
+    "english": "Oh, Farewell… oh…",
+    "ghor": "sawɛn",
+    "script": ""
+  },
+  {
+    "code": "AR.10",
+    "timestamp": "??",
+    "audio": "ar-10.mp3",
+    "english": "One more daybreak – one more sunset – one more…",
+    "ghor": "(a)mus priki-la mus vortil dal mus",
+    "script": ""
+  },
+  {
+    "code": "AR.11",
+    "timestamp": "??",
+    "audio": "ar-11.mp3",
+    "english": "How do I live?",
+    "ghor": "ver mo ʃege-bo",
+    "script": ""
+  },
+  {
+    "code": "AR.12",
+    "timestamp": "??",
+    "audio": "ar-12.mp3",
+    "english": "How do I live?",
+    "ghor": "ver mo ʃeke-go",
+    "script": ""
   }
 ]
