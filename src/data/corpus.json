@@ -553,9 +553,11 @@
     "concord": [
       {"English": "are wondering", "Ghor": "[pɔ̃dɛn]"},
       {"English": "if", "Ghor": "djal"},
-      {"English": "it’s even worth it", "Ghor": "[deʁ smylɛ]"},
-      {"English": "to open the hives", "Ghor": "[a ɡɛm velɔʁ]"},
-      {"English": "next spring", "Ghor": "[kaʁa pøtiʃ pydjɛl]"}
+      {"English": "it’s worth", "Ghor": "[smy]"},
+      {"English": "even", "Ghor": "[deʁ]"},
+      {"English": "it", "Ghor": "[lɛ]"},
+      {"English": "to open", "Ghor": "[a ɡɛm velɔʁ]"},
+      {"English": "the hives next spring", "Ghor": "[kaʁa pøtiʃ pydjɛl]"}
     ]
   },
   {
@@ -657,7 +659,7 @@
     "audio": "4-32.mp3",
     "english": "Let’s have order.",
     "ghor": "i naʃ pʁobikɔʁdə",
-    "script": "I nache probicorde",
+    "script": "Y nache probicorde",
     "features": [
       {"lemma": "to have", "feature": ["verb","hortative"]},
       {"lemma": "order", "feature": ["noun","sg"]}
@@ -689,7 +691,7 @@
     "audio": "4-33.mp3",
     "english": "Let’s have order. (please, please)",
     "ghor": "i naʃ pʁobikɔʁd . dib dib",
-    "script": "I nache probicorde. Dibe, dibe.",
+    "script": "Y nache probicorde. Dibe, dibe.",
     "features": [
       {"lemma": "to have", "feature": ["verb","hortative"]},
       {"lemma": "order", "feature": ["noun","sg"]},
@@ -707,8 +709,8 @@
     "timestamp": "34:15",
     "audio": "4-34.mp3",
     "english": "… steal a neighbourhood",
-    "ghor": "laɪ ɛs tom rɛʒ",
-    "comment": "ʒa ʁɛst ɑ̃ bʁɛʒ",
+    "ghor": "la ɛstɑ̃ bʁɛʒ",
+    "script": "… la estam brège",
     "features": [
       {"lemma": "to steal", "feature": ["verb"]},
       {"lemma": "a", "feature": ["article","indefinite"]},
@@ -724,19 +726,19 @@
     "timestamp": "34:17",
     "audio": "4-35.mp3",
     "english": "Move the people into boxes.",
-    "ghor": "ʒa.kɛm su.ə prõ.ka fɛlf",
-    "comment": "ʒakɛm sapʁɑ̃ kɔfɛf",
+    "ghor": "ʒakɛm sa prõ kɔfɛf",
+    "script": "Jaquème sa pron cofèfes",
     "features": [
-      {"lemma": "to move", "feature": ["verb"]},
+      {"lemma": "to move", "feature": ["verb","imperative"]},
       {"lemma": "the", "feature": ["article","definite"]},
       {"lemma": "people", "feature": ["noun"]},
       {"lemma": "into", "feature": ["preposition"]},
       {"lemma": "box", "feature": ["noun","pl"]}
     ],
     "concord": [
-      {"English": "move", "Ghor": "[ʒa.kɛm]"},
-      {"English": "the people", "Ghor": "[su.ə]"},
-      {"English": "into boxes", "Ghor": "[prõ.ka fɛlf]"}
+      {"English": "move", "Ghor": "[ʒakɛm]"},
+      {"English": "the people", "Ghor": "[sa]"},
+      {"English": "into boxes", "Ghor": "[prõ kɔfɛf]"}
     ]
   },
   {
@@ -744,10 +746,10 @@
     "timestamp": "34:19",
     "audio": "4-36.mp3",
     "english": "Put the boxes downwind from dust.",
-    "ghor": "sa.ko fɛlf vo.fø dan vɛlt",
-    "comment": "sa kofɛ bɔ̃ flodɑn vɛt",
+    "ghor": "sak kɔfɛf bɔ̃ flo dɑn vɛt",
+    "script": "Saque cofèfes bon floh dan vette.",
     "features": [
-      {"lemma": "to put", "feature": ["verb"]},
+      {"lemma": "to put", "feature": ["verb","imperative"]},
       {"lemma": "the", "feature": ["article","definite"]},
       {"lemma": "box", "feature": ["noun","sg"]},
       {"lemma": "downwind", "feature": ["adverb"]},
@@ -755,10 +757,11 @@
       {"lemma": "dust", "feature": ["noun"]}
     ],
     "concord": [
-      {"English": "put the boxes", "Ghor": "[sa.ko fɛlf]"},
-      {"English": "downwind", "Ghor": "[vo.fø]"},
+      {"English": "put", "Ghor": "sak"},
+      {"English": "the boxes", "Ghor": "kɔfɛf"},
+      {"English": "downwind", "Ghor": "[bɔ̃ flo]"},
       {"English": "from", "Ghor": "dan"},
-      {"English": "dust", "Ghor": "vɛlt"}
+      {"English": "dust", "Ghor": "vɛt"}
     ]
   },
   {
@@ -766,16 +769,16 @@
     "timestamp": "34:21",
     "audio": "4-37.mp3",
     "english": "You’ll be spitting all day long.",
-    "ghor": "ʃnar.gɛz taj tan",
-    "comment": "sɑ̃ ɡɛz daj taʁn",
+    "ghor": "ʃnagɛz daj taʁn",
+    "script": "Chenagèze daï tarne.",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p"]},
-      {"lemma": "to spit", "feature": ["verb","2p","future","progressive"]},
+      {"lemma": "to spit", "feature": ["verb","future","progressive"]},
       {"lemma": "all day long", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "you’ll be spitting", "Ghor": "[ʃnar.gɛz]"},
-      {"English": "all day long", "Ghor": "[taj tan]"}
+      {"English": "you’ll be spitting", "Ghor": "[ʃnagɛz]"},
+      {"English": "all day long", "Ghor": "[daj taʁn]"}
     ]
   },
   {
@@ -783,15 +786,15 @@
     "timestamp": "34.23",
     "audio": "4-38.mp3",
     "english": "Citizen Lezine!",
-    "ghor": "lɛ.tʁa lɛ.zin",
-    "comment": "?vɛtʁa",
+    "ghor": "vɛtʁa lɛzin",
+    "script": "Vetrà Lezine!",
     "features": [
       {"lemma": "citizen", "feature": ["noun","sg"]},
       {"lemma": "Lezine", "feature": ["name"]}
     ],
     "concord": [
-      {"English": "citizen", "Ghor": "lɛ.tʁa"},
-      {"English": "Lezine", "Ghor": "lɛ.zin"}
+      {"English": "citizen", "Ghor": "vɛtʁa"},
+      {"English": "Lezine", "Ghor": "lɛzin"}
     ]
   },
   {
@@ -800,6 +803,7 @@
     "audio": "4-39.mp3",
     "english": "And then, at night",
     "ghor": "ɛ si sɛ mun",
+    "script": "Eh si, sè moune",
     "features": [
       {"lemma": "and", "feature": ["conjunction"]},
       {"lemma": "then", "feature": ["adverb"]},
@@ -818,24 +822,25 @@
     "timestamp": "34:25",
     "audio": "4-40.mp3",
     "english": "when we’re trying to sleep… when we try to forget",
-    "ghor": "vla pɛ.naʒ tyn.kɔʁ, vla pɛ.naʒ tɔʁ.de",
+    "ghor": "vla pɛnaʒ tynkɔʁ . vla pɛnaʒ tɔʁde",
+    "script": "vla penage tuncor… vla penage torder",
     "features": [
       {"lemma": "when", "feature": ["conjunction"]},
-      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to try", "feature": ["verb","1p","pl","present","progressive"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
+      {"lemma": "to try", "feature": ["verb","present","progressive"]},
       {"lemma": "to sleep", "feature": ["verb","infinitive"]},
       {"lemma": "when", "feature": ["conjunction"]},
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to try", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "to try", "feature": ["verb","present","simple"]},
       {"lemma": "to forget", "feature": ["verb","infinitive"]}
     ],
     "concord": [
       {"English": "when", "Ghor": "vla"},
-      {"English": "we’re trying", "Ghor": "pɛ.naʒ"},
-      {"English": "to sleep", "Ghor": "tyn.kɔʁ"},
+      {"English": "we’re trying", "Ghor": "pɛnaʒ"},
+      {"English": "to sleep", "Ghor": "tynkɔʁ"},
       {"English": "when", "Ghor": "vla"},
-      {"English": "we try", "Ghor": "pɛ.naʒ"},
-      {"English": "to forget", "Ghor": "tɔʁ.de"}
+      {"English": "we try", "Ghor": "pɛnaʒ"},
+      {"English": "to forget", "Ghor": "tɔʁde"}
     ]
   },
   {
@@ -844,12 +849,14 @@
     "audio": "4-41.mp3",
     "english": "Our city…",
     "ghor": "na gat",
+    "script": "Na gatte…",
     "features": [
       {"lemma": "our", "feature": ["pronoun","1p","pl","possessive"]},
       {"lemma": "city", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "our city", "Ghor": "[na gat]"}
+      {"English": "our", "Ghor": "[na]"},
+      {"English": "city", "Ghor": "[gat]"}
     ]
   },
   {
@@ -858,8 +865,9 @@
     "audio": "4-42.mp3",
     "english": "is being destroyed!",
     "ghor": "su biz dagøl",
+    "script": "sou biz dageul!",
     "features": [
-      {"lemma": "to destroy", "feature": ["verb","3p","sg","present","progressive","passive"]}
+      {"lemma": "to destroy", "feature": ["verb","present","progressive","passive"]}
     ],
     "concord": [
       {"English": "is being destroyed", "Ghor": "[su biz dagøl]"}
@@ -870,16 +878,17 @@
     "timestamp": "34:31",
     "audio": "4-43.mp3",
     "english": "(Lezine, let’s have order)",
-    "ghor": "lɛ.zin i naʃ pʁo.bi.kɔʁ",
+    "ghor": "lɛzin . i naʃ pʁobikɔʁ",
+    "script": "Lezine, y nache probicorde.",
     "features": [
       {"lemma": "Lezine", "feature": ["name"]},
       {"lemma": "to have", "feature": ["verb","hortative"]},
       {"lemma": "order", "feature": ["noun"]}
     ],
     "concord": [
-      {"English": "Lezine", "Ghor": "lɛ.zin"},
+      {"English": "Lezine", "Ghor": "lɛzin"},
       {"English": "let’s have", "Ghor": "[i naʃ]"},
-      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}
+      {"English": "order", "Ghor": "[pʁobikɔʁ]"}
     ]
   },
   {
@@ -887,13 +896,14 @@
     "timestamp": "34:32",
     "audio": "4-43a.mp3",
     "english": "(Settle down)",
-    "ghor": "jal vaʃ kʁœlt",
+    "ghor": "djal vaʃ kʁœf",
+    "script": "Dial vache creure",
     "features": [
       {"lemma": "to settle", "feature": ["verb","imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "settle down", "Ghor": "[jal vaʃ kʁœlt]"}
+      {"English": "settle down", "Ghor": "[djal vaʃ kʁœf]"}
     ]
   },
   {
