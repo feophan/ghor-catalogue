@@ -883,7 +883,7 @@
     "features": [
       {"lemma": "Lezine", "feature": ["name"]},
       {"lemma": "to have", "feature": ["verb","hortative"]},
-      {"lemma": "order", "feature": ["noun"]}
+      {"lemma": "order", "feature": ["noun","sg"]}
     ],
     "concord": [
       {"English": "Lezine", "Ghor": "lɛzin"},
@@ -911,15 +911,16 @@
     "timestamp": "34:34",
     "audio": "4-44.mp3",
     "english": "we’ve got transports",
-    "ghor": "i naʃ pø.ta.mɛ",
+    "ghor": "i naʃ potɛm",
+    "script": "y nache potèmes",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to have", "feature": ["verb","present","1p","pl"]},
+      {"lemma": "to have", "feature": ["verb","present","simple"]},
       {"lemma": "transport", "feature": ["noun","pl"]}
     ],
     "concord": [
       {"English": "we’ve got", "Ghor": "[i naʃ]"},
-      {"English": "transports", "Ghor": "[pø.ta.mɛ]"}
+      {"English": "transports", "Ghor": "[potɛm]"}
     ]
   },
   {
@@ -927,15 +928,16 @@
     "timestamp": "34:35",
     "audio": "4-45.mp3",
     "english": "Convoys – rumbling all night long…",
-    "ghor": "i ʃɛ.sɛd al taj mun",
-    "comment": "se sa kʁas tavɑ̃t",
+    "ghor": "ʃɛsɛd kʁas daj mun",
+    "script": "chesèds crasse daï moune",
     "features": [
       {"lemma": "convoy", "feature": ["noun","pl"]},
       {"lemma": "to rumble", "feature": ["verb","participle","active"]},
       {"lemma": "all night long", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "convoys – rumbling", "Ghor": "[i ʃɛ.sɛd al]"},
+      {"English": "convoys", "Ghor": "[ʃɛsɛd]"},
+      {"English": "rumbling", "Ghor": "[kʁas]"},
       {"English": "all night long", "Ghor": "[taj mun]"}
     ]
   },
@@ -944,8 +946,8 @@
     "timestamp": "34:36",
     "audio": "4-46.mp3",
     "english": "…racing through our streets",
-    "ghor": "te.ha spu na daʃ",
-    "comment": "tɛʁaʒ pɔ̃(d) na daʒ",
+    "ghor": "tɛʁaʒ pɔ na daʒ",
+    "script": "…terage po na dages",
     "features": [
       {"lemma": "to race", "feature": ["verb","participle","active"]},
       {"lemma": "through", "feature": ["preposition"]},
@@ -953,10 +955,10 @@
       {"lemma": "street", "feature": ["noun","pl"]}
     ],
     "concord": [
-      {"English": "racing", "Ghor": "[te.ha]"},
-      {"English": "through", "Ghor": "[spu]"},
+      {"English": "racing", "Ghor": "[tɛʁaʒ]"},
+      {"English": "through", "Ghor": "[pɔ]"},
       {"English": "our", "Ghor": "[na]"},
-      {"English": "streets", "Ghor": "[daʃ]"}
+      {"English": "streets", "Ghor": "[daʒ]"}
     ]
   },
   {
@@ -964,14 +966,15 @@
     "timestamp": "34:38",
     "audio": "4-47.mp3",
     "english": "Horns blowing!",
-    "ghor": "bʁajd fi.ʃi",
+    "ghor": "bʁajd fiʒi",
+    "script": "Braïdes fijé",
     "features": [
       {"lemma": "horn", "feature": ["noun","pl"]},
       {"lemma": "to blow", "feature": ["verb","participle","active"]}
     ],
     "concord": [
       {"English": "horns", "Ghor": "[bʁajd]"},
-      {"English": "blowing", "Ghor": "[fi.ʃi]"}
+      {"English": "blowing", "Ghor": "[fiʒi]"}
     ]
   },
   {
@@ -979,14 +982,15 @@
     "timestamp": "34:39",
     "audio": "4-48.mp3",
     "english": "Engines whining!",
-    "ghor": "po.dam li.zɛ",
+    "ghor": "podam glize",
+    "script": "Podammes glisé",
     "features": [
       {"lemma": "eingine", "feature": ["noun","pl"]},
       {"lemma": "to whine", "feature": ["verb","participle","active"]}
     ],
     "concord": [
-      {"English": "engines", "Ghor": "[po.dam]"},
-      {"English": "whining", "Ghor": "[li.zɛ]"}
+      {"English": "engines", "Ghor": "[podam]"},
+      {"English": "whining", "Ghor": "[glize]"}
     ]
   },
   {
@@ -994,12 +998,13 @@
     "timestamp": "34:41",
     "audio": "4-49.mp3",
     "english": "What?!",
-    "ghor": "vu.da",
+    "ghor": "vul a",
+    "script": "Vule, a?!",
     "features": [
       {"lemma": "what", "feature": ["pronoun","interrogative"]}
     ],
     "concord": [
-      {"English": "what", "Ghor": "vu.da"}
+      {"English": "what", "Ghor": "vul"}
     ]
   },
   {
@@ -1007,7 +1012,8 @@
     "timestamp": "34:42",
     "audio": "4-50.mp3",
     "english": "Give someone else a chance.",
-    "ghor": "po ʃvɛl mis.ɛl maz",
+    "ghor": "voʃ vɛn misɛl maz",
+    "script": "Vache vène missèle maze.",
     "features": [
       {"lemma": "to give", "feature": ["verb","imperative"]},
       {"lemma": "someone", "feature": ["pronoun","indefinite"]},
@@ -1026,13 +1032,14 @@
     "timestamp": "34:45",
     "audio": "4-51.mp3",
     "english": "Settle down!",
-    "ghor": "jal ten kʁœʁ",
+    "ghor": "djal tem kʁœʁ",
+    "script": "Dial tem creure!",
     "features": [
       {"lemma": "to settle", "feature": ["verb","imperative"]},
       {"lemma": "down", "feature": ["adverb"]}
     ],
     "concord": [
-      {"English": "settle down", "Ghor": "[jal ten kʁœʁ]"}
+      {"English": "settle down", "Ghor": "[djal tem kʁœʁ]"}
     ]
   },
   {
@@ -1040,28 +1047,29 @@
     "timestamp": "34:46",
     "audio": "4-52.mp3",
     "english": "They’ll make a prison of Palmo before they’re done.",
-    "ghor": "sim fo.ʒə.ʁo bi.lɛ dan pal.mo, a.fi sim mɛ̃.ty",
+    "ghor": "sim foʒəʁo bilɛ dan palmo . afi sim maty",
+    "script": "Sim fôgereaux bilès dan Palmo afi sim matu.",
     "features": [
       {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
-      {"lemma": "to make", "feature": ["verb","3p","pl","future"]},
+      {"lemma": "to make", "feature": ["verb","future","simple"]},
       {"lemma": "a", "feature": ["article","indefinite"]},
       {"lemma": "prison", "feature": ["noun","sg"]},
       {"lemma": "of", "feature": ["preposition"]},
       {"lemma": "Palmo", "feature": ["name"]},
       {"lemma": "before", "feature": ["preposition"]},
       {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
-      {"lemma": "to be", "feature": ["verb","3p","pl","present"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "to do", "feature": ["verb","participle","passive"]}
     ],
     "concord": [
       {"English": "they", "Ghor": "sim"},
-      {"English": "will make", "Ghor": "[fo.ʒə.ʁo]"},
-      {"English": "a prison", "Ghor": "[bi.lɛ]"},
+      {"English": "will make", "Ghor": "[foʒəʁo]"},
+      {"English": "a prison", "Ghor": "[bilɛ]"},
       {"English": "of", "Ghor": "dan"},
-      {"English": "Palmo", "Ghor": "pal.mo"},
-      {"English": "before", "Ghor": "a.fi"},
+      {"English": "Palmo", "Ghor": "palmo"},
+      {"English": "before", "Ghor": "afi"},
       {"English": "they", "Ghor": "sim"},
-      {"English": "are done", "Ghor": "mɛ̃.ty"}
+      {"English": "are done", "Ghor": "maty"}
     ]
   },
   {
@@ -1069,24 +1077,27 @@
     "timestamp": "34:51",
     "audio": "4-53.mp3",
     "english": "Mark my words.",
-    "ghor": "ɛ tɔʁ dig nju.aʁd",
+    "ghor": "ɛ tɔʁdik nju ab",
+    "script": "eh tordique nu abbes.",
+    "comment": "or 'etor dik nuabbes'?",
     "features": [
       {"lemma": "to mark", "feature": ["verb","imperative"]},
       {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
       {"lemma": "word", "feature": ["noun","pl"]}
     ],
     "concord": [
-      {"English": "mark", "Ghor": "[…]"},
-      {"English": "my", "Ghor": "[…]"},
-      {"English": "words", "Ghor": "[…]"}
+      {"English": "mark", "Ghor": "[ɛ tɔʁdik]"},
+      {"English": "my", "Ghor": "[nju]"},
+      {"English": "words", "Ghor": "[ab]"}
     ]
   },
   {
     "code": "4.54",
     "timestamp": "34:52",
     "audio": "4-54.mp3",
-    "english": "please",
+    "english": "Please",
     "ghor": "dib",
+    "script": "Dibbe",
     "features": [
       {"lemma": "please", "feature": ["interjection"]}
     ],
@@ -1099,16 +1110,17 @@
     "timestamp": "34:53",
     "audio": "4-55.mp3",
     "english": "Mark my words!",
-    "ghor": "ɛ tɔʁ dig nju.aʁd",
+    "ghor": "ɛ tɔʁdik nju ab",
+    "script": "eh tordique nu abbes.",
     "features": [
       {"lemma": "to mark", "feature": ["verb","imperative"]},
       {"lemma": "my", "feature": ["pronoun","1p","sg","possessive"]},
       {"lemma": "word", "feature": ["noun","pl"]}
     ],
     "concord": [
-      {"English": "mark", "Ghor": "[…]"},
-      {"English": "my", "Ghor": "[…]"},
-      {"English": "words", "Ghor": "[…]"}
+      {"English": "mark", "Ghor": "[ɛ tɔʁdik]"},
+      {"English": "my", "Ghor": "[nju]"},
+      {"English": "words", "Ghor": "[ab]"}
     ]
   },
   {
@@ -1116,27 +1128,53 @@
     "timestamp": "34:55",
     "audio": "4-56.mp3",
     "english": "thank you, thank you",
-    "ghor": "ɛn.dɛb, ɛn.dɛb",
+    "ghor": "ɛndɛb . ɛndɛb",
+    "script": "endèbe, endèbe",
     "features": [
       {"lemma": "thank you", "feature": ["interjection"]}
     ],
     "concord": [
-      {"English": "thank you", "Ghor": "[ɛn.dɛb]"}
+      {"English": "thank you", "Ghor": "[ɛndɛb]"}
     ]
+  },
+  {
+    "code": "4.56a",
+    "timestamp": "???",
+    "audio": "4-56a.mp3",
+    "english": "(??? you)",
+    "ghor": "omaz vaʃ",
+    "script": "Omaze vache"
+  },
+  {
+    "code": "4.56b",
+    "timestamp": "???",
+    "audio": "4-56b.mp3",
+    "english": "(???)",
+    "ghor": "ɛs poruna",
+    "script": "Èze porou na."
+  },
+  {
+    "code": "4.56c",
+    "timestamp": "???",
+    "audio": "4-56c.mp3",
+    "english": "(???)",
+    "ghor": "sɛ mu kotlaʁ",
+    "script": "Sè mou cotelar."
   },
   {
     "code": "4.57",
     "timestamp": "35:29",
     "audio": "4-57.mp3",
     "english": "We were promised, …",
-    "ghor": "naʃ don.si.mu",
+    "ghor": "naʃ donsimu",
+    "script": "Nache donsimou",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to promise", "feature": ["verb","1p","pl","past","passive"]}
+      {"lemma": "to promise", "feature": ["verb","past","passive"]}
     ],
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
-      {"English": "were promised", "Ghor": "[don.si.mu]"}
+      {"English": "were promised", "Ghor": "[donsimu]"}
     ]
   },
   {
@@ -1144,11 +1182,11 @@
     "timestamp": "35:30",
     "audio": "4-58.mp3",
     "english": "…there would be no shadow cast from the new building onto the memorial",
-    "ghor": "mu kum klɛʒ.ton dan maz ig.lõ tɛlʃ xɛm",
-    "comment": "mɔ kup klɛʃtɑ̃dan maziɡlɑ̃ ɛlʃʁɛm",
+    "ghor": "mo kup klɛʒtõ dan maz iɡlɑ̃ ɛl ʃʁɛm",
+    "script": "Mo coup clegeton dan mase iglan el chrème",
     "features": [
       {"lemma": "there", "feature": ["adverb"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","past","conditional"]},
+      {"lemma": "to be", "feature": ["verb","past","conditional"]},
       {"lemma": "no", "feature": ["determiner","negative"]},
       {"lemma": "shadow", "feature": ["noun","sg"]},
       {"lemma": "to cast", "feature": ["verb","participle","passive"]},
@@ -1161,13 +1199,13 @@
       {"lemma": "memorial", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "there would be", "Ghor": "[mu]"},
-      {"English": "no", "Ghor": "kum"},
-      {"English": "shadow cast", "Ghor": "[klɛʒ.ton]"},
+      {"English": "there would be no", "Ghor": "[mo kup]"},
+      {"English": "shadow cast", "Ghor": "[klɛʒtõ]"},
       {"English": "from", "Ghor": "dan"},
       {"English": "new", "Ghor": "maz"},
-      {"English": "the building", "Ghor": "[ig.lõ]"},
-      {"English": "onto the memorial", "Ghor": "[tɛlʃ xɛm]"}
+      {"English": "the building", "Ghor": "[iɡlɑ̃]"},
+      {"English": "onto", "Ghor": "[ɛl]"},
+      {"English": "ʃʁɛm", "Ghor": "[ʃʁɛm]"}
     ]
   },
   {
