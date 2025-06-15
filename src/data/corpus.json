@@ -1182,8 +1182,8 @@
     "timestamp": "35:30",
     "audio": "4-58.mp3",
     "english": "…there would be no shadow cast from the new building onto the memorial",
-    "ghor": "mo kup klɛʒtõ dan maz iɡlɑ̃ ɛl ʃʁɛm",
-    "script": "Mo coup clegeton dan mase iglan el chrème",
+    "ghor": "mo kup klɛʒtõ dan maz iɡlɑ̃ pɛl ʃʁɛm",
+    "script": "Mo coup clegeton dan mase iglan pèl chrème",
     "features": [
       {"lemma": "there", "feature": ["adverb"]},
       {"lemma": "to be", "feature": ["verb","past","conditional"]},
@@ -1203,8 +1203,8 @@
       {"English": "shadow cast", "Ghor": "[klɛʒtõ]"},
       {"English": "from", "Ghor": "dan"},
       {"English": "new", "Ghor": "maz"},
-      {"English": "the building", "Ghor": "[iɡlɑ̃]"},
-      {"English": "onto", "Ghor": "[ɛl]"},
+      {"English": "the building", "Ghor": "iɡlɑ̃"},
+      {"English": "onto", "Ghor": "[pɛl]"},
       {"English": "ʃʁɛm", "Ghor": "[ʃʁɛm]"}
     ]
   },
@@ -1213,30 +1213,28 @@
     "timestamp": "35:35",
     "audio": "4-58a.mp3",
     "english": "(…)",
-    "ghor": "vaʃ gʁok ??? zin",
-    "features": []
+    "ghor": "vaʃ gʁok ??? lɛzin"
   },
   {
     "code": "4.58b",
     "timestamp": "35:39",
     "audio": "4-58b.mp3",
     "english": "(…)",
-    "ghor": "ɛ(l) spaʃ no pɛ.tʁo",
-    "features": []
+    "ghor": "ɛl spaʃ no pɛtʁo"
   },
   {
     "code": "4.59",
     "timestamp": "35:40",
     "audio": "4-59.mp3",
     "english": "We were promised!",
-    "ghor": "naʃ don.si.mu",
+    "ghor": "naʃ donsimu",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to promise", "feature": ["verb","1p","pl","past","passive"]}
+      {"lemma": "to promise", "feature": ["verb","past","simple","passive"]}
     ],
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
-      {"English": "were promised", "Ghor": "[don.si.mu]"}
+      {"English": "were promised", "Ghor": "[donsimu]"}
     ]
   },
   {
@@ -1244,7 +1242,7 @@
     "timestamp": "35:40",
     "audio": "4-59.mp3",
     "english": "(…)",
-    "ghor": "a.sta pʁi.ʒɛ.na la bʁø"
+    "ghor": "??? pʁiʒɛna la pʁø"
   },
   {
     "code": "4.60",
@@ -1252,11 +1250,12 @@
     "audio": "4-60.mp3",
     "english": "yes, yes",
     "ghor": "dʒa, dʒa",
+    "script": "ja, ja",
     "features": [
       {"lemma": "yes", "feature": ["interjection"]}
     ],
     "concord": [
-      {"English": "yes", "Ghor": "[dʒa]"}
+      {"English": "yes", "Ghor": "dʒa"}
     ]
   },
   {
@@ -1264,15 +1263,34 @@
     "timestamp": "35:42",
     "audio": "4-61.mp3",
     "english": "it was agreed to",
-    "ghor": "fig ka.zɔʁ",
+    "ghor": "fig kazo",
+    "script": "figue kazó",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
-      {"lemma": "to agree", "feature": ["verb","3p","sg","past","passive"]},
+      {"lemma": "to agree", "feature": ["verb","past","simple","passive"]},
       {"lemma": "to", "feature": ["preposition"]}
     ],
     "concord": [
       {"English": "it was", "Ghor": "fig"},
-      {"English": "agreed to", "Ghor": "[ka.zɔʁ]"}
+      {"English": "agreed to", "Ghor": "[kazo]"}
+    ]
+  },
+  {
+    "code": "4.61a",
+    "timestamp": "35:49",
+    "audio": "4-61a.mp3",
+    "english": "I will help you",
+    "ghor": "??? vaʃ sazɑʁ",
+    "script": "Mo vache sasor",
+    "features": [
+      {"lemma": "I", "feature": ["pronoun","1p","sg","subj"]},
+      {"lemma": "to help", "feature": ["verb","future","simple"]},
+      {"lemma": "you", "feature": ["pronoun","2p","obj"]}
+    ],
+    "concord": [
+      {"English": "I", "Ghor": "[mɔ]"},
+      {"English": "will help", "Ghor": "[sazɑʁ]"},
+      {"English": "you", "Ghor": "vaʃ"}
     ]
   },
   {
@@ -1280,16 +1298,16 @@
     "timestamp": "35:52",
     "audio": "4-62.mp3",
     "english": "It’s a fortress.",
-    "ghor": "i ɾan bi kɛl.ka.zad",
+    "ghor": "i lal bi kɛlkəzad",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "a", "feature": ["article","indefinite"]},
       {"lemma": "fortress", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "it’s", "Ghor": "[bi]"},
-      {"English": "a fortress", "Ghor": "[kɛl.ka.zad]"}
+      {"English": "it’s", "Ghor": "[i lal bi]"},
+      {"English": "a fortress", "Ghor": "kɛlkəzad"}
     ]
   },
   {
@@ -1297,10 +1315,10 @@
     "timestamp": "35:53",
     "audio": "4-63.mp3",
     "english": "You had your time! Lezine!",
-    "ghor": "vɛn.gil ti kɔʁ",
+    "ghor": "tɛm jo ti pɔt lɛzin",
     "features": [
       {"lemma": "you", "feature": ["pronoun","2p","sg","nominative"]},
-      {"lemma": "to have", "feature": ["verb","2p","sg","past"]},
+      {"lemma": "to have", "feature": ["verb","past","simple"]},
       {"lemma": "your", "feature": ["pronoun","2p","sg","possessive"]},
       {"lemma": "time", "feature": ["noun","sg"]},
       {"lemma": "Lezine", "feature": ["name"]}
@@ -1316,17 +1334,18 @@
     "timestamp": "35:55",
     "audio": "4-64.mp3",
     "english": "They are building a fortress.",
-    "ghor": "vu.ʒɛ sim kɛl.ka.zad",
+    "ghor": "vuʒɛ sim kɛlkəzad",
+    "script": "Voujè sim quelquezâde",
     "features": [
       {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
-      {"lemma": "to build", "feature": ["verb","3p","pl","present","progressive"]},
+      {"lemma": "to build", "feature": ["verb","present","progressive"]},
       {"lemma": "a", "feature": ["article","indefinite"]},
       {"lemma": "fortress", "feature": ["noun","sg"]}
     ],
     "concord": [
       {"English": "they", "Ghor": "sim"},
-      {"English": "are building", "Ghor": "[vu.ʒɛ]"},
-      {"English": "a fortress", "Ghor": "[kɛl.ka.zad]"}
+      {"English": "are building", "Ghor": "[vuʒɛ]"},
+      {"English": "a fortress", "Ghor": "kɛlkəzad"}
     ]
   },
   {
@@ -1335,6 +1354,7 @@
     "audio": "4-65.mp3",
     "english": "Enough!",
     "ghor": "plid",
+    "script": "Pliede!",
     "features": [
       {"lemma": "enough", "feature": ["adverb"]}
     ],
@@ -1347,15 +1367,16 @@
     "timestamp": "35:59",
     "audio": "4-66.mp3",
     "english": "We will have order!",
-    "ghor": "i naʃ pʁo.bi.kɔʁ",
+    "ghor": "i naʃ pʁobikɔʁ . ʃobu",
+    "script": "Y nache probicorde! Chôbou.",
     "features": [
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to have", "feature": ["verb","1p","pl","future"]},
+      {"lemma": "to have", "feature": ["verb","future","simple"]},
       {"lemma": "order", "feature": ["noun","sg"]}
     ],
     "concord": [
       {"English": "we will have", "Ghor": "[i naʃ]"},
-      {"English": "order", "Ghor": "[pʁo.bi.kɔʁ]"}
+      {"English": "order", "Ghor": "[pʁobikɔʁ]"}
     ]
   },
   {
@@ -1363,10 +1384,12 @@
     "timestamp": "36:00",
     "audio": "4-67.mp3",
     "english": "They’re building an armoury in the centre of Palmo, and you know it.",
-    "ghor": "i sim das.von sin pal.mo, ɛ da.lam vaʃ kʁo.g",
+    "ghor": "vuʒe sim plazmɔ̃ sim palmo . ɛ dilam vaʃ kʁog",
+    "script": "Voujer sim plasmon sin Palmo, eh di-lamme vache groque.",
+    "comment": "kʁog must be mispronounced gʁok",
     "features": [
-      {"lemma": "they", "feature": ["pronoun","3p","pl","nominative"]},
-      {"lemma": "to build", "feature": ["verb","3p","pl","present","progressive"]},
+      {"lemma": "they", "feature": ["pronoun","3p","pl","subj"]},
+      {"lemma": "to build", "feature": ["verb","present","progressive"]},
       {"lemma": "an", "feature": ["article","indefinite"]},
       {"lemma": "armory", "feature": ["noun","sg"]},
       {"lemma": "in", "feature": ["preposition"]},
@@ -1375,18 +1398,20 @@
       {"lemma": "of", "feature": ["preposition"]},
       {"lemma": "Palmo", "feature": ["name"]},
       {"lemma": "and", "feature": ["conjunction"]},
-      {"lemma": "you", "feature": ["pronoun","2p","nominative"]},
-      {"lemma": "to know", "feature": ["verb","2p","present"]},
-      {"lemma": "it", "feature": ["pronoun","3p","sg","accusative"]}
+      {"lemma": "you", "feature": ["pronoun","2p","subj"]},
+      {"lemma": "to know", "feature": ["verb","present","simple"]},
+      {"lemma": "it", "feature": ["pronoun","3p","sg","obj"]}
     ],
     "concord": [
-      {"English": "they’re building an armoury", "Ghor": "[i sim das.von]"},
-      {"English": "in the centre of", "Ghor": "[sin]"},
-      {"English": "Palmo", "Ghor": "[pal.mo]"},
+      {"English": "they", "Ghor": "sim"},
+      {"English": "are building an armoury", "Ghor": "vuʒe"},
+      {"English": "an armoury", "Ghor": "[plazmɔ̃]"},
+      {"English": "in the centre of", "Ghor": "[sim]"},
+      {"English": "Palmo", "Ghor": "palmo"},
       {"English": "and", "Ghor": "ɛ"},
-      {"English": "you", "Ghor": "[vaʃ]"},
-      {"English": "know", "Ghor": "[kʁog]"},
-      {"English": "it", "Ghor": "[da.lam]"}
+      {"English": "you", "Ghor": "vaʃ"},
+      {"English": "know", "Ghor": "kʁog"},
+      {"English": "it", "Ghor": "dilam"}
     ]
   },
   {
@@ -1394,12 +1419,13 @@
     "timestamp": "36:03",
     "audio": "4-68.mp3",
     "english": "really?",
-    "ghor": "ɛm.blo",
+    "ghor": "ɛmblo",
+    "script": "emblo?",
     "features": [
       {"lemma": "really", "feature": ["interjection"]}
     ],
     "concord": [
-      {"English": "really", "Ghor": "[ɛm.blo]"}
+      {"English": "really", "Ghor": "ɛmblo"}
     ]
   },
   {
@@ -1407,14 +1433,15 @@
     "timestamp": "36:04",
     "audio": "4-69.mp3",
     "english": "really, Lezine?",
-    "ghor": "em.blo, le.zin",
+    "ghor": "emblo . lezin",
+    "script": "emblo, Lezine?",
     "features": [
       {"lemma": "really", "feature": ["interjection"]},
       {"lemma": "Lezine", "feature": ["name"]}
     ],
     "concord": [
-      {"English": "really", "Ghor": "[em.blo]"},
-      {"English": "Lezine", "Ghor": "le.zin"}
+      {"English": "really", "Ghor": "emblo"},
+      {"English": "Lezine", "Ghor": "lezin"}
     ]
   },
   {
@@ -1422,24 +1449,24 @@
     "timestamp": "36:08",
     "audio": "4-70.mp3",
     "english": "That’s actually something we don’t know.",
-    "ghor": "da.lam bi a un naʃ kʁog (kum?)",
-    "comment": "ilɑ̃ biaun naʃ kʁog ku",
+    "ghor": "dilam bi a un naʃ kʁok kum",
+    "script": "Di-lamme bi a oune nache groque coume",
     "features": [
       {"lemma": "that", "feature": ["pronoun","demonstrative"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "actually", "feature": ["adverb"]},
       {"lemma": "something", "feature": ["pronoun","indefinite"]},
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to know", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "to know", "feature": ["verb","present","simple"]},
       {"lemma": "not", "feature": ["particle","negative"]}
     ],
     "concord": [
-      {"English": "that", "Ghor": "da.lam"},
+      {"English": "that", "Ghor": "dilam"},
       {"English": "is", "Ghor": "bi"},
       {"English": "actually something", "Ghor": "[a un]"},
       {"English": "we", "Ghor": "naʃ"},
       {"English": "don’t", "Ghor": "kum"},
-      {"English": "know", "Ghor": "kʁog"}
+      {"English": "know", "Ghor": "kʁok"}
     ]
   },
   {
@@ -1447,23 +1474,25 @@
     "timestamp": "36:11",
     "audio": "4-71.mp3",
     "english": "At this point we have nothing but rumours.",
-    "ghor": "a.dɛlv i naʃ kum.wa tɔʁ.kliʃ",
-    "comment": "œ̃dalvinaʒ ku mwa tyʁ kʁiʃ",
+    "ghor": "œ̃dalv i naʃ kumwa tyʁ kʁiʃ",
+    "script": "Un dalve y nache coumois tur criches",
     "features": [
       {"lemma": "at", "feature": ["preposition"]},
       {"lemma": "this", "feature": ["determiner"]},
       {"lemma": "point", "feature": ["noun","sg"]},
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to have", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "to have", "feature": ["verb","present","simple"]},
       {"lemma": "nothing", "feature": ["pronoun","indefinite","negative"]},
       {"lemma": "but", "feature": ["conjunction"]},
       {"lemma": "rumour", "feature": ["noun","pl"]}
     ],
     "concord": [
-      {"English": "at this point", "Ghor": "[a.dɛlv]"},
-      {"English": "we have", "Ghor": "i naʃ"},
-      {"English": "nothing", "Ghor": "kum.wa"},
-      {"English": "but rumours", "Ghor": "[tɔʁ.kliʃ]"}
+      {"English": "at this point", "Ghor": "[œ̃dalv]"},
+      {"English": "we", "Ghor": "naʃ"},
+      {"English": "we have", "Ghor": "i"},
+      {"English": "nothing", "Ghor": "kumwa"},
+      {"English": "but", "Ghor": "tyʁ"},
+      {"English": "rumours", "Ghor": "[kʁiʃ]"}
     ]
   },
   {
@@ -1472,14 +1501,15 @@
     "audio": "4-72.mp3",
     "english": "there you are",
     "ghor": "vaʃ bi pel",
+    "script": "Vache bi pel",
     "features": [
       {"lemma": "there", "feature": ["adverb"]},
       {"lemma": "you", "feature": ["pronoun","2p"]},
-      {"lemma": "to be", "feature": ["verb","2p","present"]}
+      {"lemma": "to be", "feature": ["verb","present","simple"]}
     ],
     "concord": [
       {"English": "there", "Ghor": "[pel]"},
-      {"English": "you", "Ghor": "[vaʃ]"},
+      {"English": "you", "Ghor": "vaʃ"},
       {"English": "are", "Ghor": "bi"}
     ]
   },
@@ -1488,17 +1518,19 @@
     "timestamp": "36:25",
     "audio": "4-73.mp3",
     "english": "Your father is having fun.",
-    "ghor": "te saj lon mãgõ",
+    "ghor": "tɛ saj lɔ̃ mãbɔ̃",
+    "script": "Te saï lon manbon",
     "features": [
       {"lemma": "your", "feature": ["pronoun","2p","possessive"]},
       {"lemma": "father", "feature": ["noun","sg"]},
-      {"lemma": "to have", "feature": ["verb","3p","sg","present","progressive"]},
-      {"lemma": "fun", "feature": ["noun"]}
+      {"lemma": "to have", "feature": ["verb","present","progressive"]},
+      {"lemma": "fun", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "your", "Ghor": "[lon]"},
-      {"English": "father is having", "Ghor": "[te saj]"},
-      {"English": "fun", "Ghor": "[mãgõ]"}
+      {"English": "your", "Ghor": "tɛ"},
+      {"English": "father", "Ghor": "saj"},
+      {"English": "is having", "Ghor": "[lɔ̃]"},
+      {"English": "fun", "Ghor": "[mãbɔ̃]"}
     ]
   },
   {
@@ -1506,15 +1538,50 @@
     "timestamp": "36:26",
     "audio": "4-74.mp3",
     "english": "it’s a nightmare",
-    "ghor": "e u ʒi.ʒu",
+    "ghor": "e uʒiʒu",
+    "script": "le oujijou",
     "features": [
       {"lemma": "it", "feature": ["pronoun","3p","sg","nominative"]},
-      {"lemma": "to be", "feature": ["verb","3p","sg","present"]},
+      {"lemma": "to be", "feature": ["verb","present","simple"]},
       {"lemma": "a", "feature": ["article","indefinite"]},
       {"lemma": "nightmare", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "it’s a nightmare", "Ghor": "[e u ʒi.ʒu]"}
+      {"English": "it’s a nightmare", "Ghor": "[e uʒiʒu]"}
+    ]
+  },
+  {
+    "code": "4.74a",
+    "timestamp": "36:30",
+    "audio": "4-74a.mp3",
+    "english": "That concludes tonight’s meeting",
+    "ghor": "??? dilam ???",
+    "features": [
+      {"lemma": "that", "feature": ["pronoun","demonstrative"]},
+      {"lemma": "to conclude", "feature": ["verb","present","simple"]},
+      {"lemma": "tonight", "feature": ["adverb"]},
+      {"lemma": "meeting", "feature": ["noun","sg"]}
+    ]
+  },
+  {
+    "code": "4.74b",
+    "timestamp": "36:33",
+    "audio": "4-74b.mp3",
+    "english": "We will post the minutes and schedule the next meeting by this time tomorrow",
+    "ghor": "???",
+    "features": [
+      {"lemma": "we", "feature": ["pronoun","1p","pl"]},
+      {"lemma": "to post", "feature": ["verb","future","simple"]},
+      {"lemma": "the", "feature": ["article","definite"]},
+      {"lemma": "minute", "feature": ["noun","pl"]},
+      {"lemma": "and", "feature": ["conjunction"]},
+      {"lemma": "to schedule", "feature": ["verb","future","simple"]},
+      {"lemma": "next", "feature": ["determiner"]},
+      {"lemma": "meeting", "feature": ["noun","sg"]},
+      {"lemma": "by", "feature": ["preposition"]},
+      {"lemma": "this", "feature": ["determiner","demonstrative"]},
+      {"lemma": "time", "feature": ["noun","sg"]},
+      {"lemma": "tomorrow", "feature": ["adverb"]}
     ]
   },
   {
@@ -1522,12 +1589,13 @@
     "timestamp": "37:42",
     "audio": "4-75.mp3",
     "english": "Father…",
-    "ghor": "saj.jo",
+    "ghor": "sajjo",
+    "script": "Saïo…",
     "features": [
       {"lemma": "father", "feature": ["noun","sg"]}
     ],
     "concord": [
-      {"English": "father", "Ghor": "[saj.jo]"}
+      {"English": "father", "Ghor": "sajjo"}
     ]
   },
   {
@@ -1535,9 +1603,10 @@
     "timestamp": "37:44",
     "audio": "4-76.mp3",
     "english": "We should probably get going.",
-    "ghor": "naʃ xod pʁikom pʁɛsto",
+    "ghor": "naʃ ʁod plikɔ̃ pʁɛstœʁ",
+    "script": "Nache rode plicon presteure",
     "features": [
-      {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
+      {"lemma": "we", "feature": ["pronoun","1p","pl","subj"]},
       {"lemma": "should", "feature": ["verb","modal"]},
       {"lemma": "probably", "feature": ["adverb"]},
       {"lemma": "to get", "feature": ["verb","infinitive"]},
@@ -1545,9 +1614,9 @@
     ],
     "concord": [
       {"English": "we", "Ghor": "naʃ"},
-      {"English": "should", "Ghor": "[xod]"},
-      {"English": "probably", "Ghor": "[pʁikom]"},
-      {"English": "get going", "Ghor": "[pʁɛsto]"}
+      {"English": "should", "Ghor": "[ʁod]"},
+      {"English": "probably", "Ghor": "[plikɔ̃]"},
+      {"English": "get going", "Ghor": "[pʁɛstœʁ]"}
     ]
   },
   {
@@ -1556,10 +1625,11 @@
     "audio": "4-77.mp3",
     "english": "Till we meet again.",
     "ghor": "do naʃ badɔʁ inɛks",
+    "script": "Do nache bador inexe.",
     "features": [
       {"lemma": "till", "feature": ["preposition"]},
       {"lemma": "we", "feature": ["pronoun","1p","pl","sub"]},
-      {"lemma": "to meet", "feature": ["verb","1p","pl","present"]},
+      {"lemma": "to meet", "feature": ["verb","present","simple"]},
       {"lemma": "again", "feature": ["adverb"]}
     ],
     "concord": [
@@ -1575,13 +1645,14 @@
     "audio": "4-78.mp3",
     "english": "Till then",
     "ghor": "do inɛks",
+    "script": "Do inexe",
     "features": [
       {"lemma": "till", "feature": ["preposition"]},
       {"lemma": "then", "feature": ["adverb"]}
     ],
     "concord": [
       {"English": "till", "Ghor": "do"},
-      {"English": "then", "Ghor": "i.nɛks"}
+      {"English": "then", "Ghor": "inɛks"}
     ]
   },
   {
@@ -4636,7 +4707,7 @@
     "timestamp": "??",
     "audio": "ar-11.mp3",
     "english": "How do I live?",
-    "ghor": "ver mo ʃege-bo",
+    "ghor": "ver mo ʃeke bo",
     "script": ""
   },
   {
@@ -4644,7 +4715,7 @@
     "timestamp": "??",
     "audio": "ar-12.mp3",
     "english": "How do I live?",
-    "ghor": "ver mo ʃeke-go",
+    "ghor": "ver mo ʃeke go",
     "script": ""
   }
 ]

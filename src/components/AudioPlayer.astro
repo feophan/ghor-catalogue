@@ -186,6 +186,13 @@ import AudioMutedIcon from "./icons/audioMutedIcon.astro";
 
         audio.src = audioUrl;
         if (audioDownloadLink) audioDownloadLink.href = audioUrl;
+        
+        // Apply current speed setting
+        if (slowToggle && slowToggle.checked) {
+          audio.playbackRate = 0.6;
+        } else {
+          audio.playbackRate = 1.0;
+        }
 
         disableOtherButtons(btn.id);
         if (playToggle) playToggle.checked = true;
